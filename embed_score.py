@@ -86,7 +86,8 @@ def last_token_pool(
 print("Loading tokenizer...")
 tokenizer = AutoTokenizer.from_pretrained(
     MODEL_DIR,
-    local_files_only=True
+    local_files_only=True,
+    fix_mistral_regex=True
 )
 
 print("Loading model...")

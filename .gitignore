@@ -1,5 +1,26 @@
+# OS / editor
 .DS_Store
+.vscode/
+
+# Python environments and cache
 .venv/
 venv/
 env/
-.vscode/
+__pycache__/
+*.pyc
+
+# Downloaded model weights
+models/
+
+# SLURM / temporary HPC logs
+slurm-*.out
+slurm-*.err
+gpu_test-*.out
+gpu_test-*.err
+qwen_test-*.out
+qwen_test-*.err
+qwen_download-*.out
+qwen_download-*.err
+
+# Runtime log directory
+logs/

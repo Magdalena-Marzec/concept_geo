@@ -23,7 +23,7 @@ PYTHON_BIN="${PYTHON_BIN:-python3}"
 TORCH_SPEC="${TORCH_SPEC:-torch>=2.6,<3}"
 TRANSFORMERS_SPEC="${TRANSFORMERS_SPEC:-transformers>=4.51,<5}"
 NUMPY_SPEC="${NUMPY_SPEC:-numpy>=1.26,<3}"
-PANDAS_SPEC="${PANDAS_SPEC:-pandas>=2.2,<3}"
+PANDAS_SPEC="${PANDAS_SPEC:-pandas==2.2.3}"
 
 echo "==> Using Python: ${PYTHON_BIN}"
 "${PYTHON_BIN}" --version

@@ -5,7 +5,7 @@ LOCAL_DIR = "./models/Qwen3-Embedding-0.6B"
 
 print(f"Downloading {MODEL_NAME}...")
 
-tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
+tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME, fix_mistral_regex=True)
 model = AutoModel.from_pretrained(MODEL_NAME)
 
 tokenizer.save_pretrained(LOCAL_DIR)

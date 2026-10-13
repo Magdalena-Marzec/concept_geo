@@ -24,3 +24,16 @@ qwen_download-*.err
 
 # Runtime log directory
 logs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local source/editing files
+*.numbers
+*.zip
+
+# Qwen3 SLURM output
+qwen3_download-*.out
+qwen3_download-*.err
+qwen3_scale-*.out
+qwen3_scale-*.err

@@ -30,7 +30,7 @@ python --version
 
 echo
 echo "=== DOWNLOAD QWEN ==="
-python -u download_qwen_embedding.py
+python -u download_qwen3_embedding_0_6b.py
 
 echo
 echo "=== CHECK MODEL FILES ==="

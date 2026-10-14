@@ -1,0 +1,143 @@
+{
+  "created_at_utc": "2026-10-14T17:32:41.419324+00:00",
+  "score_csv": "score_concepts_completed.csv",
+  "score_csv_sha256": "1ff66c5f084c3d0a766dc2f7baf9e76aaab00bdb3c4fcae8a81a19db4f46dcbd",
+  "natural_csv": "natural_language_words.csv",
+  "natural_csv_sha256": "f8f08b143ca8b44f71eb58dd3b1c9354e7c7039ca0f4b271a55642e7c5f0f738",
+  "external_csv": "external_domain_definitions.csv",
+  "external_csv_sha256": "d0b4154555ddcfdad4f142be9388779f5d13e5710deba3cc65d3a48cb8a2bf5c",
+  "score_concepts": 203,
+  "score_texts": 1827,
+  "natural_words": 27,
+  "external_entries": 80,
+  "external_texts": 160,
+  "external_domains": {
+    "cardiology": 10,
+    "cardiac_surgery": 10,
+    "rowing": 10,
+    "orthopedics": 10,
+    "dermatology": 10,
+    "volleyball": 10,
+    "contract_bridge": 10,
+    "football": 10
+  },
+  "text_columns": [
+    "concept",
+    "definition",
+    "paraphrase_1",
+    "paraphrase_2",
+    "paraphrase_3",
+    "paraphrase_4",
+    "paraphrase_5",
+    "paraphrase_6",
+    "paraphrase_7"
+  ],
+  "pooling": "last non-padding token",
+  "normalization": "L2",
+  "instruction": null,
+  "max_length": 8192,
+  "inference_dtype": "float16",
+  "saved_dtype": "float32",
+  "common_mrl_dimension": 1024,
+  "models": {
+    "0.6B": {
+      "repo_id": "Qwen/Qwen3-Embedding-0.6B",
+      "local_dir": "models/Qwen3-Embedding-0.6B",
+      "native_dim": 1024,
+      "batch_size": 16,
+      "score_file": "embedding_results/score_qwen3_0_6b.npz",
+      "natural_file": "embedding_results/natural_qwen3_0_6b.npz",
+      "external_file": "embedding_results/external_qwen3_0_6b.npz",
+      "score_shape_native": [
+        1827,
+        1024
+      ],
+      "score_shape_1024": [
+        1827,
+        1024
+      ],
+      "natural_shape_native": [
+        27,
+        1024
+      ],
+      "natural_shape_1024": [
+        27,
+        1024
+      ],
+      "external_shape_native": [
+        160,
+        1024
+      ],
+      "external_shape_1024": [
+        160,
+        1024
+      ]
+    },
+    "4B": {
+      "repo_id": "Qwen/Qwen3-Embedding-4B",
+      "local_dir": "models/Qwen3-Embedding-4B",
+      "native_dim": 2560,
+      "batch_size": 8,
+      "score_file": "embedding_results/score_qwen3_4b.npz",
+      "natural_file": "embedding_results/natural_qwen3_4b.npz",
+      "external_file": "embedding_results/external_qwen3_4b.npz",
+      "score_shape_native": [
+        1827,
+        2560
+      ],
+      "score_shape_1024": [
+        1827,
+        1024
+      ],
+      "natural_shape_native": [
+        27,
+        2560
+      ],
+      "natural_shape_1024": [
+        27,
+        1024
+      ],
+      "external_shape_native": [
+        160,
+        2560
+      ],
+      "external_shape_1024": [
+        160,
+        1024
+      ]
+    },
+    "8B": {
+      "repo_id": "Qwen/Qwen3-Embedding-8B",
+      "local_dir": "models/Qwen3-Embedding-8B",
+      "native_dim": 4096,
+      "batch_size": 4,
+      "score_file": "embedding_results/score_qwen3_8b.npz",
+      "natural_file": "embedding_results/natural_qwen3_8b.npz",
+      "external_file": "embedding_results/external_qwen3_8b.npz",
+      "score_shape_native": [
+        1827,
+        4096
+      ],
+      "score_shape_1024": [
+        1827,
+        1024
+      ],
+      "natural_shape_native": [
+        27,
+        4096
+      ],
+      "natural_shape_1024": [
+        27,
+        1024
+      ],
+      "external_shape_native": [
+        160,
+        4096
+      ],
+      "external_shape_1024": [
+        160,
+        1024
+      ]
+    }
+  }
+}

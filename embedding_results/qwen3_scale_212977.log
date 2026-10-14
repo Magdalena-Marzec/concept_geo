@@ -1,0 +1,1027 @@
+============================================================
+Three-model Qwen3 embedding experiment
+Job ID: 212977
+Host: rysy-n2.icm.edu.pl
+Date: Wed 14 Oct 19:30:01 CEST 2026
+============================================================
+Python 3.10.9
+numpy: 2.2.6
+pandas: 2.2.3
+torch: 2.6.0+cu124
+torch CUDA build: 12.4
+transformers: 4.57.6
+CUDA available: True
+GPU: Tesla V100-PCIE-32GB
+
+Wed Oct 14 19:31:50 2026
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 530.30.02              Driver Version: 530.30.02    CUDA Version: 12.1     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                  Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf            Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  Tesla V100-PCIE-32GB            Off| 00000000:AF:00.0 Off |                    0 |
+| N/A   35C    P0               26W / 250W|      0MiB / 32768MiB |      0%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|  No running processes found                                                           |
++---------------------------------------------------------------------------------------+
+
+=== Input files ===
+-rw-r--r--. 1 ms395434 icm-users  21K Oct 13 23:39 external_domain_definitions.csv
+-rw-r--r--. 1 ms395434 icm-users 1.5K Oct 13 23:39 natural_language_words.csv
+-rw-r--r--. 1 ms395434 icm-users 355K Oct 13 23:39 score_concepts_completed.csv
+
+=== Local models ===
+2.3G	models/Qwen3-Embedding-0.6B
+7.6G	models/Qwen3-Embedding-4B
+15G	models/Qwen3-Embedding-8B
+
+=== Embedding all three models ===
+PyTorch: 2.6.0+cu124
+CUDA build: 12.4
+GPU: Tesla V100-PCIE-32GB
+Inference dtype: float16
+Saved embedding dtype: float32
+No query/passage instruction is added.
+
+SCORE concepts: 203
+SCORE texts: 1827
+Natural-language words: 27
+External-domain entries: 80
+External-domain texts: 160
+External domains: {'cardiology': 10, 'cardiac_surgery': 10, 'rowing': 10, 'orthopedics': 10, 'dermatology': 10, 'volleyball': 10, 'contract_bridge': 10, 'football': 10}
+
+========================================================================
+Qwen/Qwen3-Embedding-0.6B
+========================================================================
+`torch_dtype` is deprecated! Use `dtype` instead!
+  embedded 16/1827
+  embedded 32/1827
+  embedded 48/1827
+  embedded 64/1827
+  embedded 80/1827
+  embedded 96/1827
+  embedded 112/1827
+  embedded 128/1827
+  embedded 144/1827
+  embedded 160/1827
+  embedded 176/1827
+  embedded 192/1827
+  embedded 208/1827
+  embedded 224/1827
+  embedded 240/1827
+  embedded 256/1827
+  embedded 272/1827
+  embedded 288/1827
+  embedded 304/1827
+  embedded 320/1827
+  embedded 336/1827
+  embedded 352/1827
+  embedded 368/1827
+  embedded 384/1827
+  embedded 400/1827
+  embedded 416/1827
+  embedded 432/1827
+  embedded 448/1827
+  embedded 464/1827
+  embedded 480/1827
+  embedded 496/1827
+  embedded 512/1827
+  embedded 528/1827
+  embedded 544/1827
+  embedded 560/1827
+  embedded 576/1827
+  embedded 592/1827
+  embedded 608/1827
+  embedded 624/1827
+  embedded 640/1827
+  embedded 656/1827
+  embedded 672/1827
+  embedded 688/1827
+  embedded 704/1827
+  embedded 720/1827
+  embedded 736/1827
+  embedded 752/1827
+  embedded 768/1827
+  embedded 784/1827
+  embedded 800/1827
+  embedded 816/1827
+  embedded 832/1827
+  embedded 848/1827
+  embedded 864/1827
+  embedded 880/1827
+  embedded 896/1827
+  embedded 912/1827
+  embedded 928/1827
+  embedded 944/1827
+  embedded 960/1827
+  embedded 976/1827
+  embedded 992/1827
+  embedded 1008/1827
+  embedded 1024/1827
+  embedded 1040/1827
+  embedded 1056/1827
+  embedded 1072/1827
+  embedded 1088/1827
+  embedded 1104/1827
+  embedded 1120/1827
+  embedded 1136/1827
+  embedded 1152/1827
+  embedded 1168/1827
+  embedded 1184/1827
+  embedded 1200/1827
+  embedded 1216/1827
+  embedded 1232/1827
+  embedded 1248/1827
+  embedded 1264/1827
+  embedded 1280/1827
+  embedded 1296/1827
+  embedded 1312/1827
+  embedded 1328/1827
+  embedded 1344/1827
+  embedded 1360/1827
+  embedded 1376/1827
+  embedded 1392/1827
+  embedded 1408/1827
+  embedded 1424/1827
+  embedded 1440/1827
+  embedded 1456/1827
+  embedded 1472/1827
+  embedded 1488/1827
+  embedded 1504/1827
+  embedded 1520/1827
+  embedded 1536/1827
+  embedded 1552/1827
+  embedded 1568/1827
+  embedded 1584/1827
+  embedded 1600/1827
+  embedded 1616/1827
+  embedded 1632/1827
+  embedded 1648/1827
+  embedded 1664/1827
+  embedded 1680/1827
+  embedded 1696/1827
+  embedded 1712/1827
+  embedded 1728/1827
+  embedded 1744/1827
+  embedded 1760/1827
+  embedded 1776/1827
+  embedded 1792/1827
+  embedded 1808/1827
+  embedded 1824/1827
+  embedded 1827/1827
+  embedded 16/27
+  embedded 27/27
+  embedded 16/160
+  embedded 32/160
+  embedded 48/160
+  embedded 64/160
+  embedded 80/160
+  embedded 96/160
+  embedded 112/160
+  embedded 128/160
+  embedded 144/160
+  embedded 160/160
+Saved: embedding_results/score_qwen3_0_6b.npz
+Saved: embedding_results/natural_qwen3_0_6b.npz
+Saved: embedding_results/external_qwen3_0_6b.npz
+SCORE native: (1827, 1024)
+SCORE common 1024: (1827, 1024)
+Natural native: (27, 1024)
+Natural common 1024: (27, 1024)
+External native: (160, 1024)
+External common 1024: (160, 1024)
+
+========================================================================
+Qwen/Qwen3-Embedding-4B
+========================================================================
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:48<00:48, 48.49s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [01:10<00:00, 33.17s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [01:10<00:00, 35.47s/it]
+  embedded 8/1827
+  embedded 16/1827
+  embedded 24/1827
+  embedded 32/1827
+  embedded 40/1827
+  embedded 48/1827
+  embedded 56/1827
+  embedded 64/1827
+  embedded 72/1827
+  embedded 80/1827
+  embedded 88/1827
+  embedded 96/1827
+  embedded 104/1827
+  embedded 112/1827
+  embedded 120/1827
+  embedded 128/1827
+  embedded 136/1827
+  embedded 144/1827
+  embedded 152/1827
+  embedded 160/1827
+  embedded 168/1827
+  embedded 176/1827
+  embedded 184/1827
+  embedded 192/1827
+  embedded 200/1827
+  embedded 208/1827
+  embedded 216/1827
+  embedded 224/1827
+  embedded 232/1827
+  embedded 240/1827
+  embedded 248/1827
+  embedded 256/1827
+  embedded 264/1827
+  embedded 272/1827
+  embedded 280/1827
+  embedded 288/1827
+  embedded 296/1827
+  embedded 304/1827
+  embedded 312/1827
+  embedded 320/1827
+  embedded 328/1827
+  embedded 336/1827
+  embedded 344/1827
+  embedded 352/1827
+  embedded 360/1827
+  embedded 368/1827
+  embedded 376/1827
+  embedded 384/1827
+  embedded 392/1827
+  embedded 400/1827
+  embedded 408/1827
+  embedded 416/1827
+  embedded 424/1827
+  embedded 432/1827
+  embedded 440/1827
+  embedded 448/1827
+  embedded 456/1827
+  embedded 464/1827
+  embedded 472/1827
+  embedded 480/1827
+  embedded 488/1827
+  embedded 496/1827
+  embedded 504/1827
+  embedded 512/1827
+  embedded 520/1827
+  embedded 528/1827
+  embedded 536/1827
+  embedded 544/1827
+  embedded 552/1827
+  embedded 560/1827
+  embedded 568/1827
+  embedded 576/1827
+  embedded 584/1827
+  embedded 592/1827
+  embedded 600/1827
+  embedded 608/1827
+  embedded 616/1827
+  embedded 624/1827
+  embedded 632/1827
+  embedded 640/1827
+  embedded 648/1827
+  embedded 656/1827
+  embedded 664/1827
+  embedded 672/1827
+  embedded 680/1827
+  embedded 688/1827
+  embedded 696/1827
+  embedded 704/1827
+  embedded 712/1827
+  embedded 720/1827
+  embedded 728/1827
+  embedded 736/1827
+  embedded 744/1827
+  embedded 752/1827
+  embedded 760/1827
+  embedded 768/1827
+  embedded 776/1827
+  embedded 784/1827
+  embedded 792/1827
+  embedded 800/1827
+  embedded 808/1827
+  embedded 816/1827
+  embedded 824/1827
+  embedded 832/1827
+  embedded 840/1827
+  embedded 848/1827
+  embedded 856/1827
+  embedded 864/1827
+  embedded 872/1827
+  embedded 880/1827
+  embedded 888/1827
+  embedded 896/1827
+  embedded 904/1827
+  embedded 912/1827
+  embedded 920/1827
+  embedded 928/1827
+  embedded 936/1827
+  embedded 944/1827
+  embedded 952/1827
+  embedded 960/1827
+  embedded 968/1827
+  embedded 976/1827
+  embedded 984/1827
+  embedded 992/1827
+  embedded 1000/1827
+  embedded 1008/1827
+  embedded 1016/1827
+  embedded 1024/1827
+  embedded 1032/1827
+  embedded 1040/1827
+  embedded 1048/1827
+  embedded 1056/1827
+  embedded 1064/1827
+  embedded 1072/1827
+  embedded 1080/1827
+  embedded 1088/1827
+  embedded 1096/1827
+  embedded 1104/1827
+  embedded 1112/1827
+  embedded 1120/1827
+  embedded 1128/1827
+  embedded 1136/1827
+  embedded 1144/1827
+  embedded 1152/1827
+  embedded 1160/1827
+  embedded 1168/1827
+  embedded 1176/1827
+  embedded 1184/1827
+  embedded 1192/1827
+  embedded 1200/1827
+  embedded 1208/1827
+  embedded 1216/1827
+  embedded 1224/1827
+  embedded 1232/1827
+  embedded 1240/1827
+  embedded 1248/1827
+  embedded 1256/1827
+  embedded 1264/1827
+  embedded 1272/1827
+  embedded 1280/1827
+  embedded 1288/1827
+  embedded 1296/1827
+  embedded 1304/1827
+  embedded 1312/1827
+  embedded 1320/1827
+  embedded 1328/1827
+  embedded 1336/1827
+  embedded 1344/1827
+  embedded 1352/1827
+  embedded 1360/1827
+  embedded 1368/1827
+  embedded 1376/1827
+  embedded 1384/1827
+  embedded 1392/1827
+  embedded 1400/1827
+  embedded 1408/1827
+  embedded 1416/1827
+  embedded 1424/1827
+  embedded 1432/1827
+  embedded 1440/1827
+  embedded 1448/1827
+  embedded 1456/1827
+  embedded 1464/1827
+  embedded 1472/1827
+  embedded 1480/1827
+  embedded 1488/1827
+  embedded 1496/1827
+  embedded 1504/1827
+  embedded 1512/1827
+  embedded 1520/1827
+  embedded 1528/1827
+  embedded 1536/1827
+  embedded 1544/1827
+  embedded 1552/1827
+  embedded 1560/1827
+  embedded 1568/1827
+  embedded 1576/1827
+  embedded 1584/1827
+  embedded 1592/1827
+  embedded 1600/1827
+  embedded 1608/1827
+  embedded 1616/1827
+  embedded 1624/1827
+  embedded 1632/1827
+  embedded 1640/1827
+  embedded 1648/1827
+  embedded 1656/1827
+  embedded 1664/1827
+  embedded 1672/1827
+  embedded 1680/1827
+  embedded 1688/1827
+  embedded 1696/1827
+  embedded 1704/1827
+  embedded 1712/1827
+  embedded 1720/1827
+  embedded 1728/1827
+  embedded 1736/1827
+  embedded 1744/1827
+  embedded 1752/1827
+  embedded 1760/1827
+  embedded 1768/1827
+  embedded 1776/1827
+  embedded 1784/1827
+  embedded 1792/1827
+  embedded 1800/1827
+  embedded 1808/1827
+  embedded 1816/1827
+  embedded 1824/1827
+  embedded 1827/1827
+  embedded 8/27
+  embedded 16/27
+  embedded 24/27
+  embedded 27/27
+  embedded 8/160
+  embedded 16/160
+  embedded 24/160
+  embedded 32/160
+  embedded 40/160
+  embedded 48/160
+  embedded 56/160
+  embedded 64/160
+  embedded 72/160
+  embedded 80/160
+  embedded 88/160
+  embedded 96/160
+  embedded 104/160
+  embedded 112/160
+  embedded 120/160
+  embedded 128/160
+  embedded 136/160
+  embedded 144/160
+  embedded 152/160
+  embedded 160/160
+Saved: embedding_results/score_qwen3_4b.npz
+Saved: embedding_results/natural_qwen3_4b.npz
+Saved: embedding_results/external_qwen3_4b.npz
+SCORE native: (1827, 2560)
+SCORE common 1024: (1827, 1024)
+Natural native: (27, 2560)
+Natural common 1024: (27, 1024)
+External native: (160, 2560)
+External common 1024: (160, 1024)
+
+========================================================================
+Qwen/Qwen3-Embedding-8B
+========================================================================
+
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]
+Loading checkpoint shards:  25%|██▌       | 1/4 [00:50<02:31, 50.64s/it]
+Loading checkpoint shards:  50%|█████     | 2/4 [01:39<01:38, 49.33s/it]
+Loading checkpoint shards:  75%|███████▌  | 3/4 [02:27<00:49, 49.05s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [02:31<00:00, 31.30s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [02:31<00:00, 37.97s/it]
+  embedded 4/1827
+  embedded 8/1827
+  embedded 12/1827
+  embedded 16/1827
+  embedded 20/1827
+  embedded 24/1827
+  embedded 28/1827
+  embedded 32/1827
+  embedded 36/1827
+  embedded 40/1827
+  embedded 44/1827
+  embedded 48/1827
+  embedded 52/1827
+  embedded 56/1827
+  embedded 60/1827
+  embedded 64/1827
+  embedded 68/1827
+  embedded 72/1827
+  embedded 76/1827
+  embedded 80/1827
+  embedded 84/1827
+  embedded 88/1827
+  embedded 92/1827
+  embedded 96/1827
+  embedded 100/1827
+  embedded 104/1827
+  embedded 108/1827
+  embedded 112/1827
+  embedded 116/1827
+  embedded 120/1827
+  embedded 124/1827
+  embedded 128/1827
+  embedded 132/1827
+  embedded 136/1827
+  embedded 140/1827
+  embedded 144/1827
+  embedded 148/1827
+  embedded 152/1827
+  embedded 156/1827
+  embedded 160/1827
+  embedded 164/1827
+  embedded 168/1827
+  embedded 172/1827
+  embedded 176/1827
+  embedded 180/1827
+  embedded 184/1827
+  embedded 188/1827
+  embedded 192/1827
+  embedded 196/1827
+  embedded 200/1827
+  embedded 204/1827
+  embedded 208/1827
+  embedded 212/1827
+  embedded 216/1827
+  embedded 220/1827
+  embedded 224/1827
+  embedded 228/1827
+  embedded 232/1827
+  embedded 236/1827
+  embedded 240/1827
+  embedded 244/1827
+  embedded 248/1827
+  embedded 252/1827
+  embedded 256/1827
+  embedded 260/1827
+  embedded 264/1827
+  embedded 268/1827
+  embedded 272/1827
+  embedded 276/1827
+  embedded 280/1827
+  embedded 284/1827
+  embedded 288/1827
+  embedded 292/1827
+  embedded 296/1827
+  embedded 300/1827
+  embedded 304/1827
+  embedded 308/1827
+  embedded 312/1827
+  embedded 316/1827
+  embedded 320/1827
+  embedded 324/1827
+  embedded 328/1827
+  embedded 332/1827
+  embedded 336/1827
+  embedded 340/1827
+  embedded 344/1827
+  embedded 348/1827
+  embedded 352/1827
+  embedded 356/1827
+  embedded 360/1827
+  embedded 364/1827
+  embedded 368/1827
+  embedded 372/1827
+  embedded 376/1827
+  embedded 380/1827
+  embedded 384/1827
+  embedded 388/1827
+  embedded 392/1827
+  embedded 396/1827
+  embedded 400/1827
+  embedded 404/1827
+  embedded 408/1827
+  embedded 412/1827
+  embedded 416/1827
+  embedded 420/1827
+  embedded 424/1827
+  embedded 428/1827
+  embedded 432/1827
+  embedded 436/1827
+  embedded 440/1827
+  embedded 444/1827
+  embedded 448/1827
+  embedded 452/1827
+  embedded 456/1827
+  embedded 460/1827
+  embedded 464/1827
+  embedded 468/1827
+  embedded 472/1827
+  embedded 476/1827
+  embedded 480/1827
+  embedded 484/1827
+  embedded 488/1827
+  embedded 492/1827
+  embedded 496/1827
+  embedded 500/1827
+  embedded 504/1827
+  embedded 508/1827
+  embedded 512/1827
+  embedded 516/1827
+  embedded 520/1827
+  embedded 524/1827
+  embedded 528/1827
+  embedded 532/1827
+  embedded 536/1827
+  embedded 540/1827
+  embedded 544/1827
+  embedded 548/1827
+  embedded 552/1827
+  embedded 556/1827
+  embedded 560/1827
+  embedded 564/1827
+  embedded 568/1827
+  embedded 572/1827
+  embedded 576/1827
+  embedded 580/1827
+  embedded 584/1827
+  embedded 588/1827
+  embedded 592/1827
+  embedded 596/1827
+  embedded 600/1827
+  embedded 604/1827
+  embedded 608/1827
+  embedded 612/1827
+  embedded 616/1827
+  embedded 620/1827
+  embedded 624/1827
+  embedded 628/1827
+  embedded 632/1827
+  embedded 636/1827
+  embedded 640/1827
+  embedded 644/1827
+  embedded 648/1827
+  embedded 652/1827
+  embedded 656/1827
+  embedded 660/1827
+  embedded 664/1827
+  embedded 668/1827
+  embedded 672/1827
+  embedded 676/1827
+  embedded 680/1827
+  embedded 684/1827
+  embedded 688/1827
+  embedded 692/1827
+  embedded 696/1827
+  embedded 700/1827
+  embedded 704/1827
+  embedded 708/1827
+  embedded 712/1827
+  embedded 716/1827
+  embedded 720/1827
+  embedded 724/1827
+  embedded 728/1827
+  embedded 732/1827
+  embedded 736/1827
+  embedded 740/1827
+  embedded 744/1827
+  embedded 748/1827
+  embedded 752/1827
+  embedded 756/1827
+  embedded 760/1827
+  embedded 764/1827
+  embedded 768/1827
+  embedded 772/1827
+  embedded 776/1827
+  embedded 780/1827
+  embedded 784/1827
+  embedded 788/1827
+  embedded 792/1827
+  embedded 796/1827
+  embedded 800/1827
+  embedded 804/1827
+  embedded 808/1827
+  embedded 812/1827
+  embedded 816/1827
+  embedded 820/1827
+  embedded 824/1827
+  embedded 828/1827
+  embedded 832/1827
+  embedded 836/1827
+  embedded 840/1827
+  embedded 844/1827
+  embedded 848/1827
+  embedded 852/1827
+  embedded 856/1827
+  embedded 860/1827
+  embedded 864/1827
+  embedded 868/1827
+  embedded 872/1827
+  embedded 876/1827
+  embedded 880/1827
+  embedded 884/1827
+  embedded 888/1827
+  embedded 892/1827
+  embedded 896/1827
+  embedded 900/1827
+  embedded 904/1827
+  embedded 908/1827
+  embedded 912/1827
+  embedded 916/1827
+  embedded 920/1827
+  embedded 924/1827
+  embedded 928/1827
+  embedded 932/1827
+  embedded 936/1827
+  embedded 940/1827
+  embedded 944/1827
+  embedded 948/1827
+  embedded 952/1827
+  embedded 956/1827
+  embedded 960/1827
+  embedded 964/1827
+  embedded 968/1827
+  embedded 972/1827
+  embedded 976/1827
+  embedded 980/1827
+  embedded 984/1827
+  embedded 988/1827
+  embedded 992/1827
+  embedded 996/1827
+  embedded 1000/1827
+  embedded 1004/1827
+  embedded 1008/1827
+  embedded 1012/1827
+  embedded 1016/1827
+  embedded 1020/1827
+  embedded 1024/1827
+  embedded 1028/1827
+  embedded 1032/1827
+  embedded 1036/1827
+  embedded 1040/1827
+  embedded 1044/1827
+  embedded 1048/1827
+  embedded 1052/1827
+  embedded 1056/1827
+  embedded 1060/1827
+  embedded 1064/1827
+  embedded 1068/1827
+  embedded 1072/1827
+  embedded 1076/1827
+  embedded 1080/1827
+  embedded 1084/1827
+  embedded 1088/1827
+  embedded 1092/1827
+  embedded 1096/1827
+  embedded 1100/1827
+  embedded 1104/1827
+  embedded 1108/1827
+  embedded 1112/1827
+  embedded 1116/1827
+  embedded 1120/1827
+  embedded 1124/1827
+  embedded 1128/1827
+  embedded 1132/1827
+  embedded 1136/1827
+  embedded 1140/1827
+  embedded 1144/1827
+  embedded 1148/1827
+  embedded 1152/1827
+  embedded 1156/1827
+  embedded 1160/1827
+  embedded 1164/1827
+  embedded 1168/1827
+  embedded 1172/1827
+  embedded 1176/1827
+  embedded 1180/1827
+  embedded 1184/1827
+  embedded 1188/1827
+  embedded 1192/1827
+  embedded 1196/1827
+  embedded 1200/1827
+  embedded 1204/1827
+  embedded 1208/1827
+  embedded 1212/1827
+  embedded 1216/1827
+  embedded 1220/1827
+  embedded 1224/1827
+  embedded 1228/1827
+  embedded 1232/1827
+  embedded 1236/1827
+  embedded 1240/1827
+  embedded 1244/1827
+  embedded 1248/1827
+  embedded 1252/1827
+  embedded 1256/1827
+  embedded 1260/1827
+  embedded 1264/1827
+  embedded 1268/1827
+  embedded 1272/1827
+  embedded 1276/1827
+  embedded 1280/1827
+  embedded 1284/1827
+  embedded 1288/1827
+  embedded 1292/1827
+  embedded 1296/1827
+  embedded 1300/1827
+  embedded 1304/1827
+  embedded 1308/1827
+  embedded 1312/1827
+  embedded 1316/1827
+  embedded 1320/1827
+  embedded 1324/1827
+  embedded 1328/1827
+  embedded 1332/1827
+  embedded 1336/1827
+  embedded 1340/1827
+  embedded 1344/1827
+  embedded 1348/1827
+  embedded 1352/1827
+  embedded 1356/1827
+  embedded 1360/1827
+  embedded 1364/1827
+  embedded 1368/1827
+  embedded 1372/1827
+  embedded 1376/1827
+  embedded 1380/1827
+  embedded 1384/1827
+  embedded 1388/1827
+  embedded 1392/1827
+  embedded 1396/1827
+  embedded 1400/1827
+  embedded 1404/1827
+  embedded 1408/1827
+  embedded 1412/1827
+  embedded 1416/1827
+  embedded 1420/1827
+  embedded 1424/1827
+  embedded 1428/1827
+  embedded 1432/1827
+  embedded 1436/1827
+  embedded 1440/1827
+  embedded 1444/1827
+  embedded 1448/1827
+  embedded 1452/1827
+  embedded 1456/1827
+  embedded 1460/1827
+  embedded 1464/1827
+  embedded 1468/1827
+  embedded 1472/1827
+  embedded 1476/1827
+  embedded 1480/1827
+  embedded 1484/1827
+  embedded 1488/1827
+  embedded 1492/1827
+  embedded 1496/1827
+  embedded 1500/1827
+  embedded 1504/1827
+  embedded 1508/1827
+  embedded 1512/1827
+  embedded 1516/1827
+  embedded 1520/1827
+  embedded 1524/1827
+  embedded 1528/1827
+  embedded 1532/1827
+  embedded 1536/1827
+  embedded 1540/1827
+  embedded 1544/1827
+  embedded 1548/1827
+  embedded 1552/1827
+  embedded 1556/1827
+  embedded 1560/1827
+  embedded 1564/1827
+  embedded 1568/1827
+  embedded 1572/1827
+  embedded 1576/1827
+  embedded 1580/1827
+  embedded 1584/1827
+  embedded 1588/1827
+  embedded 1592/1827
+  embedded 1596/1827
+  embedded 1600/1827
+  embedded 1604/1827
+  embedded 1608/1827
+  embedded 1612/1827
+  embedded 1616/1827
+  embedded 1620/1827
+  embedded 1624/1827
+  embedded 1628/1827
+  embedded 1632/1827
+  embedded 1636/1827
+  embedded 1640/1827
+  embedded 1644/1827
+  embedded 1648/1827
+  embedded 1652/1827
+  embedded 1656/1827
+  embedded 1660/1827
+  embedded 1664/1827
+  embedded 1668/1827
+  embedded 1672/1827
+  embedded 1676/1827
+  embedded 1680/1827
+  embedded 1684/1827
+  embedded 1688/1827
+  embedded 1692/1827
+  embedded 1696/1827
+  embedded 1700/1827
+  embedded 1704/1827
+  embedded 1708/1827
+  embedded 1712/1827
+  embedded 1716/1827
+  embedded 1720/1827
+  embedded 1724/1827
+  embedded 1728/1827
+  embedded 1732/1827
+  embedded 1736/1827
+  embedded 1740/1827
+  embedded 1744/1827
+  embedded 1748/1827
+  embedded 1752/1827
+  embedded 1756/1827
+  embedded 1760/1827
+  embedded 1764/1827
+  embedded 1768/1827
+  embedded 1772/1827
+  embedded 1776/1827
+  embedded 1780/1827
+  embedded 1784/1827
+  embedded 1788/1827
+  embedded 1792/1827
+  embedded 1796/1827
+  embedded 1800/1827
+  embedded 1804/1827
+  embedded 1808/1827
+  embedded 1812/1827
+  embedded 1816/1827
+  embedded 1820/1827
+  embedded 1824/1827
+  embedded 1827/1827
+  embedded 4/27
+  embedded 8/27
+  embedded 12/27
+  embedded 16/27
+  embedded 20/27
+  embedded 24/27
+  embedded 27/27
+  embedded 4/160
+  embedded 8/160
+  embedded 12/160
+  embedded 16/160
+  embedded 20/160
+  embedded 24/160
+  embedded 28/160
+  embedded 32/160
+  embedded 36/160
+  embedded 40/160
+  embedded 44/160
+  embedded 48/160
+  embedded 52/160
+  embedded 56/160
+  embedded 60/160
+  embedded 64/160
+  embedded 68/160
+  embedded 72/160
+  embedded 76/160
+  embedded 80/160
+  embedded 84/160
+  embedded 88/160
+  embedded 92/160
+  embedded 96/160
+  embedded 100/160
+  embedded 104/160
+  embedded 108/160
+  embedded 112/160
+  embedded 116/160
+  embedded 120/160
+  embedded 124/160
+  embedded 128/160
+  embedded 132/160
+  embedded 136/160
+  embedded 140/160
+  embedded 144/160
+  embedded 148/160
+  embedded 152/160
+  embedded 156/160
+  embedded 160/160
+Saved: embedding_results/score_qwen3_8b.npz
+Saved: embedding_results/natural_qwen3_8b.npz
+Saved: embedding_results/external_qwen3_8b.npz
+SCORE native: (1827, 4096)
+SCORE common 1024: (1827, 1024)
+Natural native: (27, 4096)
+Natural common 1024: (27, 1024)
+External native: (160, 4096)
+External common 1024: (160, 1024)
+
+ALL REQUESTED MODELS COMPLETED
+Manifest: embedding_results/embedding_manifest.json
+
+=== Output files ===
+total 67M
+-rw-r--r--. 1 ms395434 icm-users 3.4K Oct 14 19:38 embedding_manifest.json
+-rw-r--r--. 1 ms395434 icm-users  34K Oct 14 19:32 external_domain_embeddings_metadata.csv
+-rw-r--r--. 1 ms395434 icm-users 1.1M Oct 14 19:33 external_qwen3_0_6b.npz
+-rw-r--r--. 1 ms395434 icm-users 1.9M Oct 14 19:35 external_qwen3_4b.npz
+-rw-r--r--. 1 ms395434 icm-users 2.6M Oct 14 19:38 external_qwen3_8b.npz
+-rw-r--r--. 1 ms395434 icm-users 1.5K Oct 14 19:32 natural_language_embeddings_metadata.csv
+-rw-r--r--. 1 ms395434 icm-users 188K Oct 14 19:33 natural_qwen3_0_6b.npz
+-rw-r--r--. 1 ms395434 icm-users 314K Oct 14 19:35 natural_qwen3_4b.npz
+-rw-r--r--. 1 ms395434 icm-users 435K Oct 14 19:38 natural_qwen3_8b.npz
+-rw-r--r--. 1 ms395434 icm-users 428K Oct 14 19:32 score_embeddings_metadata.csv
+-rw-r--r--. 1 ms395434 icm-users  13M Oct 14 19:33 score_qwen3_0_6b.npz
+-rw-r--r--. 1 ms395434 icm-users  21M Oct 14 19:35 score_qwen3_4b.npz
+-rw-r--r--. 1 ms395434 icm-users  29M Oct 14 19:38 score_qwen3_8b.npz
+
+=== Final validation ===
+FINAL VALIDATION OK
+SCORE texts: 1827
+Natural words: 27
+External texts: 160
+
+============================================================
+THREE-MODEL EMBEDDING JOB COMPLETED SUCCESSFULLY
+Date: Wed 14 Oct 19:38:44 CEST 2026
+Log: logs/qwen3_scale_212977.log
+============================================================

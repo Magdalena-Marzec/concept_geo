@@ -6,7 +6,7 @@ from types import SimpleNamespace
 
 import numpy as np
 from mac.data import ROOT, load_dataset
-from mac.embed_layers import capture_layer_outputs, embed_one, DIM
+from mac.embed_layers import embed_one, DIM
 
 
 class InputTests(unittest.TestCase):
@@ -79,14 +79,16 @@ class Backbone:
         basis = np.arange(DIM, dtype=np.float32)[None, None, :]
         return basis / (DIM + 2) + tokens[:, :, None] / 200
 
-    def __call__(self, inputs, inputs_embeds, position_ids, stop_after_layer, apply_final_norm):
+    def __call__(self, inputs, inputs_embeds, position_ids, capture_layer_ids, hidden_sink):
         assert position_ids is None
-        assert stop_after_layer == 64
-        assert apply_final_norm is False
+        assert capture_layer_ids == list(range(64))
+        assert isinstance(hidden_sink, list)
         x = inputs_embeds
-        for layer in self.layers:
+        for idx, layer in enumerate(self.layers):
             x = layer(x)
-        return x
+            if idx in capture_layer_ids:
+                hidden_sink.append(x)
+        return x * 0.2  # fake "final norm"; capture must be BEFORE this
 
 
 class DummyTokenizer:
@@ -106,11 +108,26 @@ class CaptureTests(unittest.TestCase):
     def test_single_forward_captures_all_65_states_both_poolings(self):
         original_forward = Layer.__call__
         vec, length = embed_one(DummyModel(), DummyTokenizer(), "example", 20, DummyMLX)
-        self.assertIs(Layer.__call__, original_forward, "Temporary hook was not restored")
+        self.assertIs(Layer.__call__, original_forward, "Do not monkey-patch MLX module classes")
         self.assertEqual(length, 3)
         self.assertEqual(vec.shape, (65, 2, DIM))
         self.assertTrue(np.allclose(np.linalg.norm(vec, axis=-1), 1.0, atol=1e-5))
         self.assertGreater(float(np.linalg.norm(vec[64, 0] - vec[64, 1])), 0.001)
+
+    def test_incomplete_native_capture_fails(self):
+        model = DummyModel()
+        def partial(self, inputs, inputs_embeds, position_ids, capture_layer_ids, hidden_sink):
+            x = inputs_embeds
+            for layer in self.layers[:63]:
+                x = layer(x)
+                hidden_sink.append(x)
+            return x
+        # Python resolves __call__ on the class, not on an instance.
+        class ShortBackbone(Backbone):
+            __call__ = partial
+        model.language_model.model = ShortBackbone()
+        with self.assertRaisesRegex(RuntimeError, "63/64"):
+            embed_one(model, DummyTokenizer(), "example", 20, DummyMLX)
 
     def test_too_long_fails_explicitly(self):
         with self.assertRaisesRegex(ValueError, "refusing silent truncation"):

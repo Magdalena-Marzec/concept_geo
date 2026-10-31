@@ -6,9 +6,9 @@ B=1, no padding; mean pooling over all tokenizer output tokens.
 Raw post-block states are captured *before* final model RMSNorm. Layer 0
 is the token embedding lookup. Both pooled vectors are L2-normalized.
 
-The per-layer capture instrument wraps the actual upstream decoder layer
-forward (no reimplementation of Gated DeltaNet / masks / MRoPE). This
-relies on mlx-vlm's current Qwen3.5 model class; fail fast if it changes.
+The native mlx-vlm capture_layer_ids/hidden_sink API obtains activations
+without monkey-patching decoder layers or reimplementing attention/SSM.
+The adapter requires this API to be present and rejects incomplete capture.
 """
 from __future__ import annotations
 
@@ -19,7 +19,6 @@ import json
 import os
 import platform
 import sys
-from contextlib import contextmanager
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -82,37 +81,28 @@ def pooled_arrays(hidden, mx):
     return np.stack([normalize(np.array(last)), normalize(np.array(mean))], axis=0)
 
 
-@contextmanager
-def capture_layer_outputs(layers, mx, result):
-    """Temporary class-level wrappers preserve each layer's native MLX forward.
+class PoolingCapture(list):
+    """Receive *native* decoder activations through mlx-vlm's capture API.
 
-    Hooks evaluate and transfer only two vectors, not entire token activations.
+    Important: MLX nn.Module dispatch can bypass Python monkey-patching of
+    DecoderLayer.__call__, so use the Qwen3.5/Qwen3.8 built-in hidden_sink.
+    Pool synchronously on append to avoid retaining full token activations from
+    all 64 layers in unified memory.
     """
-    index = {id(layer): i + 1 for i, layer in enumerate(layers)}
-    saved = {}
-    if len(index) != LAYERS:
-        raise RuntimeError("Duplicate layer object: capture would be ambiguous.")
-    for cls in {type(layer) for layer in layers}:
-        original = cls.__call__
-        saved[cls] = original
-        def tap(self, *args, _original=original, **kwargs):
-            state = _original(self, *args, **kwargs)
-            number = index.get(id(self))
-            if number is not None:
-                if result[number] is not None:
-                    raise RuntimeError(f"Decoder layer {number} called twice")
-                result[number] = pooled_arrays(state, mx)
-            return state
-        cls.__call__ = tap
-    try:
-        yield
-    finally:
-        for cls, original in saved.items():
-            cls.__call__ = original
+
+    def __init__(self, mx):
+        super().__init__()
+        self.mx = mx
+
+    def append(self, hidden):
+        if len(self) >= LAYERS:
+            raise RuntimeError("Decoder returned more than 64 layer activations")
+        # Forces evaluation before the following layer is captured.
+        super().append(pooled_arrays(hidden, self.mx))
 
 
 def embed_one(model, tokenizer, text, max_length: int, mx):
-    """Single text-only prefill. Explicitly no chat template and no generated tokens."""
+    """One text-only backbone pass; no generation or logits projection."""
     encoded = tokenizer(text, add_special_tokens=True, truncation=False)
     ids = encoded["input_ids"]
     if ids and isinstance(ids[0], list):
@@ -122,27 +112,37 @@ def embed_one(model, tokenizer, text, max_length: int, mx):
     if len(ids) > max_length:
         raise ValueError(f"Input token length {len(ids)} exceeds --max-length={max_length}; refusing silent truncation")
     tokens = mx.array([ids], dtype=mx.int32)
-    backbone, layers = resolve_backbone(model)
-    collected = [None] * (LAYERS + 1)
-    collected[0] = pooled_arrays(backbone.embed_tokens(tokens), mx)
+    backbone, _ = resolve_backbone(model)
+    layer0 = pooled_arrays(backbone.embed_tokens(tokens), mx)
 
-    # Qwen3.5 VLM's official input path prepares text-specific 3D MRoPE IDs.
+    # The native mlx-vlm implementation computes positions and causal masks.
+    # capture_layer_ids uses 0-based block indices, whereas output arrays use
+    # layer 0 for input embeddings and layers 1..64 for post-block states.
     features = model.get_input_embeddings(input_ids=tokens)
-    with capture_layer_outputs(layers, mx, collected):
-        # These kwargs mirror the library's hidden_state_at_layer() method.
-        # Unlike calling it 64 times, capture all intermediate states in one pass.
+    sink = PoolingCapture(mx)
+    try:
         output = backbone(
             tokens,
             inputs_embeds=features.inputs_embeds,
             position_ids=features.position_ids,
-            stop_after_layer=LAYERS,
-            apply_final_norm=False,
+            capture_layer_ids=list(range(LAYERS)),
+            hidden_sink=sink,
         )
-        mx.eval(output)
-    if any(x is None for x in collected):
-        missing = [i for i, x in enumerate(collected) if x is None]
-        raise RuntimeError(f"Some hidden states were not captured: {missing}")
-    vectors = np.stack(collected, axis=0)  # [65,2,5120]
+    except TypeError as exc:
+        if "unexpected keyword argument" in str(exc):
+            raise RuntimeError(
+                "The installed mlx-vlm decoder lacks the expected native "
+                "capture_layer_ids/hidden_sink interface. Check the installed "
+                "mlx-vlm version (expected 0.6.17) before changing code."
+            ) from exc
+        raise
+    mx.eval(output)
+    if len(sink) != LAYERS:
+        raise RuntimeError(
+            f"Native MLX capture produced {len(sink)}/{LAYERS} layers; "
+            "refusing incomplete or misaligned embeddings."
+        )
+    vectors = np.stack([layer0, *sink], axis=0)  # [65,2,5120]
     if vectors.shape != (LAYERS + 1, 2, DIM):
         raise RuntimeError(f"Bad embedding shape: {vectors.shape}")
     if not np.allclose(np.linalg.norm(vectors, axis=-1), 1.0, atol=3e-5):

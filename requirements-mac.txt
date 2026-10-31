@@ -1,0 +1,4 @@
+# For macOS arm64 / Python 3.12. Pip resolves mlx and HuggingFace dependencies.
+mlx-vlm>=0.6.8,<0.7
+numpy>=1.26,<3
+huggingface-hub>=0.27,<2

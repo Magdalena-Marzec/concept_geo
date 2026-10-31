@@ -166,3 +166,10 @@ The notebook compares SCORE with all eight external domains using:
 - PCA of all definition embeddings colored by domain.
 
 These controls are exploratory. They help distinguish EEG-specific effects from generic properties of technical definitions and embedding spaces.
+
+## Apple Silicon / Qwen 27B layer extraction
+
+See [`README_MAC.md`](README_MAC.md) for the macOS 8-bit MLX pipeline. It uses
+separate installation/run scripts and does not change the existing CUDA/SLURM
+pipeline. Tatum source/data CSVs are now tracked and cloneable; model files and
+large generated MLX embeddings remain ignored.

@@ -37,3 +37,13 @@ qwen3_download-*.out
 qwen3_download-*.err
 qwen3_scale-*.out
 qwen3_scale-*.err
+
+# Local Apple Silicon environment / large generated results (never push)
+.venv-mac/
+/embedding_results/mlx_27b/
+
+# Research notebooks kept local by choice; existing tracked notebooks unchanged.
+/26_10_15.ipynb
+/26_10_15_Tatum.ipynb
+/Tatum_SCORE_analiza_geometrii.ipynb
+/Tatum_SCORE_analiza_geometrii_review.ipynb

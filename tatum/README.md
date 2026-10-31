@@ -5,21 +5,25 @@ FP16 inference, last-token pooling, L2 normalization, native dimensions and
 MRL-truncated 1024-dimensional embeddings. The existing SCORE embedding script
 and its outputs are not modified.
 
-## Source data (private, NOT committed to public Git)
+## Source data (tracked with the Mac extension)
 
-Create `tatum/source/` in your local `code/` directory and copy **exactly four**
-CSV files from the `final_v2/` folder of `score_handbook_mapping_final_v2.zip`:
+The Tatum source tables are now included in Git for convenient `git clone` on a
+new computer. Both `tatum/source/` and `tatum/data/` can be committed. The
+previous ignore rules were removed from `tatum/.gitignore`.
 
+Expected files in `tatum/source/`:
 - `concept_fragments_all.csv`
 - `fragment_metadata_all.csv`
 - `paragraphs_all.csv`
 - `figure_captions_all.csv`
+- `review_candidates_all.csv`
+- `rejected_candidates_all.csv`
 
-The first three are required for fragment/paragraph embedding analysis; captions
-are a separately tagged analysis category, and this runner requires the fourth file
-to include them. The
-`source/` and derived `data/` directories are ignored by `tatum/.gitignore`.
-Do not `git add -f` their contents to a public repository.
+The first four are required to regenerate the derived embedding inputs; the
+last two are useful for reviewing candidate matches and controls. The source
+text is extracted from a copyrighted handbook; Git access to the repository
+therefore also grants access to these extracts. Check access rights before
+sharing the repository with others.
 
 ## Workflow
 
@@ -36,15 +40,9 @@ It writes private `tatum/data/` inputs:
 - `tatum_paragraph_relations.csv`: per-concept unique source paragraphs;
 - `tatum_caption_relations.csv`: per-concept captions and metadata.
 
-Transfer the four source CSVs to the cluster via `scp` or `rsync` rather than
-Git (the repository is public). A typical manual transfer of the whole private
-source folder to your existing cluster checkout is:
-
-```bash
-rsync -av tatum/source/ <USER>@<HOST>:~/concept_geo/tatum/source/
-```
-
-Then on the cluster (from `~/concept_geo`):
+After committing and pushing `tatum/source/*.csv` and `tatum/data/*.csv`, a
+fresh `git clone` includes the Tatum tables. Running the existing CUDA job on
+the cluster still works as before:
 
 ```bash
 git pull
@@ -57,12 +55,11 @@ This new job writes under `embedding_results/tatum/`, leaving all previous
 SCORE, natural-language, and external-domain embedding files untouched.
 Each `tatum_qwen3_*.npz` contains `embeddings_native` and `embeddings_1024`,
 with rows matching `tatum_embeddings_metadata.csv`. That metadata contains **IDs
-only, not quoted textbook text**. The manifest records the private input SHA256
+only, not quoted textbook text**. The manifest records the input SHA256
 and sizes for reproducibility.
 
-If you push embedding arrays back to Git, review repository size/LFS limits and
-license/privacy implications. To reproduce analysis locally, keep your private
-`tatum/source/` or `tatum/data/` alongside the ID-only embedding metadata.
+Keep generated embedding arrays out of Git unless intentionally sharing large artifacts.
+The source and derived Tatum CSV files are committed for Mac/cluster input consistency.
 
 ## Comparison notebook
 

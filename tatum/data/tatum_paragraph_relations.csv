@@ -1,0 +1,322 @@
+concept_id,concept,paragraph_id,fragment_ids,match_types,semantic_relations,information_foci,aspect_tags
+C0001,Background activity,P255-02,F-P255-02-1,partial,direct,clinical_association,clinical_association
+C0001,Background activity,P255-03,F-P255-03-1,partial,direct,mixed,temporal_pattern;amplitude;frequency;reactivity;state;clinical_association;prognosis
+C0002,Episodes,P181-01,F-P181-01-1,partial,direct,mixed,topography;clinical_association;other
+C0002,Episodes,P181-03,F-P181-03-2,partial,direct,mixed,frequency;amplitude;topography;temporal_pattern;clinical_association
+C0002,Episodes,P205-02,F-P205-02-1,partial,direct,eeg_features,temporal_pattern
+C0002,Episodes,P275-03,F-P275-03-1,partial,direct,mixed,temporal_pattern;frequency;clinical_association
+C0003,Modulators,P050-03,F-P050-03-1,partial,subtype,mixed,activation;frequency;topography;amplitude;temporal_pattern;clinical_association
+C0003,Modulators,P051-02,F-P051-02-1,partial,subtype,eeg_features,activation;frequency;topography;state
+C0003,Modulators,P282-03,F-P282-03-1,partial,direct,mixed,activation;temporal_pattern;clinical_association
+C0004,Interictal findings,P090-04,F-P090-04-2,partial,subtype,clinical_association,clinical_association
+C0004,Interictal findings,P114-03,F-P114-03-2;F-P114-03-3,partial,subtype,mixed;clinical_association,morphology;frequency;clinical_association;topography
+C0004,Interictal findings,P114-04,F-P114-04-2,partial,subtype,mixed,topography;clinical_association
+C0004,Interictal findings,P117-02,F-P117-02-1,partial,subtype,eeg_features,morphology;topography
+C0005,Patterns of uncertain significance,P053-02,F-P053-02-1,specific,direct,mixed,morphology;clinical_association
+C0005,Patterns of uncertain significance,P062-02,F-P062-02-1,partial,direct,clinical_association,clinical_association
+C0006,Physiologic patterns,P062-02,F-P062-02-1,general,broader,mixed,frequency;morphology;topography;amplitude;temporal_pattern;clinical_association
+C0007,Sleep and drowsiness,P045-02,F-P045-02-2,partial,direct,eeg_features,state;morphology;topography;frequency
+C0007,Sleep and drowsiness,P047-02,F-P047-02-1,partial,direct,eeg_features,state;frequency;morphology;topography
+C0007,Sleep and drowsiness,P048-02,F-P048-02-1,partial,direct,eeg_features,state;frequency;amplitude;temporal_pattern
+C0007,Sleep and drowsiness,P049-02,F-P049-02-1,partial,direct,eeg_features,state;morphology;topography
+C0007,Sleep and drowsiness,P310-07,F-P310-07-1,partial,direct,eeg_features,state;frequency;topography
+C0007,Sleep and drowsiness,P313-06,F-P313-06-1,partial,direct,eeg_features,state;frequency;amplitude;topography
+C0007,Sleep and drowsiness,P314-04,F-P314-04-2,partial,direct,eeg_features,state;frequency
+C0007,Sleep and drowsiness,P315-09,F-P315-09-2,partial,direct,eeg_features,state;age;frequency;amplitude;topography
+C0007,Sleep and drowsiness,P317-04,F-P317-04-1,partial,direct,eeg_features,state;age;frequency;amplitude;topography;temporal_pattern
+C0007,Sleep and drowsiness,P319-04,F-P319-04-1,partial,direct,eeg_features,state;age;amplitude;frequency;topography
+C0007,Sleep and drowsiness,P319-06,F-P319-06-1,partial,direct,eeg_features,state;age;frequency
+C0008,Background alpha activity,P263-02,F-P263-02-1,partial,subtype,mixed,frequency;topography;reactivity;clinical_association;prognosis
+C0009,Amplitude asymmetry,P041-02,F-P041-02-2,partial,direct,mixed,amplitude;topography;clinical_association
+C0009,Amplitude asymmetry,P100-04,F-P100-04-1,partial,direct,mixed,amplitude;frequency;topography;clinical_association
+C0010,Background beta activity,P041-02,F-P041-02-1,specific,direct,mixed,frequency;amplitude;state;topography;clinical_association
+C0011,Background delta activity,P044-02,F-P044-02-1,specific,direct,mixed,frequency;age;state;activation;topography;clinical_association
+C0011,Background delta activity,P092-02,F-P092-02-1,general,broader,mixed,frequency;amplitude;temporal_pattern;clinical_association
+C0011,Background delta activity,P256-02,F-P256-02-1,general,broader,mixed,frequency;morphology;clinical_association
+C0011,Background delta activity,P097-02,F-P097-02-1,partial,subtype,mixed,temporal_pattern;morphology;reactivity;topography;clinical_association
+C0012,Electrocerebral inactivity,P262-02,F-P262-02-1,specific,direct,mixed,amplitude;other;clinical_association;prognosis
+C0013,Generalised suppression burst,P259-02,F-P259-02-1,specific,direct,mixed,amplitude;temporal_pattern;morphology;clinical_association;prognosis
+C0013,Generalised suppression burst,P376-05,F-P376-05-1,partial,direct,clinical_association,clinical_association
+C0014,Mu rhythm,P040-02,F-P040-02-1,specific,direct,eeg_features,frequency;morphology;topography;reactivity;amplitude;age;clinical_association
+C0015,Other organised rhythms of the background activity,P042-02,F-P042-02-1,partial,subtype,mixed,frequency;amplitude;topography;state;age;activation
+C0016,Posterior dominant rhythm,P039-03,F-P039-03-1,specific,direct,eeg_features,frequency;topography;reactivity;amplitude;age;state
+C0016,Posterior dominant rhythm,P310-05,F-P310-05-1,specific,direct,eeg_features,topography;state;reactivity;frequency
+C0016,Posterior dominant rhythm,P315-05,F-P315-05-1,specific,direct,eeg_features,topography;state;reactivity;frequency;age
+C0016,Posterior dominant rhythm,P093-02,F-P093-02-1,partial,direct,mixed,frequency;age;reactivity;clinical_association
+C0016,Posterior dominant rhythm,P100-04,F-P100-04-1,partial,direct,mixed,frequency;amplitude;topography;clinical_association
+C0016,Posterior dominant rhythm,P310-07,F-P310-07-1,partial,direct,eeg_features,state;frequency;topography
+C0016,Posterior dominant rhythm,P315-06,F-P315-06-1,partial,direct,eeg_features,frequency;age
+C0016,Posterior dominant rhythm,P315-09,F-P315-09-1,partial,direct,eeg_features,state;age;frequency;topography
+C0017,Reactivity,P281-02,F-P281-02-1,specific,direct,mixed,reactivity;amplitude;frequency;clinical_association;prognosis
+C0017,Reactivity,P097-02,F-P097-02-2,partial,direct,eeg_features,reactivity;state
+C0017,Reactivity,P112-01,F-P112-01-1,partial,direct,clinical_association,reactivity;clinical_association;prognosis
+C0018,Reactivity to eye opening /closure,P039-03,F-P039-03-2,partial,direct,eeg_features,reactivity;topography;frequency
+C0018,Reactivity to eye opening /closure,P310-05,F-P310-05-2,partial,direct,eeg_features,reactivity;topography;state
+C0018,Reactivity to eye opening /closure,P315-05,F-P315-05-2,partial,direct,eeg_features,reactivity;topography;state
+C0019,Suppression (of background activity),P259-02,F-P259-02-2,partial,direct,eeg_features,amplitude;temporal_pattern
+C0020,Background theta activity,P042-02,F-P042-02-1,specific,direct,mixed,frequency;amplitude;topography;state;age;activation
+C0020,Background theta activity,P092-02,F-P092-02-1,general,broader,mixed,frequency;temporal_pattern;clinical_association
+C0020,Background theta activity,P256-02,F-P256-02-1,general,broader,mixed,frequency;morphology;clinical_association
+C0020,Background theta activity,P091-04,F-P091-04-1,partial,direct,mixed,frequency;amplitude;topography;temporal_pattern;age;clinical_association
+C0021,Abnormal asymmetry or absence of sleep graphoelements,P047-02,F-P047-02-4,partial,direct,eeg_features,amplitude;topography;state
+C0021,Abnormal asymmetry or absence of sleep graphoelements,P110-02,F-P110-02-2,partial,direct,eeg_features,topography;frequency
+C0022,K complex,P047-02,F-P047-02-2,specific,direct,eeg_features,morphology;amplitude;topography;activation
+C0022,K complex,P312-05,F-P312-05-1,specific,direct,eeg_features,morphology;amplitude;temporal_pattern;activation;topography;state
+C0022,K complex,P319-02,F-P319-02-2,partial,direct,eeg_features,age;topography;amplitude;morphology
+C0023,Non-reactive sleep activity.,P264-02,F-P264-02-1,partial,subtype,mixed,reactivity;state;frequency;amplitude;clinical_association;prognosis
+C0024,Normal sleep pattern,P317-06,F-P317-06-1,partial,direct,eeg_features,age;topography;temporal_pattern
+C0024,Normal sleep pattern,P319-04,F-P319-04-1,partial,direct,eeg_features,age;amplitude;topography
+C0024,Normal sleep pattern,P319-06,F-P319-06-1,partial,direct,eeg_features,age;state;frequency
+C0024,Normal sleep pattern,P322-05,F-P322-05-1,partial,direct,eeg_features,temporal_pattern;age
+C0025,Positive occipital sharp transient of sleep,P045-02,F-P045-02-3,specific,direct,eeg_features,morphology;topography;temporal_pattern;state;amplitude
+C0026,Sleep architecture,P322-03,F-P322-03-1,specific,direct,eeg_features,temporal_pattern;state
+C0026,Sleep architecture,P049-02,F-P049-02-2,partial,direct,eeg_features,temporal_pattern
+C0026,Sleep architecture,P296-03,F-P296-03-1,partial,direct,mixed,temporal_pattern;other
+C0026,Sleep architecture,P322-04,F-P322-04-1,partial,direct,eeg_features,temporal_pattern;state;amplitude;frequency
+C0026,Sleep architecture,P322-05,F-P322-05-1,partial,direct,eeg_features,temporal_pattern
+C0026,Sleep architecture,P336-06,F-P336-06-1,partial,direct,mixed,temporal_pattern;age;other
+C0027,Sleep onset rapid eye movement sleep (SOREM),P319-06,F-P319-06-2,partial,direct,eeg_features,age;state
+C0027,Sleep onset rapid eye movement sleep (SOREM),P336-07,F-P336-07-2,partial,direct,mixed,temporal_pattern;clinical_association
+C0028,Sleep spindles,P047-02,F-P047-02-3,specific,direct,eeg_features,frequency;morphology;amplitude;topography
+C0028,Sleep spindles,P312-04,F-P312-04-1,specific,direct,eeg_features,frequency;morphology;temporal_pattern;topography;age
+C0028,Sleep spindles,P110-02,F-P110-02-1,partial,direct,mixed,age;topography;frequency;state;clinical_association
+C0028,Sleep spindles,P314-08,F-P314-08-1,partial,direct,eeg_features,state;temporal_pattern
+C0028,Sleep spindles,P317-06,F-P317-06-1,partial,direct,eeg_features,age;topography;temporal_pattern
+C0028,Sleep spindles,P317-07,F-P317-07-1,partial,direct,eeg_features,frequency;topography;age
+C0029,Vertex sharp transient,P045-02,F-P045-02-1,specific,direct,eeg_features,morphology;topography;state;activation;age
+C0029,Vertex sharp transient,P311-05,F-P311-05-1,specific,direct,eeg_features,morphology;topography;state
+C0029,Vertex sharp transient,P319-02,F-P319-02-1,partial,direct,eeg_features,morphology;amplitude;age;temporal_pattern
+C0030,Polyspike-and- slow-wave complex,P133-02,F-P133-02-1,specific,direct,mixed,morphology;topography;state;activation;clinical_association
+C0030,Polyspike-and- slow-wave complex,P143-03,F-P143-03-1,partial,direct,eeg_features,morphology
+C0030,Polyspike-and- slow-wave complex,P146-02,F-P146-02-1,partial,direct,clinical_association,clinical_association;temporal_pattern
+C0031,Polyspikes,P133-02,F-P133-02-1,partial,direct,eeg_features,morphology;amplitude;topography
+C0031,Polyspikes,P147-02,F-P147-02-2,partial,direct,clinical_association,clinical_association
+C0031,Polyspikes,P235-02,F-P235-02-1,partial,direct,mixed,frequency;topography;clinical_association
+C0032,Runs of rapid spikes,P135-02,F-P135-02-1,specific,direct,mixed,frequency;topography;state;temporal_pattern;clinical_association
+C0032,Runs of rapid spikes,P190-02,F-P190-02-1,partial,direct,mixed,state;temporal_pattern;clinical_association
+C0033,Sharp wave,P117-02,F-P117-02-1,specific,direct,eeg_features,morphology;topography
+C0033,Sharp wave,P119-02,F-P119-02-1,partial,direct,mixed,morphology;age;clinical_association
+C0033,Sharp wave,P120-02,F-P120-02-1,partial,direct,mixed,morphology;topography;state;clinical_association
+C0034,Sharp-and-slow- wave complex,P134-02,F-P134-02-1,partial,subtype,mixed,morphology;frequency;topography;temporal_pattern;clinical_association
+C0036,Spike,P117-02,F-P117-02-1,specific,direct,eeg_features,morphology;topography
+C0036,Spike,P118-02,F-P118-02-1,specific,direct,mixed,morphology;topography;clinical_association
+C0036,Spike,P119-02,F-P119-02-1,partial,direct,mixed,morphology;age;clinical_association
+C0036,Spike,P122-02,F-P122-02-1,partial,direct,mixed,morphology;topography;state;age;clinical_association
+C0036,Spike,P123-02,F-P123-02-1,partial,direct,mixed,morphology;amplitude;topography;state;clinical_association
+C0036,Spike,P124-02,F-P124-02-1,partial,direct,mixed,morphology;topography;state;clinical_association
+C0036,Spike,P125-02,F-P125-02-1,partial,direct,mixed,topography;age;state;clinical_association
+C0036,Spike,P126-02,F-P126-02-1,partial,direct,mixed,topography;clinical_association
+C0036,Spike,P127-02,F-P127-02-1,partial,direct,mixed,topography;clinical_association
+C0036,Spike,P128-02,F-P128-02-1,partial,direct,clinical_association,topography;clinical_association
+C0037,Spike-and-slow- wave,P131-02,F-P131-02-1,partial,subtype,mixed,morphology;frequency;topography;activation;state;clinical_association
+C0037,Spike-and-slow- wave,P132-02,F-P132-02-1,partial,subtype,mixed,frequency;temporal_pattern;clinical_association
+C0037,Spike-and-slow- wave,P134-02,F-P134-02-1,partial,subtype,mixed,frequency;morphology;topography;temporal_pattern;activation;clinical_association
+C0037,Spike-and-slow- wave,P143-03,F-P143-03-1,partial,subtype,eeg_features,morphology;frequency;temporal_pattern;topography
+C0037,Spike-and-slow- wave,P185-02,F-P185-02-1,partial,subtype,mixed,frequency;topography;temporal_pattern;state;age;clinical_association
+C0037,Spike-and-slow- wave,P189-02,F-P189-02-1,partial,subtype,clinical_association,clinical_association
+C0038,Spike-and-slow-wave runs: Classical 3/s,P131-02,F-P131-02-1,specific,direct,mixed,frequency;topography;morphology;activation;state;clinical_association
+C0038,Spike-and-slow-wave runs: Classical 3/s,P185-02,F-P185-02-1,specific,direct,mixed,frequency;topography;temporal_pattern;state;age;clinical_association
+C0038,Spike-and-slow-wave runs: Classical 3/s,P143-03,F-P143-03-1,partial,direct,eeg_features,frequency;temporal_pattern;morphology;topography
+C0038,Spike-and-slow-wave runs: Classical 3/s,P182-06,F-P182-06-1,partial,direct,eeg_features,frequency;topography;temporal_pattern
+C0038,Spike-and-slow-wave runs: Classical 3/s,P238-04,F-P238-04-1,partial,direct,mixed,frequency;topography;temporal_pattern;clinical_association
+C0039,Spike-and-slow-wave runs: Slow 1-2.5/s,P134-02,F-P134-02-1,specific,direct,mixed,frequency;morphology;topography;temporal_pattern;state;activation;clinical_association
+C0039,Spike-and-slow-wave runs: Slow 1-2.5/s,P182-08,F-P182-08-1,partial,direct,eeg_features,frequency;morphology;topography;temporal_pattern
+C0039,Spike-and-slow-wave runs: Slow 1-2.5/s,P186-02,F-P186-02-1,partial,direct,mixed,frequency;morphology;temporal_pattern;clinical_association
+C0039,Spike-and-slow-wave runs: Slow 1-2.5/s,P242-02,F-P242-02-1,partial,direct,mixed,frequency;temporal_pattern;age;clinical_association
+C0040,Spike-and-slow-wave runs: Fast 4-5/s,P132-02,F-P132-02-1,partial,direct,mixed,frequency;amplitude;state;clinical_association
+C0042,Excessive delta activity,P044-02,F-P044-02-1,general,broader,mixed,frequency;age;state;activation;topography;clinical_association
+C0042,Excessive delta activity,P092-02,F-P092-02-1,general,broader,mixed,frequency;amplitude;temporal_pattern;clinical_association
+C0042,Excessive delta activity,P094-02,F-P094-02-1,partial,direct,mixed,temporal_pattern;topography;morphology;frequency;clinical_association
+C0042,Excessive delta activity,P097-02,F-P097-02-1,partial,subtype,mixed,temporal_pattern;morphology;reactivity;topography;clinical_association
+C0042,Excessive delta activity,P106-02,F-P106-02-1,partial,direct,mixed,temporal_pattern;topography;clinical_association
+C0044,Intermittent rhythmic slow activity,P095-02,F-P095-02-1,partial,subtype,mixed,morphology;amplitude;topography;age;activation;clinical_association
+C0044,Intermittent rhythmic slow activity,P096-02,F-P096-02-1,partial,subtype,mixed,topography;age;clinical_association
+C0044,Intermittent rhythmic slow activity,P104-02,F-P104-02-1,partial,subtype,mixed,morphology;topography;state;clinical_association
+C0045,Frontal intermittent rhythmic delta activity (FIRDA),P095-02,F-P095-02-1,specific,direct,mixed,morphology;amplitude;topography;temporal_pattern;age;activation;state;clinical_association
+C0045,Frontal intermittent rhythmic delta activity (FIRDA),P271-02,F-P271-02-1,general,broader,mixed,morphology;topography;temporal_pattern;clinical_association
+C0046,Occipital intermittent rhythmic delta activity (OIRDA),P096-02,F-P096-02-1,specific,direct,mixed,topography;morphology;temporal_pattern;age;clinical_association
+C0047,Temporal intermittent rhythmic delta activity (TIRDA),P104-02,F-P104-02-1,specific,direct,mixed,morphology;topography;temporal_pattern;state;clinical_association
+C0048,Polymorphic delta activity,P108-02,F-P108-02-1,specific,direct,mixed,frequency;morphology;topography;state;clinical_association
+C0048,Polymorphic delta activity,P094-02,F-P094-02-1,partial,direct,mixed,temporal_pattern;morphology;clinical_association
+C0048,Polymorphic delta activity,P097-02,F-P097-02-1,partial,direct,mixed,temporal_pattern;reactivity;clinical_association
+C0048,Polymorphic delta activity,P102-02,F-P102-02-1,partial,direct,mixed,topography;temporal_pattern;clinical_association
+C0049,Excessive theta activity,P091-04,F-P091-04-1,specific,direct,mixed,frequency;amplitude;topography;age;state;temporal_pattern
+C0049,Excessive theta activity,P092-02,F-P092-02-1,general,broader,mixed,frequency;temporal_pattern;clinical_association
+C0050,Bilateral independent periodic lateralized epileptiform discharges (Bi-PLEDs),P268-02,F-P268-02-1,specific,direct,mixed,topography;clinical_association;prognosis
+C0050,Bilateral independent periodic lateralized epileptiform discharges (Bi-PLEDs),P265-02,F-P265-02-1,general,broader,eeg_features,temporal_pattern
+C0051,Hypsarrhythmia,P154-04,F-P154-04-1,specific,direct,mixed,amplitude;morphology;temporal_pattern;age;clinical_association
+C0052,Periodic lateralized epileptiform discharges (PLEDs),P231-02,F-P231-02-2;F-P231-02-3,specific;partial,direct,eeg_features;clinical_association,morphology;frequency;temporal_pattern;topography;clinical_association
+C0052,Periodic lateralized epileptiform discharges (PLEDs),P267-02,F-P267-02-1,specific,direct,eeg_features,morphology;temporal_pattern
+C0052,Periodic lateralized epileptiform discharges (PLEDs),P265-02,F-P265-02-1,general,broader,eeg_features,temporal_pattern
+C0052,Periodic lateralized epileptiform discharges (PLEDs),P232-02,F-P232-02-1,partial,direct,mixed,temporal_pattern;frequency;clinical_association
+C0052,Periodic lateralized epileptiform discharges (PLEDs),P266-02,F-P266-02-1,partial,direct,clinical_association,clinical_association;temporal_pattern
+C0052,Periodic lateralized epileptiform discharges (PLEDs),P266-03,F-P266-03-1,partial,direct,clinical_association,clinical_association
+C0052,Periodic lateralized epileptiform discharges (PLEDs),P266-04,F-P266-04-1,partial,direct,clinical_association,clinical_association
+C0052,Periodic lateralized epileptiform discharges (PLEDs),P267-03,F-P267-03-1,partial,subtype,mixed,morphology;clinical_association
+C0053,Periodic complex discharges – other than PLEDs,P265-02,F-P265-02-1,general,broader,eeg_features,temporal_pattern
+C0053,Periodic complex discharges – other than PLEDs,P269-02,F-P269-02-1,general,broader,mixed,topography;clinical_association;frequency
+C0054,"Stimulus-induced rhythmic, periodic, or ictal discharges (SIRPIDS)",P282-03,F-P282-03-1,specific,direct,mixed,activation;temporal_pattern;clinical_association
+C0054,"Stimulus-induced rhythmic, periodic, or ictal discharges (SIRPIDS)",P283-02,F-P283-02-1,partial,direct,clinical_association,activation;clinical_association
+C0055,Triphasic waves,P270-02,F-P270-02-2,partial,direct,clinical_association,morphology;clinical_association
+C0059,Periodic,P265-02,F-P265-02-1,partial,direct,eeg_features,temporal_pattern
+C0064,Atypical absence seizure,P142-02,F-P142-02-1,specific,direct,mixed,frequency;temporal_pattern;clinical_association
+C0064,Atypical absence seizure,P182-08,F-P182-08-1,specific,direct,eeg_features,frequency;morphology;temporal_pattern;clinical_association
+C0064,Atypical absence seizure,P186-02,F-P186-02-1,specific,direct,mixed,frequency;morphology;temporal_pattern;clinical_association
+C0065,Typical absence seizure,P142-03,F-P142-03-1,specific,direct,mixed,frequency;temporal_pattern;clinical_association
+C0065,Typical absence seizure,P143-02,F-P143-02-1,specific,direct,mixed,frequency;clinical_association
+C0065,Typical absence seizure,P143-03,F-P143-03-1,partial,direct,eeg_features,frequency;temporal_pattern;morphology;topography
+C0065,Typical absence seizure,P182-06,F-P182-06-1,partial,direct,eeg_features,frequency;topography;temporal_pattern;clinical_association
+C0065,Typical absence seizure,P185-02,F-P185-02-1,partial,direct,mixed,frequency;topography;temporal_pattern;state;age;clinical_association
+C0066,Atonic seizure,P150-02,F-P150-02-1,partial,direct,mixed,topography;clinical_association;other
+C0067,Clonic seizure,P149-02,F-P149-02-1,partial,direct,mixed,age;topography;clinical_association
+C0068,Eyelid myoclonia - with (or without) absence,P145-02,F-P145-02-1,specific,direct,mixed,activation;topography;temporal_pattern;clinical_association
+C0069,Myoclonic seizure,P146-02,F-P146-02-1,specific,direct,mixed,morphology;temporal_pattern;clinical_association
+C0069,Myoclonic seizure,P182-10,F-P182-10-1,partial,direct,eeg_features,morphology;topography;other
+C0069,Myoclonic seizure,P235-02,F-P235-02-2,partial,direct,eeg_features,frequency;topography;temporal_pattern
+C0070,Myoclonic absence,P144-02,F-P144-02-1,specific,direct,mixed,frequency;clinical_association
+C0071,Myoclonic atonic,P147-02,F-P147-02-1,specific,direct,mixed,age;temporal_pattern;clinical_association;other
+C0072,Myoclonic tonic,P148-02,F-P148-02-1,specific,direct,mixed,age;temporal_pattern;clinical_association;other
+C0073,Tonic seizure,P183-03,F-P183-03-1,specific,direct,mixed,frequency;topography;temporal_pattern;clinical_association
+C0073,Tonic seizure,P190-02,F-P190-02-2,specific,direct,mixed,frequency;temporal_pattern;clinical_association
+C0073,Tonic seizure,P149-02,F-P149-02-2,partial,direct,mixed,topography;clinical_association
+C0074,Tonic–clonic (in any combination),P140-02,F-P140-02-1,specific,direct,clinical_association,temporal_pattern;age;clinical_association
+C0074,Tonic–clonic (in any combination),P182-04,F-P182-04-1,specific,direct,eeg_features,frequency;temporal_pattern;clinical_association
+C0074,Tonic–clonic (in any combination),P188-02,F-P188-02-1,partial,direct,mixed,frequency;topography;temporal_pattern;clinical_association
+C0075,Localization,P152-02,F-P152-02-1,partial,direct,mixed,topography;age;temporal_pattern;clinical_association
+C0075,Localization,P181-02,F-P181-02-1,partial,direct,mixed,topography;temporal_pattern
+C0075,Localization,P191-02,F-P191-02-1,partial,direct,mixed,topography;frequency;temporal_pattern
+C0075,Localization,P192-02,F-P192-02-1,partial,direct,clinical_association,topography;clinical_association
+C0075,Localization,P193-02,F-P193-02-1,partial,subtype,mixed,topography;frequency;temporal_pattern;clinical_association
+C0075,Localization,P194-02,F-P194-02-1,partial,subtype,mixed,topography;frequency;temporal_pattern;clinical_association
+C0075,Localization,P195-02,F-P195-02-1,partial,direct,mixed,topography
+C0075,Localization,P198-02,F-P198-02-1,partial,subtype,mixed,topography;frequency;clinical_association
+C0075,Localization,P199-02,F-P199-02-1,partial,subtype,mixed,topography;clinical_association
+C0075,Localization,P200-02,F-P200-02-1,partial,subtype,mixed,topography;clinical_association
+C0075,Localization,P201-02,F-P201-02-1,partial,subtype,mixed,topography;clinical_association
+C0075,Localization,P202-02,F-P202-02-1,partial,subtype,mixed,topography;frequency;clinical_association
+C0076,Evolving to bilateral convulsive seizure,P188-02,F-P188-02-2,partial,direct,mixed,topography;clinical_association
+C0077,Electrographic seizure,P181-03,F-P181-03-2,partial,direct,mixed,temporal_pattern;frequency;amplitude;topography;clinical_association
+C0077,Electrographic seizure,P203-02,F-P203-02-1,partial,subtype,clinical_association,clinical_association;other
+C0077,Electrographic seizure,P247-02,F-P247-02-1,partial,direct,clinical_association,clinical_association
+C0077,Electrographic seizure,P275-03,F-P275-03-1,partial,direct,mixed,temporal_pattern;frequency;clinical_association
+C0078,Epileptic spasm (seizure),P154-02,F-P154-02-1,specific,direct,clinical_association,temporal_pattern;age;clinical_association
+C0078,Epileptic spasm (seizure),P155-02,F-P155-02-1,specific,direct,eeg_features,amplitude;morphology;topography;temporal_pattern
+C0078,Epileptic spasm (seizure),P155-03,F-P155-03-1,partial,direct,mixed,age;temporal_pattern;clinical_association
+C0081,Psychogenic non-epileptic seizure (PNES),P087-02,F-P087-02-1,specific,direct,mixed,temporal_pattern;morphology;clinical_association
+C0081,Psychogenic non-epileptic seizure (PNES),P163-03,F-P163-03-1,partial,direct,clinical_association,clinical_association
+C0081,Psychogenic non-epileptic seizure (PNES),P180-04,F-P180-04-1,partial,direct,clinical_association,clinical_association
+C0081,Psychogenic non-epileptic seizure (PNES),P205-03,F-P205-03-1,partial,direct,mixed,clinical_association
+C0082,Syncope,P164-03,F-P164-03-1,specific,direct,mixed,frequency;amplitude;temporal_pattern;clinical_association
+C0084,Periodic Limb Movement in Sleep (PLMS),P332-04,F-P332-04-1,specific,direct,eeg_features,temporal_pattern;other
+C0084,Periodic Limb Movement in Sleep (PLMS),P332-03,F-P332-03-1,partial,direct,eeg_features,amplitude;temporal_pattern;other
+C0084,Periodic Limb Movement in Sleep (PLMS),P332-05,F-P332-05-1,partial,direct,eeg_features,temporal_pattern
+C0084,Periodic Limb Movement in Sleep (PLMS),P332-06,F-P332-06-1,partial,direct,eeg_features,temporal_pattern
+C0084,Periodic Limb Movement in Sleep (PLMS),P333-02,F-P333-02-1,partial,direct,mixed,other
+C0085,REM Sleep Behavioral Disorder (RBD),P334-03,F-P334-03-1,specific,direct,mixed,state;clinical_association
+C0085,REM Sleep Behavioral Disorder (RBD),P334-04,F-P334-04-1,specific,direct,clinical_association,state;clinical_association
+C0085,REM Sleep Behavioral Disorder (RBD),P334-05,F-P334-05-1,partial,direct,eeg_features,state;topography;other
+C0085,REM Sleep Behavioral Disorder (RBD),P334-06,F-P334-06-1,partial,direct,eeg_features,state;other
+C0085,REM Sleep Behavioral Disorder (RBD),P334-07,F-P334-07-1,partial,direct,eeg_features,state;amplitude;temporal_pattern;other
+C0085,REM Sleep Behavioral Disorder (RBD),P334-08,F-P334-08-1,partial,direct,eeg_features,state;other
+C0085,REM Sleep Behavioral Disorder (RBD),P335-02,F-P335-02-1,partial,direct,eeg_features,state;other
+C0085,REM Sleep Behavioral Disorder (RBD),P335-03,F-P335-03-1,partial,direct,eeg_features,state;other
+C0085,REM Sleep Behavioral Disorder (RBD),P335-05,F-P335-05-1,partial,direct,clinical_association,state;temporal_pattern;clinical_association
+C0085,REM Sleep Behavioral Disorder (RBD),P335-06,F-P335-06-1,partial,direct,clinical_association,state;clinical_association
+C0085,REM Sleep Behavioral Disorder (RBD),P336-02,F-P336-02-1,partial,direct,mixed,state;other
+C0090,Burst-suppression pattern,P259-02,F-P259-02-1,specific,direct,mixed,amplitude;temporal_pattern;morphology;clinical_association;prognosis
+C0090,Burst-suppression pattern,P376-05,F-P376-05-1,partial,direct,clinical_association,clinical_association
+C0092,Disappearance of ongoing activity,P197-02,F-P197-02-1,specific,direct,eeg_features,temporal_pattern;topography
+C0093,Electrodecremental change,P155-02,F-P155-02-1,partial,direct,eeg_features,amplitude;temporal_pattern;topography
+C0093,Electrodecremental change,P224-06,F-P224-06-1,partial,direct,eeg_features,amplitude;frequency;age
+C0098,Low-voltage fast activity,P217-03,F-P217-03-2,partial,direct,eeg_features,topography;other
+C0098,Low-voltage fast activity,P218-02,F-P218-02-1,partial,direct,eeg_features,temporal_pattern;topography;frequency
+C0098,Low-voltage fast activity,P219-02,F-P219-02-1,partial,direct,clinical_association,clinical_association;prognosis
+C0098,Low-voltage fast activity,P224-06,F-P224-06-1,partial,direct,eeg_features,amplitude;frequency;age
+C0099,Obscured by artefacts,P087-02,F-P087-02-2,partial,direct,eeg_features,temporal_pattern;other
+C0099,Obscured by artefacts,P181-01,F-P181-01-2,partial,direct,eeg_features,temporal_pattern;other
+C0100,No demonstrable ictal EEG change,P181-01,F-P181-01-3,partial,direct,mixed,topography;clinical_association
+C0100,No demonstrable ictal EEG change,P231-02,F-P231-02-4,partial,direct,mixed,topography;clinical_association
+C0101,Periodic epileptiform discharges,P231-02,F-P231-02-2,partial,subtype,eeg_features,morphology;frequency;topography
+C0101,Periodic epileptiform discharges,P232-02,F-P232-02-1,partial,subtype,mixed,frequency;clinical_association
+C0101,Periodic epileptiform discharges,P266-04,F-P266-04-1,partial,subtype,clinical_association,clinical_association
+C0103,Rhythmic activity,P152-02,F-P152-02-2,partial,direct,eeg_features,temporal_pattern;frequency;amplitude;topography
+C0103,Rhythmic activity,P265-02,F-P265-02-1,partial,direct,eeg_features,temporal_pattern
+C0103,Rhythmic activity,P273-02,F-P273-02-1,partial,subtype,mixed,frequency;temporal_pattern;clinical_association
+C0105,Tonic motor manifestation,P140-02,F-P140-02-2,partial,direct,clinical_association,temporal_pattern
+C0105,Tonic motor manifestation,P149-02,F-P149-02-2,partial,direct,mixed,topography;clinical_association
+C0105,Tonic motor manifestation,P200-02,F-P200-02-2,partial,direct,clinical_association,topography;clinical_association
+C0105,Tonic motor manifestation,P236-02,F-P236-02-3,partial,direct,clinical_association,topography
+C0107,Epileptic spasm (motor manifestation),P154-02,F-P154-02-2,specific,direct,clinical_association,temporal_pattern;age;topography
+C0108,Postural,P140-02,F-P140-02-2,partial,direct,clinical_association,topography
+C0108,Postural,P200-02,F-P200-02-2,partial,direct,clinical_association,topography;clinical_association
+C0108,Postural,P236-02,F-P236-02-3,partial,direct,clinical_association,topography
+C0109,Versive,P202-02,F-P202-02-2,partial,direct,clinical_association,topography;clinical_association
+C0110,Myoclonic motor manifestation,P146-02,F-P146-02-1,partial,direct,mixed,temporal_pattern;topography
+C0111,Clonic motor manifestation,P140-02,F-P140-02-3,partial,direct,clinical_association,temporal_pattern
+C0111,Clonic motor manifestation,P149-02,F-P149-02-1,partial,direct,mixed,topography;age
+C0111,Clonic motor manifestation,P231-02,F-P231-02-5,partial,direct,clinical_association,topography;temporal_pattern
+C0114,Tonic-clonic,P140-02,F-P140-02-1,specific,direct,clinical_association,temporal_pattern;age;clinical_association
+C0115,Generalized tonic-clonic seizure (Formerly “Grand Mal” Seizure),P140-02,F-P140-02-1,specific,direct,clinical_association,temporal_pattern;age;clinical_association
+C0115,Generalized tonic-clonic seizure (Formerly “Grand Mal” Seizure),P182-04,F-P182-04-1,specific,direct,eeg_features,frequency;temporal_pattern;clinical_association
+C0115,Generalized tonic-clonic seizure (Formerly “Grand Mal” Seizure),P188-02,F-P188-02-1,partial,direct,mixed,frequency;topography;temporal_pattern;clinical_association
+C0117,Atonic motor manifestation,P150-02,F-P150-02-1,partial,direct,mixed,topography;clinical_association
+C0118,Astatic,P147-02,F-P147-02-3,partial,direct,clinical_association,temporal_pattern;clinical_association
+C0118,Astatic,P183-03,F-P183-03-2,partial,direct,clinical_association,clinical_association
+C0132,Gastrointestinal,P192-02,F-P192-02-2,partial,subtype,clinical_association,topography;clinical_association
+C0139,Urinary incontinence,P140-02,F-P140-02-4,partial,direct,clinical_association,clinical_association
+C0141,MOTOR/BEHAVIOURAL ARREST,P143-02,F-P143-02-1,partial,direct,mixed,temporal_pattern;age;clinical_association
+C0142,DYSCOGNITIVE,P237-02,F-P237-02-1,partial,direct,clinical_association,clinical_association
+C0142,DYSCOGNITIVE,P239-02,F-P239-02-1,partial,direct,clinical_association,clinical_association
+C0142,DYSCOGNITIVE,P244-02,F-P244-02-1,partial,direct,clinical_association,clinical_association
+C0146,Epigastric,P192-02,F-P192-02-2,partial,direct,clinical_association,topography;clinical_association
+C0148,Painful,P201-02,F-P201-02-2,partial,direct,clinical_association,topography;clinical_association
+C0149,Somatosensory,P201-02,F-P201-02-2,partial,direct,clinical_association,topography;clinical_association
+C0150,Visual,P202-02,F-P202-02-3,partial,direct,clinical_association,topography;clinical_association
+C0152,Hallucinatory,P202-02,F-P202-02-5,partial,direct,clinical_association,topography
+C0153,Illusory,P202-02,F-P202-02-4,partial,subtype,clinical_association,topography
+C0156,Aphasia/dysphasia,P244-02,F-P244-02-1,partial,direct,clinical_association,clinical_association
+C0172,Diffuse slowing induced by hyperventilation,P050-03,F-P050-03-2,partial,direct,eeg_features,activation;topography;amplitude;temporal_pattern
+C0173,Fast alpha variant rhythm,P039-03,F-P039-03-3,partial,direct,eeg_features,frequency;topography;reactivity;morphology
+C0174,Lambda wave,P043-02,F-P043-02-1,specific,direct,eeg_features,morphology;topography;age;activation;amplitude
+C0175,Photic driving (photic following),P051-02,F-P051-02-2,specific,direct,eeg_features,activation;frequency;topography;state
+C0176,Photomyogenic response,P051-02,F-P051-02-3,specific,direct,mixed,activation;topography;temporal_pattern;amplitude;clinical_association
+C0176,Photomyogenic response,P071-02,F-P071-02-1,specific,direct,eeg_features,activation;topography;temporal_pattern
+C0177,Posterior slow waves in youth,P315-07,F-P315-07-1,partial,direct,eeg_features,age;frequency;topography
+C0178,Saw-tooth waves,P314-02,F-P314-02-1,specific,direct,eeg_features,morphology;frequency;topography;state
+C0178,Saw-tooth waves,P049-02,F-P049-02-1,partial,direct,eeg_features,morphology;topography;state
+C0178,Saw-tooth waves,P320-02,F-P320-02-1,partial,direct,eeg_features,age;frequency;topography;state
+C0179,Slow alpha variant rhythms,P039-03,F-P039-03-3,partial,direct,eeg_features,frequency;topography;reactivity;morphology
+C0180,Physiologic theta activity,P042-02,F-P042-02-1,specific,direct,eeg_features,frequency;amplitude;topography;age;state;activation
+C0180,Physiologic theta activity,P045-02,F-P045-02-4,partial,direct,eeg_features,state
+C0180,Physiologic theta activity,P091-04,F-P091-04-1,partial,direct,eeg_features,amplitude;topography;age;temporal_pattern
+C0180,Physiologic theta activity,P317-04,F-P317-04-2,partial,direct,eeg_features,age;state;frequency;topography
+C0181,Benign epileptiform transients of sleep (BETS),P058-02,F-P058-02-1,specific,direct,eeg_features,morphology;amplitude;topography;state;age
+C0182,Breach rhythm,P041-02,F-P041-02-4,partial,direct,eeg_features,amplitude;topography;frequency;clinical_association
+C0183,Fourteen- and 6- Hz positive burst,P057-02,F-P057-02-1,specific,direct,eeg_features,morphology;frequency;topography;age;temporal_pattern
+C0184,Rhythmic temporal theta burst of drowsiness (RTTD),P053-04,F-P053-04-1,specific,direct,eeg_features,frequency;morphology;topography;temporal_pattern;state;age;other
+C0185,Six Hz spike and slow wave,P055-02,F-P055-02-1,specific,direct,mixed,frequency;amplitude;state;topography;clinical_association
+C0186,Subclinical rhythmic EEG discharge of adults (SREDA),P061-02,F-P061-02-1,specific,direct,mixed,frequency;morphology;topography;temporal_pattern;age;state;activation;clinical_association
+C0187,Temporal slowing in elderly subjects,P042-02,F-P042-02-2,partial,direct,eeg_features,age;topography;frequency
+C0187,Temporal slowing in elderly subjects,P044-02,F-P044-02-3,partial,direct,eeg_features,age;topography;temporal_pattern
+C0188,Wicket spikes,P059-02,F-P059-02-1,specific,direct,mixed,frequency;amplitude;topography;state;age;morphology;clinical_association
+C0189,50-60 Hz artifact,P082-02,F-P082-02-1,specific,direct,eeg_features,frequency;other
+C0189,50-60 Hz artifact,P082-03,F-P082-03-1,partial,direct,eeg_features,topography;other
+C0190,Electrocardiogram (ECG),P065-02,F-P065-02-1,partial,direct,eeg_features,morphology;topography
+C0191,Electrode pops,P077-02,F-P077-02-1,general,broader,eeg_features,topography;morphology
+C0192,Electromyogram (EMG),P074-02,F-P074-02-1,specific,direct,eeg_features,morphology;topography;frequency;state
+C0192,Electromyogram (EMG),P072-02,F-P072-02-1,partial,direct,eeg_features,morphology;topography;state
+C0192,Electromyogram (EMG),P075-02,F-P075-02-1,partial,direct,eeg_features,morphology;topography;temporal_pattern
+C0193,Eye blinks,P066-02,F-P066-02-1,specific,direct,eeg_features,morphology;topography;amplitude
+C0194,Eye movements: horizontal,P067-02,F-P067-02-1,specific,direct,eeg_features,topography;morphology
+C0195,Eye movements: vertical,P068-02,F-P068-02-1,partial,direct,eeg_features,topography
+C0196,Induction artefacts,P026-02,F-P026-02-1,partial,direct,eeg_features,other
+C0196,Induction artefacts,P078-02,F-P078-02-1,partial,direct,eeg_features,frequency;other
+C0196,Induction artefacts,P084-03,F-P084-03-1,partial,direct,eeg_features,other
+C0196,Induction artefacts,P086-02,F-P086-02-1,partial,direct,eeg_features,frequency;topography;other
+C0197,Slow eye movements (drowsiness),P299-06,F-P299-06-1,specific,direct,eeg_features,temporal_pattern;state
+C0197,Slow eye movements (drowsiness),P067-02,F-P067-02-2,partial,direct,eeg_features,state
+C0197,Slow eye movements (drowsiness),P299-05,F-P299-05-1,partial,direct,eeg_features,state
+C0197,Slow eye movements (drowsiness),P310-07,F-P310-07-1,partial,direct,eeg_features,state
+C0198,Glossokinetic artifact,P075-02,F-P075-02-2,partial,direct,eeg_features,other
+C0199,Movement artifact,P087-02,F-P087-02-3,partial,direct,eeg_features,temporal_pattern;topography;morphology
+C0200,Pulse artifact,P065-02,F-P065-02-2,partial,direct,eeg_features,topography;temporal_pattern

@@ -1,4 +1,2 @@
-# Private excerpts from the user-supplied textbook and derived text/relations.
-# Keep these locally and transfer to the cluster separately from git.
-/source/
-/data/
+# Tatum source/ and data/ intentionally TRACKED to allow new Mac git clone.
+# Ensure both directories were staged and pushed from the source workstation.

@@ -20,6 +20,27 @@ export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 export OMP_NUM_THREADS="${SLURM_CPUS_PER_TASK:-8}"
 mkdir -p logs
 exec > >(tee -a "logs/mag_emb_smoke_${SLURM_JOB_ID}.log") 2>&1
+
+# NV-Embed-v2 requires a separate, pinned Transformers runtime.
+# Run it separately from models using the main environment.
+if [[ "${MODELS:-}" == "nvembed" ]]; then
+  export PYTHONPATH="$HOME/nvembed_runtime_libs${PYTHONPATH:+:$PYTHONPATH}"
+
+  python - <<'PY_NV'
+import transformers
+from transformers.cache_utils import DynamicCache
+
+print("NV_RUNTIME_VERSION:", transformers.__version__, flush=True)
+print("NV_RUNTIME_PATH:", transformers.__file__, flush=True)
+
+if transformers.__version__ != "4.46.0":
+    raise SystemExit("ERROR: NV-Embed requires Transformers 4.46.0")
+
+if not hasattr(DynamicCache, "get_usable_length"):
+    raise SystemExit("ERROR: incompatible DynamicCache API")
+PY_NV
+fi
+
 python -m v100_next_models.encode --dry-run
 nvidia-smi
 fail=0

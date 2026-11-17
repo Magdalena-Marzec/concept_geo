@@ -62,12 +62,16 @@ class Encoder:
             self.model.to('cuda').eval()
             self.pooling = 'CLS (first last_hidden_state token, SapBERT standard)'
         elif spec.backend == 'nv_embed_custom':
-            from transformers import AutoModel, AutoTokenizer
+            from transformers import AutoConfig, AutoModel, AutoTokenizer
             self.tokenizer = AutoTokenizer.from_pretrained(str(self.path), local_files_only=True)
+            config = AutoConfig.from_pretrained(
+                str(self.path), trust_remote_code=True, local_files_only=True
+            )
+            config.text_config._name_or_path = str(self.path.resolve())
             # The author's encode() implements learned latent-attention pooling.
             # Trust remote code only for this explicitly selected/pinned repo.
             self.model = AutoModel.from_pretrained(
-                str(self.path), trust_remote_code=True, local_files_only=True,
+                str(self.path), config=config, trust_remote_code=True, local_files_only=True,
                 torch_dtype=self.dtype, low_cpu_mem_usage=True,
                 attn_implementation='eager',
             )

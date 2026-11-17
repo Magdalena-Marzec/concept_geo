@@ -1,7 +1,7 @@
 #!/bin/bash -l
 #SBATCH --job-name=mag_emb_night
 #SBATCH --partition=gpu
-#SBATCH --account=g104-2594
+#SBATCH --account=g107-2945
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=8
 #SBATCH --gres=gpu:1

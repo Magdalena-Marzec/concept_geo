@@ -1,7 +1,7 @@
 #!/bin/bash -l
 #SBATCH --job-name=mag_emb_down
 #SBATCH --partition=gpu
-#SBATCH --account=g104-2594
+#SBATCH --account=g107-2945
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=12G

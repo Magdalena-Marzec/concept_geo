@@ -1,0 +1,10 @@
+# Install IN A SEPARATE virtualenv or after checking existing Qwen environment.
+# The original repo pinned torch==2.6.0 / transformers==4.57.6.
+# Avoid auto-upgrading CUDA/PyTorch without verifying Rysy compatibility.
+sentence-transformers>=5.1,<6
+accelerate>=1.0
+huggingface_hub>=0.35
+safetensors>=0.5
+einops>=0.8
+peft>=0.17
+pillow>=10

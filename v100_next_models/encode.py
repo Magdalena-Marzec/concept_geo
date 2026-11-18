@@ -104,7 +104,8 @@ class Encoder:
                 torch_dtype=self.dtype,
                 attn_implementation='eager',  # V100 cannot use FA2
             )
-            self.pooling = 'official Qwen3-VL-Embedding Qwen3VLEmbedder.process; text-only; no instruction'
+            self.pooling = 'official Qwen3-VL-Embedding Qwen3VLEmbedder.process; text-only; default instruction'
+            self.tokenizer = getattr(self.model.processor, 'tokenizer', None)
         else:
             raise ValueError(spec.backend)
 
@@ -217,10 +218,10 @@ def common_info(enc, mode):
         'l2_normalized': True, 'batch_size': enc.batch_size,
         'max_length_requested': enc.max_length,
         'max_length_effective': getattr(enc.model, 'max_seq_length', enc.max_length),
-        'instruction': None, 'sentence_transformer_prompt_override': '' if enc.spec.backend == 'sentence_transformer' else None,
+        "instruction": "Represent the user's input." if enc.spec.backend == "qwen3_vl_official" else None, 'sentence_transformer_prompt_override': '' if enc.spec.backend == 'sentence_transformer' else None,
         'score_sha256': sha256(SCORE), 'tatum_sha256': sha256(TATUM),
         'versions': dependency_versions(),
-        'experiment_note': 'raw, no centering, symmetric text geometry; default query prompts intentionally disabled',
+        'experiment_note': ('raw, no centering, symmetric text geometry; MedEmb uses official default instruction' if enc.spec.backend == 'qwen3_vl_official' else 'raw, no centering, symmetric text geometry; default query prompts intentionally disabled'),
     }
 
 

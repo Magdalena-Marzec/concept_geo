@@ -47,7 +47,16 @@ def check_tatum(cfg: dict) -> dict:
     assert len(rows) == cfg["expected_rows"]["tatum"], "Unexpected Tatum row count"
     counts = dict(Counter(r["type"] for r in rows))
     assert counts == cfg["expected_tatum_types"], "Unexpected Tatum type distribution"
-    assert sha256(path) == cfg["tatum_sha256"], "Tatum version differs; STOP and version explicitly"
+    # Accept LF/CRLF serialization of the same verified CSV.
+    # Never rewrite the source file.
+    import hashlib
+    original = path.read_bytes()
+    lf = original.replace(b"\r\n", b"\n")
+    assert b"\r" not in lf, "Unexpected standalone CR in Tatum CSV"
+    canonical_crlf = lf.replace(b"\n", b"\r\n")
+    assert hashlib.sha256(canonical_crlf).hexdigest() == cfg["tatum_sha256"], (
+        "Tatum content differs beyond newline encoding; STOP and version explicitly"
+    )
     return {"file": str(path.relative_to(ROOT)), "sha256": sha256(path), "rows": len(rows), "types": counts}
 
 

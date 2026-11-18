@@ -1,0 +1,38 @@
+{
+  "experiment": "harrier_oss_v1_27b_mlx_int4",
+  "kind": "dedicated_text_embedding",
+  "upstream_model": "microsoft/harrier-oss-v1-27b",
+  "mlx_repo": "majentik/harrier-oss-v1-27b-MLX-4bit",
+  "mlx_revision": "ff69d92ce0aff47e8b8f8dfb48715888046d970a",
+  "architecture": "gemma3_text",
+  "attention": "causal",
+  "pooling": "last_nonpadding_token",
+  "normalization": "l2",
+  "dimension": 5376,
+  "quantization": {
+    "bits": 4,
+    "group_size": 64,
+    "mode": "affine"
+  },
+  "input_mode": "unprompted_symmetric",
+  "query_instruction": null,
+  "document_instruction": null,
+  "max_tokens_initial": 2048,
+  "batch_size_initial": 1,
+  "truncation": "error",
+  "output_dtype": "float32",
+  "expected_rows": {
+    "score": 1827,
+    "tatum": 597
+  },
+  "expected_score_concepts": 203,
+  "expected_tatum_types": {
+    "fragment": 252,
+    "paragraph": 197,
+    "caption": 148
+  },
+  "score_sha256": "1ff66c5f084c3d0a766dc2f7baf9e76aaab00bdb3c4fcae8a81a19db4f46dcbd",
+  "conversion_validated_on_mac_studio": false,
+  "bf16_reference_checked": false,
+  "tatum_sha256": "24a13db5c6dfcde7431d9dc8a1516c9dec4377603ec35d54d80677835fe00895"
+}

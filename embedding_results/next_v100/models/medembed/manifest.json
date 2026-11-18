@@ -1,0 +1,62 @@
+{
+  "created_at_utc": "2026-11-17T20:25:11.219365+00:00",
+  "mode": "full",
+  "model_name": "medembed",
+  "repo_id": "abhinand/MedEmbed-large-v0.1",
+  "revision": "963121bfb9c625475f65b08fb54990ce9c4e7a1a",
+  "backend": "sentence_transformer",
+  "pooling": "checkpoint SentenceTransformer pooling; explicit prompt=\"\"",
+  "dtype_inference": "float32",
+  "dtype_saved": "float32",
+  "l2_normalized": true,
+  "batch_size": 16,
+  "max_length_requested": 512,
+  "max_length_effective": 512,
+  "instruction": null,
+  "sentence_transformer_prompt_override": "",
+  "score_sha256": "1ff66c5f084c3d0a766dc2f7baf9e76aaab00bdb3c4fcae8a81a19db4f46dcbd",
+  "tatum_sha256": "bb4078e4d2c1bb1867d1b4093bd435eee70b3c1a2cc408fa77ca56f4395d2df8",
+  "versions": {
+    "torch": "2.6.0",
+    "transformers": "4.57.6",
+    "sentence-transformers": "5.7.0",
+    "huggingface_hub": "0.36.2",
+    "numpy": "2.2.6",
+    "pandas": "2.2.3"
+  },
+  "experiment_note": "raw, no centering, symmetric text geometry; default query prompts intentionally disabled",
+  "outputs": {
+    "score": {
+      "file": "embedding_results/next_v100/models/medembed/score_medembed.npz",
+      "shape": [
+        1827,
+        1024
+      ],
+      "row_indices": "all"
+    },
+    "tatum": {
+      "file": "embedding_results/next_v100/models/medembed/tatum_medembed.npz",
+      "shape": [
+        597,
+        1024
+      ],
+      "row_indices": "all"
+    }
+  },
+  "token_audit": {
+    "score": {
+      "available": true,
+      "max_length_effective": 512,
+      "truncated_estimate": 0,
+      "max_tokens_observed": 410,
+      "note": "estimated from tokenizer, custom templates may add tokens"
+    },
+    "tatum": {
+      "available": true,
+      "max_length_effective": 512,
+      "truncated_estimate": 0,
+      "max_tokens_observed": 498,
+      "note": "estimated from tokenizer, custom templates may add tokens"
+    }
+  }
+}

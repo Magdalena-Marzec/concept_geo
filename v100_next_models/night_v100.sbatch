@@ -41,6 +41,33 @@ if not hasattr(DynamicCache, "get_usable_length"):
 PY_NV
 fi
 
+
+# Use the isolated Transformers 5 runtime for Nemotron Medical.
+if [[ "${MODELS:-}" == "nemotron_medical" ]]; then
+  export PYTHONPATH="$HOME/nemotron_runtime_libs${PYTHONPATH:+:$PYTHONPATH}"
+
+  python - <<'PY_NEM'
+import torch
+import transformers
+import sentence_transformers
+from transformers import AutoConfig
+
+print("NEMOTRON_TRANSFORMERS:", transformers.__version__, flush=True)
+print("NEMOTRON_SENTENCE_TRANSFORMERS:", sentence_transformers.__version__, flush=True)
+print("NEMOTRON_TORCH:", torch.__version__, flush=True)
+
+assert transformers.__version__ == "5.14.1"
+assert sentence_transformers.__version__ == "5.6.0"
+
+cfg = AutoConfig.from_pretrained(
+    "models/next_v100/nemotron_medical",
+    local_files_only=True
+)
+assert cfg.model_type == "ministral3"
+print("NEMOTRON_RUNTIME_OK", flush=True)
+PY_NEM
+fi
+
 python -m v100_next_models.encode --dry-run
 nvidia-smi
 fail=0

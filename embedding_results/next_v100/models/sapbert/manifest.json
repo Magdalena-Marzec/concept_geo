@@ -1,0 +1,62 @@
+{
+  "created_at_utc": "2026-11-17T20:26:15.236227+00:00",
+  "mode": "full",
+  "model_name": "sapbert",
+  "repo_id": "cambridgeltl/SapBERT-from-PubMedBERT-fulltext",
+  "revision": "090663c3ae57bf35ffe4d0d468a2a88d03051a4d",
+  "backend": "sapbert_cls",
+  "pooling": "CLS (first last_hidden_state token, SapBERT standard)",
+  "dtype_inference": "float32",
+  "dtype_saved": "float32",
+  "l2_normalized": true,
+  "batch_size": 24,
+  "max_length_requested": 512,
+  "max_length_effective": 512,
+  "instruction": null,
+  "sentence_transformer_prompt_override": null,
+  "score_sha256": "1ff66c5f084c3d0a766dc2f7baf9e76aaab00bdb3c4fcae8a81a19db4f46dcbd",
+  "tatum_sha256": "bb4078e4d2c1bb1867d1b4093bd435eee70b3c1a2cc408fa77ca56f4395d2df8",
+  "versions": {
+    "torch": "2.6.0",
+    "transformers": "4.57.6",
+    "sentence-transformers": "5.7.0",
+    "huggingface_hub": "0.36.2",
+    "numpy": "2.2.6",
+    "pandas": "2.2.3"
+  },
+  "experiment_note": "raw, no centering, symmetric text geometry; default query prompts intentionally disabled",
+  "outputs": {
+    "score": {
+      "file": "embedding_results/next_v100/models/sapbert/score_sapbert.npz",
+      "shape": [
+        1827,
+        768
+      ],
+      "row_indices": "all"
+    },
+    "tatum": {
+      "file": "embedding_results/next_v100/models/sapbert/tatum_sapbert.npz",
+      "shape": [
+        597,
+        768
+      ],
+      "row_indices": "all"
+    }
+  },
+  "token_audit": {
+    "score": {
+      "available": true,
+      "max_length_effective": 512,
+      "truncated_estimate": 0,
+      "max_tokens_observed": 368,
+      "note": "estimated from tokenizer, custom templates may add tokens"
+    },
+    "tatum": {
+      "available": true,
+      "max_length_effective": 512,
+      "truncated_estimate": 0,
+      "max_tokens_observed": 446,
+      "note": "estimated from tokenizer, custom templates may add tokens"
+    }
+  }
+}

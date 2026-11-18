@@ -1,0 +1,62 @@
+{
+  "created_at_utc": "2026-11-17T21:58:53.307786+00:00",
+  "mode": "full",
+  "model_name": "nvembed",
+  "repo_id": "nvidia/NV-Embed-v2",
+  "revision": "3fa59658547db50a1e8e3346cf057fd0c77ed6ef",
+  "backend": "nv_embed_custom",
+  "pooling": "NV-Embed-v2 official model.encode(), latent-attention; instruction=\"\"",
+  "dtype_inference": "float16",
+  "dtype_saved": "float32",
+  "l2_normalized": true,
+  "batch_size": 1,
+  "max_length_requested": 768,
+  "max_length_effective": 768,
+  "instruction": null,
+  "sentence_transformer_prompt_override": null,
+  "score_sha256": "1ff66c5f084c3d0a766dc2f7baf9e76aaab00bdb3c4fcae8a81a19db4f46dcbd",
+  "tatum_sha256": "bb4078e4d2c1bb1867d1b4093bd435eee70b3c1a2cc408fa77ca56f4395d2df8",
+  "versions": {
+    "torch": "2.6.0",
+    "transformers": "4.46.0",
+    "sentence-transformers": "5.7.0",
+    "huggingface_hub": "0.36.2",
+    "numpy": "2.2.6",
+    "pandas": "2.2.3"
+  },
+  "experiment_note": "raw, no centering, symmetric text geometry; default query prompts intentionally disabled",
+  "outputs": {
+    "score": {
+      "file": "embedding_results/next_v100/models/nvembed/score_nvembed.npz",
+      "shape": [
+        1827,
+        4096
+      ],
+      "row_indices": "all"
+    },
+    "tatum": {
+      "file": "embedding_results/next_v100/models/nvembed/tatum_nvembed.npz",
+      "shape": [
+        597,
+        4096
+      ],
+      "row_indices": "all"
+    }
+  },
+  "token_audit": {
+    "score": {
+      "available": true,
+      "max_length_effective": 768,
+      "truncated_estimate": 0,
+      "max_tokens_observed": 462,
+      "note": "estimated from tokenizer, custom templates may add tokens"
+    },
+    "tatum": {
+      "available": true,
+      "max_length_effective": 768,
+      "truncated_estimate": 0,
+      "max_tokens_observed": 547,
+      "note": "estimated from tokenizer, custom templates may add tokens"
+    }
+  }
+}

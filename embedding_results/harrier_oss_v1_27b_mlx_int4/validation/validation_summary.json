@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "model": "harrier-oss-v1-27b-MLX-4bit",
+  "total_vectors": 2424,
+  "dimension": 5376,
+  "metadata_validation": "PASS",
+  "geometric_sanity": "PASS",
+  "bf16_reference_checked": false,
+  "reports": [
+    "metadata_validation.json",
+    "geometry_validation.json"
+  ]
+}

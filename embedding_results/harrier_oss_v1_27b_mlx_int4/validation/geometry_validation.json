@@ -1,0 +1,92 @@
+{
+  "score": {
+    "dataset": "score",
+    "status": "PASS",
+    "vectors": 1827,
+    "dimension": 5376,
+    "norms": {
+      "count": 1827,
+      "mean": 1.0,
+      "std": 3.8138328051218195e-08,
+      "min": 0.9999998807907104,
+      "p01": 0.9999998807907104,
+      "p05": 0.9999999403953552,
+      "p50": 1.0,
+      "p95": 1.0,
+      "p99": 1.0000001192092896,
+      "max": 1.0000001192092896
+    },
+    "exact_duplicate_groups": 0,
+    "exact_duplicate_excess": 0,
+    "random_pair_cosine": {
+      "count": 11994,
+      "mean": 0.8785094022750854,
+      "std": 0.03829777613282204,
+      "min": 0.6514660716056824,
+      "p01": 0.7725523710250854,
+      "p05": 0.8065309524536133,
+      "p50": 0.8851532936096191,
+      "p95": 0.9306763410568237,
+      "p99": 0.9454532265663147,
+      "max": 0.9825825691223145
+    },
+    "mean_vector_norm": 0.9371333122253418,
+    "mean_vector_norm_squared": 0.87821884488244,
+    "anisotropy_note": "Preliminary indicator only; not a complete spectral anisotropy analysis.",
+    "within_concept_cosine": {
+      "count": 4060,
+      "mean": 0.939066469669342,
+      "std": 0.05439727380871773,
+      "min": 0.7301326990127563,
+      "p01": 0.7924346923828125,
+      "p05": 0.8258320689201355,
+      "p50": 0.9633234739303589,
+      "p95": 0.9855780601501465,
+      "p99": 0.990519642829895,
+      "max": 0.9968277812004089
+    },
+    "concept_count": 203,
+    "concept_sizes": {
+      "9": 203
+    }
+  },
+  "tatum": {
+    "dataset": "tatum",
+    "status": "PASS",
+    "vectors": 597,
+    "dimension": 5376,
+    "norms": {
+      "count": 597,
+      "mean": 1.0,
+      "std": 3.6018132476556275e-08,
+      "min": 0.9999998807907104,
+      "p01": 0.9999998807907104,
+      "p05": 0.9999999403953552,
+      "p50": 1.0,
+      "p95": 1.0,
+      "p99": 1.0000001192092896,
+      "max": 1.0000001192092896
+    },
+    "exact_duplicate_groups": 156,
+    "exact_duplicate_excess": 156,
+    "random_pair_cosine": {
+      "count": 11979,
+      "mean": 0.8912337422370911,
+      "std": 0.027268294245004654,
+      "min": 0.7856751680374146,
+      "p01": 0.8256847858428955,
+      "p05": 0.8449678421020508,
+      "p50": 0.8920937180519104,
+      "p95": 0.9339545369148254,
+      "p99": 0.9470184445381165,
+      "max": 1.0000001192092896
+    },
+    "mean_vector_norm": 0.9441106915473938,
+    "mean_vector_norm_squared": 0.8913449978940982,
+    "anisotropy_note": "Preliminary indicator only; not a complete spectral anisotropy analysis."
+  },
+  "cross_dataset": {
+    "exact_shared_embedding_vectors": 0
+  },
+  "interpretation": "Random-pair cosine statistics and mean-vector norm are descriptive diagnostics, not scientific validation of semantic quality or equivalence to BF16."
+}

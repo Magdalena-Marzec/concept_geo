@@ -1,0 +1,30 @@
+{
+  "score": {
+    "dataset": "score",
+    "status": "PASS",
+    "rows": 1827,
+    "dimension": 5376,
+    "dtype": "float32",
+    "source_sha256": "1ff66c5f084c3d0a766dc2f7baf9e76aaab00bdb3c4fcae8a81a19db4f46dcbd",
+    "tokenizer_sha256": "6852f8d561078cc0cebe70ca03c5bfdd0d60a45f9d2e0e1e4cc05b68e9ec329e",
+    "metadata_order_matches_source": true,
+    "token_lengths_match_tokenizer": true,
+    "max_tokens": 373,
+    "mean_tokens": 40.32840722495895,
+    "bf16_reference_checked": false
+  },
+  "tatum": {
+    "dataset": "tatum",
+    "status": "PASS",
+    "rows": 597,
+    "dimension": 5376,
+    "dtype": "float32",
+    "source_sha256": "bb4078e4d2c1bb1867d1b4093bd435eee70b3c1a2cc408fa77ca56f4395d2df8",
+    "tokenizer_sha256": "6852f8d561078cc0cebe70ca03c5bfdd0d60a45f9d2e0e1e4cc05b68e9ec329e",
+    "metadata_order_matches_source": true,
+    "token_lengths_match_tokenizer": true,
+    "max_tokens": 446,
+    "mean_tokens": 121.7537688442211,
+    "bf16_reference_checked": false
+  }
+}

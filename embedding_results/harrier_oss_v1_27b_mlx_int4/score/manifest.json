@@ -1,0 +1,24 @@
+{
+  "dataset": "score",
+  "input_sha256": "1ff66c5f084c3d0a766dc2f7baf9e76aaab00bdb3c4fcae8a81a19db4f46dcbd",
+  "tokenizer_sha256": "6852f8d561078cc0cebe70ca03c5bfdd0d60a45f9d2e0e1e4cc05b68e9ec329e",
+  "model_repo": "majentik/harrier-oss-v1-27b-MLX-4bit",
+  "model_revision": "ff69d92ce0aff47e8b8f8dfb48715888046d970a",
+  "rows": 1827,
+  "dimension": 5376,
+  "max_tokens": 2048,
+  "status": "complete_unvalidated_against_bf16",
+  "pooling": "last_nonpadding_token",
+  "attention": "causal",
+  "normalization": "l2",
+  "input_mode": "unprompted_symmetric",
+  "dtype": "float32",
+  "mlx_version": "0.32.4",
+  "mlx_lm_version": "0.32.2",
+  "quantization": {
+    "bits": 4,
+    "group_size": 64,
+    "mode": "affine"
+  },
+  "bf16_reference_checked": false
+}

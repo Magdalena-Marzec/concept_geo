@@ -1,0 +1,1828 @@
+embedding_index,row_id,concept,type,paraphrase_id
+0,0,Background activity,concept,
+1,0,Background activity,definition,
+2,0,Background activity,paraphrase,1.0
+3,0,Background activity,paraphrase,2.0
+4,0,Background activity,paraphrase,3.0
+5,0,Background activity,paraphrase,4.0
+6,0,Background activity,paraphrase,5.0
+7,0,Background activity,paraphrase,6.0
+8,0,Background activity,paraphrase,7.0
+9,1,Episodes,concept,
+10,1,Episodes,definition,
+11,1,Episodes,paraphrase,1.0
+12,1,Episodes,paraphrase,2.0
+13,1,Episodes,paraphrase,3.0
+14,1,Episodes,paraphrase,4.0
+15,1,Episodes,paraphrase,5.0
+16,1,Episodes,paraphrase,6.0
+17,1,Episodes,paraphrase,7.0
+18,2,Modulators,concept,
+19,2,Modulators,definition,
+20,2,Modulators,paraphrase,1.0
+21,2,Modulators,paraphrase,2.0
+22,2,Modulators,paraphrase,3.0
+23,2,Modulators,paraphrase,4.0
+24,2,Modulators,paraphrase,5.0
+25,2,Modulators,paraphrase,6.0
+26,2,Modulators,paraphrase,7.0
+27,3,Interictal findings,concept,
+28,3,Interictal findings,definition,
+29,3,Interictal findings,paraphrase,1.0
+30,3,Interictal findings,paraphrase,2.0
+31,3,Interictal findings,paraphrase,3.0
+32,3,Interictal findings,paraphrase,4.0
+33,3,Interictal findings,paraphrase,5.0
+34,3,Interictal findings,paraphrase,6.0
+35,3,Interictal findings,paraphrase,7.0
+36,4,Patterns of uncertain significance,concept,
+37,4,Patterns of uncertain significance,definition,
+38,4,Patterns of uncertain significance,paraphrase,1.0
+39,4,Patterns of uncertain significance,paraphrase,2.0
+40,4,Patterns of uncertain significance,paraphrase,3.0
+41,4,Patterns of uncertain significance,paraphrase,4.0
+42,4,Patterns of uncertain significance,paraphrase,5.0
+43,4,Patterns of uncertain significance,paraphrase,6.0
+44,4,Patterns of uncertain significance,paraphrase,7.0
+45,5,Physiologic patterns,concept,
+46,5,Physiologic patterns,definition,
+47,5,Physiologic patterns,paraphrase,1.0
+48,5,Physiologic patterns,paraphrase,2.0
+49,5,Physiologic patterns,paraphrase,3.0
+50,5,Physiologic patterns,paraphrase,4.0
+51,5,Physiologic patterns,paraphrase,5.0
+52,5,Physiologic patterns,paraphrase,6.0
+53,5,Physiologic patterns,paraphrase,7.0
+54,6,Sleep and drowsiness,concept,
+55,6,Sleep and drowsiness,definition,
+56,6,Sleep and drowsiness,paraphrase,1.0
+57,6,Sleep and drowsiness,paraphrase,2.0
+58,6,Sleep and drowsiness,paraphrase,3.0
+59,6,Sleep and drowsiness,paraphrase,4.0
+60,6,Sleep and drowsiness,paraphrase,5.0
+61,6,Sleep and drowsiness,paraphrase,6.0
+62,6,Sleep and drowsiness,paraphrase,7.0
+63,7,Background alpha activity,concept,
+64,7,Background alpha activity,definition,
+65,7,Background alpha activity,paraphrase,1.0
+66,7,Background alpha activity,paraphrase,2.0
+67,7,Background alpha activity,paraphrase,3.0
+68,7,Background alpha activity,paraphrase,4.0
+69,7,Background alpha activity,paraphrase,5.0
+70,7,Background alpha activity,paraphrase,6.0
+71,7,Background alpha activity,paraphrase,7.0
+72,8,Amplitude asymmetry,concept,
+73,8,Amplitude asymmetry,definition,
+74,8,Amplitude asymmetry,paraphrase,1.0
+75,8,Amplitude asymmetry,paraphrase,2.0
+76,8,Amplitude asymmetry,paraphrase,3.0
+77,8,Amplitude asymmetry,paraphrase,4.0
+78,8,Amplitude asymmetry,paraphrase,5.0
+79,8,Amplitude asymmetry,paraphrase,6.0
+80,8,Amplitude asymmetry,paraphrase,7.0
+81,9,Background beta activity,concept,
+82,9,Background beta activity,definition,
+83,9,Background beta activity,paraphrase,1.0
+84,9,Background beta activity,paraphrase,2.0
+85,9,Background beta activity,paraphrase,3.0
+86,9,Background beta activity,paraphrase,4.0
+87,9,Background beta activity,paraphrase,5.0
+88,9,Background beta activity,paraphrase,6.0
+89,9,Background beta activity,paraphrase,7.0
+90,10,Background delta activity,concept,
+91,10,Background delta activity,definition,
+92,10,Background delta activity,paraphrase,1.0
+93,10,Background delta activity,paraphrase,2.0
+94,10,Background delta activity,paraphrase,3.0
+95,10,Background delta activity,paraphrase,4.0
+96,10,Background delta activity,paraphrase,5.0
+97,10,Background delta activity,paraphrase,6.0
+98,10,Background delta activity,paraphrase,7.0
+99,11,Electrocerebral inactivity,concept,
+100,11,Electrocerebral inactivity,definition,
+101,11,Electrocerebral inactivity,paraphrase,1.0
+102,11,Electrocerebral inactivity,paraphrase,2.0
+103,11,Electrocerebral inactivity,paraphrase,3.0
+104,11,Electrocerebral inactivity,paraphrase,4.0
+105,11,Electrocerebral inactivity,paraphrase,5.0
+106,11,Electrocerebral inactivity,paraphrase,6.0
+107,11,Electrocerebral inactivity,paraphrase,7.0
+108,12,Generalised suppression burst,concept,
+109,12,Generalised suppression burst,definition,
+110,12,Generalised suppression burst,paraphrase,1.0
+111,12,Generalised suppression burst,paraphrase,2.0
+112,12,Generalised suppression burst,paraphrase,3.0
+113,12,Generalised suppression burst,paraphrase,4.0
+114,12,Generalised suppression burst,paraphrase,5.0
+115,12,Generalised suppression burst,paraphrase,6.0
+116,12,Generalised suppression burst,paraphrase,7.0
+117,13,Mu rhythm,concept,
+118,13,Mu rhythm,definition,
+119,13,Mu rhythm,paraphrase,1.0
+120,13,Mu rhythm,paraphrase,2.0
+121,13,Mu rhythm,paraphrase,3.0
+122,13,Mu rhythm,paraphrase,4.0
+123,13,Mu rhythm,paraphrase,5.0
+124,13,Mu rhythm,paraphrase,6.0
+125,13,Mu rhythm,paraphrase,7.0
+126,14,Other organised rhythms of the background activity,concept,
+127,14,Other organised rhythms of the background activity,definition,
+128,14,Other organised rhythms of the background activity,paraphrase,1.0
+129,14,Other organised rhythms of the background activity,paraphrase,2.0
+130,14,Other organised rhythms of the background activity,paraphrase,3.0
+131,14,Other organised rhythms of the background activity,paraphrase,4.0
+132,14,Other organised rhythms of the background activity,paraphrase,5.0
+133,14,Other organised rhythms of the background activity,paraphrase,6.0
+134,14,Other organised rhythms of the background activity,paraphrase,7.0
+135,15,Posterior dominant rhythm,concept,
+136,15,Posterior dominant rhythm,definition,
+137,15,Posterior dominant rhythm,paraphrase,1.0
+138,15,Posterior dominant rhythm,paraphrase,2.0
+139,15,Posterior dominant rhythm,paraphrase,3.0
+140,15,Posterior dominant rhythm,paraphrase,4.0
+141,15,Posterior dominant rhythm,paraphrase,5.0
+142,15,Posterior dominant rhythm,paraphrase,6.0
+143,15,Posterior dominant rhythm,paraphrase,7.0
+144,16,Reactivity,concept,
+145,16,Reactivity,definition,
+146,16,Reactivity,paraphrase,1.0
+147,16,Reactivity,paraphrase,2.0
+148,16,Reactivity,paraphrase,3.0
+149,16,Reactivity,paraphrase,4.0
+150,16,Reactivity,paraphrase,5.0
+151,16,Reactivity,paraphrase,6.0
+152,16,Reactivity,paraphrase,7.0
+153,17,Reactivity to eye opening /closure,concept,
+154,17,Reactivity to eye opening /closure,definition,
+155,17,Reactivity to eye opening /closure,paraphrase,1.0
+156,17,Reactivity to eye opening /closure,paraphrase,2.0
+157,17,Reactivity to eye opening /closure,paraphrase,3.0
+158,17,Reactivity to eye opening /closure,paraphrase,4.0
+159,17,Reactivity to eye opening /closure,paraphrase,5.0
+160,17,Reactivity to eye opening /closure,paraphrase,6.0
+161,17,Reactivity to eye opening /closure,paraphrase,7.0
+162,18,Suppression (of background activity),concept,
+163,18,Suppression (of background activity),definition,
+164,18,Suppression (of background activity),paraphrase,1.0
+165,18,Suppression (of background activity),paraphrase,2.0
+166,18,Suppression (of background activity),paraphrase,3.0
+167,18,Suppression (of background activity),paraphrase,4.0
+168,18,Suppression (of background activity),paraphrase,5.0
+169,18,Suppression (of background activity),paraphrase,6.0
+170,18,Suppression (of background activity),paraphrase,7.0
+171,19,Background theta activity,concept,
+172,19,Background theta activity,definition,
+173,19,Background theta activity,paraphrase,1.0
+174,19,Background theta activity,paraphrase,2.0
+175,19,Background theta activity,paraphrase,3.0
+176,19,Background theta activity,paraphrase,4.0
+177,19,Background theta activity,paraphrase,5.0
+178,19,Background theta activity,paraphrase,6.0
+179,19,Background theta activity,paraphrase,7.0
+180,20,Abnormal asymmetry or absence of sleep graphoelements,concept,
+181,20,Abnormal asymmetry or absence of sleep graphoelements,definition,
+182,20,Abnormal asymmetry or absence of sleep graphoelements,paraphrase,1.0
+183,20,Abnormal asymmetry or absence of sleep graphoelements,paraphrase,2.0
+184,20,Abnormal asymmetry or absence of sleep graphoelements,paraphrase,3.0
+185,20,Abnormal asymmetry or absence of sleep graphoelements,paraphrase,4.0
+186,20,Abnormal asymmetry or absence of sleep graphoelements,paraphrase,5.0
+187,20,Abnormal asymmetry or absence of sleep graphoelements,paraphrase,6.0
+188,20,Abnormal asymmetry or absence of sleep graphoelements,paraphrase,7.0
+189,21,K complex,concept,
+190,21,K complex,definition,
+191,21,K complex,paraphrase,1.0
+192,21,K complex,paraphrase,2.0
+193,21,K complex,paraphrase,3.0
+194,21,K complex,paraphrase,4.0
+195,21,K complex,paraphrase,5.0
+196,21,K complex,paraphrase,6.0
+197,21,K complex,paraphrase,7.0
+198,22,Non-reactive sleep activity.,concept,
+199,22,Non-reactive sleep activity.,definition,
+200,22,Non-reactive sleep activity.,paraphrase,1.0
+201,22,Non-reactive sleep activity.,paraphrase,2.0
+202,22,Non-reactive sleep activity.,paraphrase,3.0
+203,22,Non-reactive sleep activity.,paraphrase,4.0
+204,22,Non-reactive sleep activity.,paraphrase,5.0
+205,22,Non-reactive sleep activity.,paraphrase,6.0
+206,22,Non-reactive sleep activity.,paraphrase,7.0
+207,23,Normal sleep pattern,concept,
+208,23,Normal sleep pattern,definition,
+209,23,Normal sleep pattern,paraphrase,1.0
+210,23,Normal sleep pattern,paraphrase,2.0
+211,23,Normal sleep pattern,paraphrase,3.0
+212,23,Normal sleep pattern,paraphrase,4.0
+213,23,Normal sleep pattern,paraphrase,5.0
+214,23,Normal sleep pattern,paraphrase,6.0
+215,23,Normal sleep pattern,paraphrase,7.0
+216,24,Positive occipital sharp transient of sleep,concept,
+217,24,Positive occipital sharp transient of sleep,definition,
+218,24,Positive occipital sharp transient of sleep,paraphrase,1.0
+219,24,Positive occipital sharp transient of sleep,paraphrase,2.0
+220,24,Positive occipital sharp transient of sleep,paraphrase,3.0
+221,24,Positive occipital sharp transient of sleep,paraphrase,4.0
+222,24,Positive occipital sharp transient of sleep,paraphrase,5.0
+223,24,Positive occipital sharp transient of sleep,paraphrase,6.0
+224,24,Positive occipital sharp transient of sleep,paraphrase,7.0
+225,25,Sleep architecture,concept,
+226,25,Sleep architecture,definition,
+227,25,Sleep architecture,paraphrase,1.0
+228,25,Sleep architecture,paraphrase,2.0
+229,25,Sleep architecture,paraphrase,3.0
+230,25,Sleep architecture,paraphrase,4.0
+231,25,Sleep architecture,paraphrase,5.0
+232,25,Sleep architecture,paraphrase,6.0
+233,25,Sleep architecture,paraphrase,7.0
+234,26,Sleep onset rapid eye movement sleep (SOREM),concept,
+235,26,Sleep onset rapid eye movement sleep (SOREM),definition,
+236,26,Sleep onset rapid eye movement sleep (SOREM),paraphrase,1.0
+237,26,Sleep onset rapid eye movement sleep (SOREM),paraphrase,2.0
+238,26,Sleep onset rapid eye movement sleep (SOREM),paraphrase,3.0
+239,26,Sleep onset rapid eye movement sleep (SOREM),paraphrase,4.0
+240,26,Sleep onset rapid eye movement sleep (SOREM),paraphrase,5.0
+241,26,Sleep onset rapid eye movement sleep (SOREM),paraphrase,6.0
+242,26,Sleep onset rapid eye movement sleep (SOREM),paraphrase,7.0
+243,27,Sleep spindles,concept,
+244,27,Sleep spindles,definition,
+245,27,Sleep spindles,paraphrase,1.0
+246,27,Sleep spindles,paraphrase,2.0
+247,27,Sleep spindles,paraphrase,3.0
+248,27,Sleep spindles,paraphrase,4.0
+249,27,Sleep spindles,paraphrase,5.0
+250,27,Sleep spindles,paraphrase,6.0
+251,27,Sleep spindles,paraphrase,7.0
+252,28,Vertex sharp transient,concept,
+253,28,Vertex sharp transient,definition,
+254,28,Vertex sharp transient,paraphrase,1.0
+255,28,Vertex sharp transient,paraphrase,2.0
+256,28,Vertex sharp transient,paraphrase,3.0
+257,28,Vertex sharp transient,paraphrase,4.0
+258,28,Vertex sharp transient,paraphrase,5.0
+259,28,Vertex sharp transient,paraphrase,6.0
+260,28,Vertex sharp transient,paraphrase,7.0
+261,29,Polyspike-and- slow-wave complex,concept,
+262,29,Polyspike-and- slow-wave complex,definition,
+263,29,Polyspike-and- slow-wave complex,paraphrase,1.0
+264,29,Polyspike-and- slow-wave complex,paraphrase,2.0
+265,29,Polyspike-and- slow-wave complex,paraphrase,3.0
+266,29,Polyspike-and- slow-wave complex,paraphrase,4.0
+267,29,Polyspike-and- slow-wave complex,paraphrase,5.0
+268,29,Polyspike-and- slow-wave complex,paraphrase,6.0
+269,29,Polyspike-and- slow-wave complex,paraphrase,7.0
+270,30,Polyspikes,concept,
+271,30,Polyspikes,definition,
+272,30,Polyspikes,paraphrase,1.0
+273,30,Polyspikes,paraphrase,2.0
+274,30,Polyspikes,paraphrase,3.0
+275,30,Polyspikes,paraphrase,4.0
+276,30,Polyspikes,paraphrase,5.0
+277,30,Polyspikes,paraphrase,6.0
+278,30,Polyspikes,paraphrase,7.0
+279,31,Runs of rapid spikes,concept,
+280,31,Runs of rapid spikes,definition,
+281,31,Runs of rapid spikes,paraphrase,1.0
+282,31,Runs of rapid spikes,paraphrase,2.0
+283,31,Runs of rapid spikes,paraphrase,3.0
+284,31,Runs of rapid spikes,paraphrase,4.0
+285,31,Runs of rapid spikes,paraphrase,5.0
+286,31,Runs of rapid spikes,paraphrase,6.0
+287,31,Runs of rapid spikes,paraphrase,7.0
+288,32,Sharp wave,concept,
+289,32,Sharp wave,definition,
+290,32,Sharp wave,paraphrase,1.0
+291,32,Sharp wave,paraphrase,2.0
+292,32,Sharp wave,paraphrase,3.0
+293,32,Sharp wave,paraphrase,4.0
+294,32,Sharp wave,paraphrase,5.0
+295,32,Sharp wave,paraphrase,6.0
+296,32,Sharp wave,paraphrase,7.0
+297,33,Sharp-and-slow- wave complex,concept,
+298,33,Sharp-and-slow- wave complex,definition,
+299,33,Sharp-and-slow- wave complex,paraphrase,1.0
+300,33,Sharp-and-slow- wave complex,paraphrase,2.0
+301,33,Sharp-and-slow- wave complex,paraphrase,3.0
+302,33,Sharp-and-slow- wave complex,paraphrase,4.0
+303,33,Sharp-and-slow- wave complex,paraphrase,5.0
+304,33,Sharp-and-slow- wave complex,paraphrase,6.0
+305,33,Sharp-and-slow- wave complex,paraphrase,7.0
+306,34,Slow sharp wave,concept,
+307,34,Slow sharp wave,definition,
+308,34,Slow sharp wave,paraphrase,1.0
+309,34,Slow sharp wave,paraphrase,2.0
+310,34,Slow sharp wave,paraphrase,3.0
+311,34,Slow sharp wave,paraphrase,4.0
+312,34,Slow sharp wave,paraphrase,5.0
+313,34,Slow sharp wave,paraphrase,6.0
+314,34,Slow sharp wave,paraphrase,7.0
+315,35,Spike,concept,
+316,35,Spike,definition,
+317,35,Spike,paraphrase,1.0
+318,35,Spike,paraphrase,2.0
+319,35,Spike,paraphrase,3.0
+320,35,Spike,paraphrase,4.0
+321,35,Spike,paraphrase,5.0
+322,35,Spike,paraphrase,6.0
+323,35,Spike,paraphrase,7.0
+324,36,Spike-and-slow- wave,concept,
+325,36,Spike-and-slow- wave,definition,
+326,36,Spike-and-slow- wave,paraphrase,1.0
+327,36,Spike-and-slow- wave,paraphrase,2.0
+328,36,Spike-and-slow- wave,paraphrase,3.0
+329,36,Spike-and-slow- wave,paraphrase,4.0
+330,36,Spike-and-slow- wave,paraphrase,5.0
+331,36,Spike-and-slow- wave,paraphrase,6.0
+332,36,Spike-and-slow- wave,paraphrase,7.0
+333,37,Spike-and-slow-wave runs: Classical 3/s,concept,
+334,37,Spike-and-slow-wave runs: Classical 3/s,definition,
+335,37,Spike-and-slow-wave runs: Classical 3/s,paraphrase,1.0
+336,37,Spike-and-slow-wave runs: Classical 3/s,paraphrase,2.0
+337,37,Spike-and-slow-wave runs: Classical 3/s,paraphrase,3.0
+338,37,Spike-and-slow-wave runs: Classical 3/s,paraphrase,4.0
+339,37,Spike-and-slow-wave runs: Classical 3/s,paraphrase,5.0
+340,37,Spike-and-slow-wave runs: Classical 3/s,paraphrase,6.0
+341,37,Spike-and-slow-wave runs: Classical 3/s,paraphrase,7.0
+342,38,Spike-and-slow-wave runs: Slow 1-2.5/s,concept,
+343,38,Spike-and-slow-wave runs: Slow 1-2.5/s,definition,
+344,38,Spike-and-slow-wave runs: Slow 1-2.5/s,paraphrase,1.0
+345,38,Spike-and-slow-wave runs: Slow 1-2.5/s,paraphrase,2.0
+346,38,Spike-and-slow-wave runs: Slow 1-2.5/s,paraphrase,3.0
+347,38,Spike-and-slow-wave runs: Slow 1-2.5/s,paraphrase,4.0
+348,38,Spike-and-slow-wave runs: Slow 1-2.5/s,paraphrase,5.0
+349,38,Spike-and-slow-wave runs: Slow 1-2.5/s,paraphrase,6.0
+350,38,Spike-and-slow-wave runs: Slow 1-2.5/s,paraphrase,7.0
+351,39,Spike-and-slow-wave runs: Fast 4-5/s,concept,
+352,39,Spike-and-slow-wave runs: Fast 4-5/s,definition,
+353,39,Spike-and-slow-wave runs: Fast 4-5/s,paraphrase,1.0
+354,39,Spike-and-slow-wave runs: Fast 4-5/s,paraphrase,2.0
+355,39,Spike-and-slow-wave runs: Fast 4-5/s,paraphrase,3.0
+356,39,Spike-and-slow-wave runs: Fast 4-5/s,paraphrase,4.0
+357,39,Spike-and-slow-wave runs: Fast 4-5/s,paraphrase,5.0
+358,39,Spike-and-slow-wave runs: Fast 4-5/s,paraphrase,6.0
+359,39,Spike-and-slow-wave runs: Fast 4-5/s,paraphrase,7.0
+360,40,Spike-and-slow-wave runs: Atypical,concept,
+361,40,Spike-and-slow-wave runs: Atypical,definition,
+362,40,Spike-and-slow-wave runs: Atypical,paraphrase,1.0
+363,40,Spike-and-slow-wave runs: Atypical,paraphrase,2.0
+364,40,Spike-and-slow-wave runs: Atypical,paraphrase,3.0
+365,40,Spike-and-slow-wave runs: Atypical,paraphrase,4.0
+366,40,Spike-and-slow-wave runs: Atypical,paraphrase,5.0
+367,40,Spike-and-slow-wave runs: Atypical,paraphrase,6.0
+368,40,Spike-and-slow-wave runs: Atypical,paraphrase,7.0
+369,41,Excessive delta activity,concept,
+370,41,Excessive delta activity,definition,
+371,41,Excessive delta activity,paraphrase,1.0
+372,41,Excessive delta activity,paraphrase,2.0
+373,41,Excessive delta activity,paraphrase,3.0
+374,41,Excessive delta activity,paraphrase,4.0
+375,41,Excessive delta activity,paraphrase,5.0
+376,41,Excessive delta activity,paraphrase,6.0
+377,41,Excessive delta activity,paraphrase,7.0
+378,42,Delta and theta activity,concept,
+379,42,Delta and theta activity,definition,
+380,42,Delta and theta activity,paraphrase,1.0
+381,42,Delta and theta activity,paraphrase,2.0
+382,42,Delta and theta activity,paraphrase,3.0
+383,42,Delta and theta activity,paraphrase,4.0
+384,42,Delta and theta activity,paraphrase,5.0
+385,42,Delta and theta activity,paraphrase,6.0
+386,42,Delta and theta activity,paraphrase,7.0
+387,43,Intermittent rhythmic slow activity,concept,
+388,43,Intermittent rhythmic slow activity,definition,
+389,43,Intermittent rhythmic slow activity,paraphrase,1.0
+390,43,Intermittent rhythmic slow activity,paraphrase,2.0
+391,43,Intermittent rhythmic slow activity,paraphrase,3.0
+392,43,Intermittent rhythmic slow activity,paraphrase,4.0
+393,43,Intermittent rhythmic slow activity,paraphrase,5.0
+394,43,Intermittent rhythmic slow activity,paraphrase,6.0
+395,43,Intermittent rhythmic slow activity,paraphrase,7.0
+396,44,Frontal intermittent rhythmic delta activity (FIRDA),concept,
+397,44,Frontal intermittent rhythmic delta activity (FIRDA),definition,
+398,44,Frontal intermittent rhythmic delta activity (FIRDA),paraphrase,1.0
+399,44,Frontal intermittent rhythmic delta activity (FIRDA),paraphrase,2.0
+400,44,Frontal intermittent rhythmic delta activity (FIRDA),paraphrase,3.0
+401,44,Frontal intermittent rhythmic delta activity (FIRDA),paraphrase,4.0
+402,44,Frontal intermittent rhythmic delta activity (FIRDA),paraphrase,5.0
+403,44,Frontal intermittent rhythmic delta activity (FIRDA),paraphrase,6.0
+404,44,Frontal intermittent rhythmic delta activity (FIRDA),paraphrase,7.0
+405,45,Occipital intermittent rhythmic delta activity (OIRDA),concept,
+406,45,Occipital intermittent rhythmic delta activity (OIRDA),definition,
+407,45,Occipital intermittent rhythmic delta activity (OIRDA),paraphrase,1.0
+408,45,Occipital intermittent rhythmic delta activity (OIRDA),paraphrase,2.0
+409,45,Occipital intermittent rhythmic delta activity (OIRDA),paraphrase,3.0
+410,45,Occipital intermittent rhythmic delta activity (OIRDA),paraphrase,4.0
+411,45,Occipital intermittent rhythmic delta activity (OIRDA),paraphrase,5.0
+412,45,Occipital intermittent rhythmic delta activity (OIRDA),paraphrase,6.0
+413,45,Occipital intermittent rhythmic delta activity (OIRDA),paraphrase,7.0
+414,46,Temporal intermittent rhythmic delta activity (TIRDA),concept,
+415,46,Temporal intermittent rhythmic delta activity (TIRDA),definition,
+416,46,Temporal intermittent rhythmic delta activity (TIRDA),paraphrase,1.0
+417,46,Temporal intermittent rhythmic delta activity (TIRDA),paraphrase,2.0
+418,46,Temporal intermittent rhythmic delta activity (TIRDA),paraphrase,3.0
+419,46,Temporal intermittent rhythmic delta activity (TIRDA),paraphrase,4.0
+420,46,Temporal intermittent rhythmic delta activity (TIRDA),paraphrase,5.0
+421,46,Temporal intermittent rhythmic delta activity (TIRDA),paraphrase,6.0
+422,46,Temporal intermittent rhythmic delta activity (TIRDA),paraphrase,7.0
+423,47,Polymorphic delta activity,concept,
+424,47,Polymorphic delta activity,definition,
+425,47,Polymorphic delta activity,paraphrase,1.0
+426,47,Polymorphic delta activity,paraphrase,2.0
+427,47,Polymorphic delta activity,paraphrase,3.0
+428,47,Polymorphic delta activity,paraphrase,4.0
+429,47,Polymorphic delta activity,paraphrase,5.0
+430,47,Polymorphic delta activity,paraphrase,6.0
+431,47,Polymorphic delta activity,paraphrase,7.0
+432,48,Excessive theta activity,concept,
+433,48,Excessive theta activity,definition,
+434,48,Excessive theta activity,paraphrase,1.0
+435,48,Excessive theta activity,paraphrase,2.0
+436,48,Excessive theta activity,paraphrase,3.0
+437,48,Excessive theta activity,paraphrase,4.0
+438,48,Excessive theta activity,paraphrase,5.0
+439,48,Excessive theta activity,paraphrase,6.0
+440,48,Excessive theta activity,paraphrase,7.0
+441,49,Bilateral independent periodic lateralized epileptiform discharges (Bi-PLEDs),concept,
+442,49,Bilateral independent periodic lateralized epileptiform discharges (Bi-PLEDs),definition,
+443,49,Bilateral independent periodic lateralized epileptiform discharges (Bi-PLEDs),paraphrase,1.0
+444,49,Bilateral independent periodic lateralized epileptiform discharges (Bi-PLEDs),paraphrase,2.0
+445,49,Bilateral independent periodic lateralized epileptiform discharges (Bi-PLEDs),paraphrase,3.0
+446,49,Bilateral independent periodic lateralized epileptiform discharges (Bi-PLEDs),paraphrase,4.0
+447,49,Bilateral independent periodic lateralized epileptiform discharges (Bi-PLEDs),paraphrase,5.0
+448,49,Bilateral independent periodic lateralized epileptiform discharges (Bi-PLEDs),paraphrase,6.0
+449,49,Bilateral independent periodic lateralized epileptiform discharges (Bi-PLEDs),paraphrase,7.0
+450,50,Hypsarrhythmia,concept,
+451,50,Hypsarrhythmia,definition,
+452,50,Hypsarrhythmia,paraphrase,1.0
+453,50,Hypsarrhythmia,paraphrase,2.0
+454,50,Hypsarrhythmia,paraphrase,3.0
+455,50,Hypsarrhythmia,paraphrase,4.0
+456,50,Hypsarrhythmia,paraphrase,5.0
+457,50,Hypsarrhythmia,paraphrase,6.0
+458,50,Hypsarrhythmia,paraphrase,7.0
+459,51,Periodic lateralized epileptiform discharges (PLEDs),concept,
+460,51,Periodic lateralized epileptiform discharges (PLEDs),definition,
+461,51,Periodic lateralized epileptiform discharges (PLEDs),paraphrase,1.0
+462,51,Periodic lateralized epileptiform discharges (PLEDs),paraphrase,2.0
+463,51,Periodic lateralized epileptiform discharges (PLEDs),paraphrase,3.0
+464,51,Periodic lateralized epileptiform discharges (PLEDs),paraphrase,4.0
+465,51,Periodic lateralized epileptiform discharges (PLEDs),paraphrase,5.0
+466,51,Periodic lateralized epileptiform discharges (PLEDs),paraphrase,6.0
+467,51,Periodic lateralized epileptiform discharges (PLEDs),paraphrase,7.0
+468,52,Periodic complex discharges – other than PLEDs,concept,
+469,52,Periodic complex discharges – other than PLEDs,definition,
+470,52,Periodic complex discharges – other than PLEDs,paraphrase,1.0
+471,52,Periodic complex discharges – other than PLEDs,paraphrase,2.0
+472,52,Periodic complex discharges – other than PLEDs,paraphrase,3.0
+473,52,Periodic complex discharges – other than PLEDs,paraphrase,4.0
+474,52,Periodic complex discharges – other than PLEDs,paraphrase,5.0
+475,52,Periodic complex discharges – other than PLEDs,paraphrase,6.0
+476,52,Periodic complex discharges – other than PLEDs,paraphrase,7.0
+477,53,"Stimulus-induced rhythmic, periodic, or ictal discharges (SIRPIDS)",concept,
+478,53,"Stimulus-induced rhythmic, periodic, or ictal discharges (SIRPIDS)",definition,
+479,53,"Stimulus-induced rhythmic, periodic, or ictal discharges (SIRPIDS)",paraphrase,1.0
+480,53,"Stimulus-induced rhythmic, periodic, or ictal discharges (SIRPIDS)",paraphrase,2.0
+481,53,"Stimulus-induced rhythmic, periodic, or ictal discharges (SIRPIDS)",paraphrase,3.0
+482,53,"Stimulus-induced rhythmic, periodic, or ictal discharges (SIRPIDS)",paraphrase,4.0
+483,53,"Stimulus-induced rhythmic, periodic, or ictal discharges (SIRPIDS)",paraphrase,5.0
+484,53,"Stimulus-induced rhythmic, periodic, or ictal discharges (SIRPIDS)",paraphrase,6.0
+485,53,"Stimulus-induced rhythmic, periodic, or ictal discharges (SIRPIDS)",paraphrase,7.0
+486,54,Triphasic waves,concept,
+487,54,Triphasic waves,definition,
+488,54,Triphasic waves,paraphrase,1.0
+489,54,Triphasic waves,paraphrase,2.0
+490,54,Triphasic waves,paraphrase,3.0
+491,54,Triphasic waves,paraphrase,4.0
+492,54,Triphasic waves,paraphrase,5.0
+493,54,Triphasic waves,paraphrase,6.0
+494,54,Triphasic waves,paraphrase,7.0
+495,55,Arrhythmic trains/bursts,concept,
+496,55,Arrhythmic trains/bursts,definition,
+497,55,Arrhythmic trains/bursts,paraphrase,1.0
+498,55,Arrhythmic trains/bursts,paraphrase,2.0
+499,55,Arrhythmic trains/bursts,paraphrase,3.0
+500,55,Arrhythmic trains/bursts,paraphrase,4.0
+501,55,Arrhythmic trains/bursts,paraphrase,5.0
+502,55,Arrhythmic trains/bursts,paraphrase,6.0
+503,55,Arrhythmic trains/bursts,paraphrase,7.0
+504,56,Discharge pattern,concept,
+505,56,Discharge pattern,definition,
+506,56,Discharge pattern,paraphrase,1.0
+507,56,Discharge pattern,paraphrase,2.0
+508,56,Discharge pattern,paraphrase,3.0
+509,56,Discharge pattern,paraphrase,4.0
+510,56,Discharge pattern,paraphrase,5.0
+511,56,Discharge pattern,paraphrase,6.0
+512,56,Discharge pattern,paraphrase,7.0
+513,57,Mode of appearance,concept,
+514,57,Mode of appearance,definition,
+515,57,Mode of appearance,paraphrase,1.0
+516,57,Mode of appearance,paraphrase,2.0
+517,57,Mode of appearance,paraphrase,3.0
+518,57,Mode of appearance,paraphrase,4.0
+519,57,Mode of appearance,paraphrase,5.0
+520,57,Mode of appearance,paraphrase,6.0
+521,57,Mode of appearance,paraphrase,7.0
+522,58,Periodic,concept,
+523,58,Periodic,definition,
+524,58,Periodic,paraphrase,1.0
+525,58,Periodic,paraphrase,2.0
+526,58,Periodic,paraphrase,3.0
+527,58,Periodic,paraphrase,4.0
+528,58,Periodic,paraphrase,5.0
+529,58,Periodic,paraphrase,6.0
+530,58,Periodic,paraphrase,7.0
+531,59,Random,concept,
+532,59,Random,definition,
+533,59,Random,paraphrase,1.0
+534,59,Random,paraphrase,2.0
+535,59,Random,paraphrase,3.0
+536,59,Random,paraphrase,4.0
+537,59,Random,paraphrase,5.0
+538,59,Random,paraphrase,6.0
+539,59,Random,paraphrase,7.0
+540,60,Rhythmic trains/bursts,concept,
+541,60,Rhythmic trains/bursts,definition,
+542,60,Rhythmic trains/bursts,paraphrase,1.0
+543,60,Rhythmic trains/bursts,paraphrase,2.0
+544,60,Rhythmic trains/bursts,paraphrase,3.0
+545,60,Rhythmic trains/bursts,paraphrase,4.0
+546,60,Rhythmic trains/bursts,paraphrase,5.0
+547,60,Rhythmic trains/bursts,paraphrase,6.0
+548,60,Rhythmic trains/bursts,paraphrase,7.0
+549,61,Single discharge,concept,
+550,61,Single discharge,definition,
+551,61,Single discharge,paraphrase,1.0
+552,61,Single discharge,paraphrase,2.0
+553,61,Single discharge,paraphrase,3.0
+554,61,Single discharge,paraphrase,4.0
+555,61,Single discharge,paraphrase,5.0
+556,61,Single discharge,paraphrase,6.0
+557,61,Single discharge,paraphrase,7.0
+558,62,Variable,concept,
+559,62,Variable,definition,
+560,62,Variable,paraphrase,1.0
+561,62,Variable,paraphrase,2.0
+562,62,Variable,paraphrase,3.0
+563,62,Variable,paraphrase,4.0
+564,62,Variable,paraphrase,5.0
+565,62,Variable,paraphrase,6.0
+566,62,Variable,paraphrase,7.0
+567,63,Atypical absence seizure,concept,
+568,63,Atypical absence seizure,definition,
+569,63,Atypical absence seizure,paraphrase,1.0
+570,63,Atypical absence seizure,paraphrase,2.0
+571,63,Atypical absence seizure,paraphrase,3.0
+572,63,Atypical absence seizure,paraphrase,4.0
+573,63,Atypical absence seizure,paraphrase,5.0
+574,63,Atypical absence seizure,paraphrase,6.0
+575,63,Atypical absence seizure,paraphrase,7.0
+576,64,Typical absence seizure,concept,
+577,64,Typical absence seizure,definition,
+578,64,Typical absence seizure,paraphrase,1.0
+579,64,Typical absence seizure,paraphrase,2.0
+580,64,Typical absence seizure,paraphrase,3.0
+581,64,Typical absence seizure,paraphrase,4.0
+582,64,Typical absence seizure,paraphrase,5.0
+583,64,Typical absence seizure,paraphrase,6.0
+584,64,Typical absence seizure,paraphrase,7.0
+585,65,Atonic seizure,concept,
+586,65,Atonic seizure,definition,
+587,65,Atonic seizure,paraphrase,1.0
+588,65,Atonic seizure,paraphrase,2.0
+589,65,Atonic seizure,paraphrase,3.0
+590,65,Atonic seizure,paraphrase,4.0
+591,65,Atonic seizure,paraphrase,5.0
+592,65,Atonic seizure,paraphrase,6.0
+593,65,Atonic seizure,paraphrase,7.0
+594,66,Clonic seizure,concept,
+595,66,Clonic seizure,definition,
+596,66,Clonic seizure,paraphrase,1.0
+597,66,Clonic seizure,paraphrase,2.0
+598,66,Clonic seizure,paraphrase,3.0
+599,66,Clonic seizure,paraphrase,4.0
+600,66,Clonic seizure,paraphrase,5.0
+601,66,Clonic seizure,paraphrase,6.0
+602,66,Clonic seizure,paraphrase,7.0
+603,67,Eyelid myoclonia - with (or without) absence,concept,
+604,67,Eyelid myoclonia - with (or without) absence,definition,
+605,67,Eyelid myoclonia - with (or without) absence,paraphrase,1.0
+606,67,Eyelid myoclonia - with (or without) absence,paraphrase,2.0
+607,67,Eyelid myoclonia - with (or without) absence,paraphrase,3.0
+608,67,Eyelid myoclonia - with (or without) absence,paraphrase,4.0
+609,67,Eyelid myoclonia - with (or without) absence,paraphrase,5.0
+610,67,Eyelid myoclonia - with (or without) absence,paraphrase,6.0
+611,67,Eyelid myoclonia - with (or without) absence,paraphrase,7.0
+612,68,Myoclonic seizure,concept,
+613,68,Myoclonic seizure,definition,
+614,68,Myoclonic seizure,paraphrase,1.0
+615,68,Myoclonic seizure,paraphrase,2.0
+616,68,Myoclonic seizure,paraphrase,3.0
+617,68,Myoclonic seizure,paraphrase,4.0
+618,68,Myoclonic seizure,paraphrase,5.0
+619,68,Myoclonic seizure,paraphrase,6.0
+620,68,Myoclonic seizure,paraphrase,7.0
+621,69,Myoclonic absence,concept,
+622,69,Myoclonic absence,definition,
+623,69,Myoclonic absence,paraphrase,1.0
+624,69,Myoclonic absence,paraphrase,2.0
+625,69,Myoclonic absence,paraphrase,3.0
+626,69,Myoclonic absence,paraphrase,4.0
+627,69,Myoclonic absence,paraphrase,5.0
+628,69,Myoclonic absence,paraphrase,6.0
+629,69,Myoclonic absence,paraphrase,7.0
+630,70,Myoclonic atonic,concept,
+631,70,Myoclonic atonic,definition,
+632,70,Myoclonic atonic,paraphrase,1.0
+633,70,Myoclonic atonic,paraphrase,2.0
+634,70,Myoclonic atonic,paraphrase,3.0
+635,70,Myoclonic atonic,paraphrase,4.0
+636,70,Myoclonic atonic,paraphrase,5.0
+637,70,Myoclonic atonic,paraphrase,6.0
+638,70,Myoclonic atonic,paraphrase,7.0
+639,71,Myoclonic tonic,concept,
+640,71,Myoclonic tonic,definition,
+641,71,Myoclonic tonic,paraphrase,1.0
+642,71,Myoclonic tonic,paraphrase,2.0
+643,71,Myoclonic tonic,paraphrase,3.0
+644,71,Myoclonic tonic,paraphrase,4.0
+645,71,Myoclonic tonic,paraphrase,5.0
+646,71,Myoclonic tonic,paraphrase,6.0
+647,71,Myoclonic tonic,paraphrase,7.0
+648,72,Tonic seizure,concept,
+649,72,Tonic seizure,definition,
+650,72,Tonic seizure,paraphrase,1.0
+651,72,Tonic seizure,paraphrase,2.0
+652,72,Tonic seizure,paraphrase,3.0
+653,72,Tonic seizure,paraphrase,4.0
+654,72,Tonic seizure,paraphrase,5.0
+655,72,Tonic seizure,paraphrase,6.0
+656,72,Tonic seizure,paraphrase,7.0
+657,73,Tonic–clonic (in any combination),concept,
+658,73,Tonic–clonic (in any combination),definition,
+659,73,Tonic–clonic (in any combination),paraphrase,1.0
+660,73,Tonic–clonic (in any combination),paraphrase,2.0
+661,73,Tonic–clonic (in any combination),paraphrase,3.0
+662,73,Tonic–clonic (in any combination),paraphrase,4.0
+663,73,Tonic–clonic (in any combination),paraphrase,5.0
+664,73,Tonic–clonic (in any combination),paraphrase,6.0
+665,73,Tonic–clonic (in any combination),paraphrase,7.0
+666,74,Localization,concept,
+667,74,Localization,definition,
+668,74,Localization,paraphrase,1.0
+669,74,Localization,paraphrase,2.0
+670,74,Localization,paraphrase,3.0
+671,74,Localization,paraphrase,4.0
+672,74,Localization,paraphrase,5.0
+673,74,Localization,paraphrase,6.0
+674,74,Localization,paraphrase,7.0
+675,75,Evolving to bilateral convulsive seizure,concept,
+676,75,Evolving to bilateral convulsive seizure,definition,
+677,75,Evolving to bilateral convulsive seizure,paraphrase,1.0
+678,75,Evolving to bilateral convulsive seizure,paraphrase,2.0
+679,75,Evolving to bilateral convulsive seizure,paraphrase,3.0
+680,75,Evolving to bilateral convulsive seizure,paraphrase,4.0
+681,75,Evolving to bilateral convulsive seizure,paraphrase,5.0
+682,75,Evolving to bilateral convulsive seizure,paraphrase,6.0
+683,75,Evolving to bilateral convulsive seizure,paraphrase,7.0
+684,76,Electrographic seizure,concept,
+685,76,Electrographic seizure,definition,
+686,76,Electrographic seizure,paraphrase,1.0
+687,76,Electrographic seizure,paraphrase,2.0
+688,76,Electrographic seizure,paraphrase,3.0
+689,76,Electrographic seizure,paraphrase,4.0
+690,76,Electrographic seizure,paraphrase,5.0
+691,76,Electrographic seizure,paraphrase,6.0
+692,76,Electrographic seizure,paraphrase,7.0
+693,77,Epileptic spasm (seizure),concept,
+694,77,Epileptic spasm (seizure),definition,
+695,77,Epileptic spasm (seizure),paraphrase,1.0
+696,77,Epileptic spasm (seizure),paraphrase,2.0
+697,77,Epileptic spasm (seizure),paraphrase,3.0
+698,77,Epileptic spasm (seizure),paraphrase,4.0
+699,77,Epileptic spasm (seizure),paraphrase,5.0
+700,77,Epileptic spasm (seizure),paraphrase,6.0
+701,77,Epileptic spasm (seizure),paraphrase,7.0
+702,78,Tonic spasm,concept,
+703,78,Tonic spasm,definition,
+704,78,Tonic spasm,paraphrase,1.0
+705,78,Tonic spasm,paraphrase,2.0
+706,78,Tonic spasm,paraphrase,3.0
+707,78,Tonic spasm,paraphrase,4.0
+708,78,Tonic spasm,paraphrase,5.0
+709,78,Tonic spasm,paraphrase,6.0
+710,78,Tonic spasm,paraphrase,7.0
+711,79,Cataplexy,concept,
+712,79,Cataplexy,definition,
+713,79,Cataplexy,paraphrase,1.0
+714,79,Cataplexy,paraphrase,2.0
+715,79,Cataplexy,paraphrase,3.0
+716,79,Cataplexy,paraphrase,4.0
+717,79,Cataplexy,paraphrase,5.0
+718,79,Cataplexy,paraphrase,6.0
+719,79,Cataplexy,paraphrase,7.0
+720,80,Psychogenic non-epileptic seizure (PNES),concept,
+721,80,Psychogenic non-epileptic seizure (PNES),definition,
+722,80,Psychogenic non-epileptic seizure (PNES),paraphrase,1.0
+723,80,Psychogenic non-epileptic seizure (PNES),paraphrase,2.0
+724,80,Psychogenic non-epileptic seizure (PNES),paraphrase,3.0
+725,80,Psychogenic non-epileptic seizure (PNES),paraphrase,4.0
+726,80,Psychogenic non-epileptic seizure (PNES),paraphrase,5.0
+727,80,Psychogenic non-epileptic seizure (PNES),paraphrase,6.0
+728,80,Psychogenic non-epileptic seizure (PNES),paraphrase,7.0
+729,81,Syncope,concept,
+730,81,Syncope,definition,
+731,81,Syncope,paraphrase,1.0
+732,81,Syncope,paraphrase,2.0
+733,81,Syncope,paraphrase,3.0
+734,81,Syncope,paraphrase,4.0
+735,81,Syncope,paraphrase,5.0
+736,81,Syncope,paraphrase,6.0
+737,81,Syncope,paraphrase,7.0
+738,82,Confusional awakening,concept,
+739,82,Confusional awakening,definition,
+740,82,Confusional awakening,paraphrase,1.0
+741,82,Confusional awakening,paraphrase,2.0
+742,82,Confusional awakening,paraphrase,3.0
+743,82,Confusional awakening,paraphrase,4.0
+744,82,Confusional awakening,paraphrase,5.0
+745,82,Confusional awakening,paraphrase,6.0
+746,82,Confusional awakening,paraphrase,7.0
+747,83,Periodic Limb Movement in Sleep (PLMS),concept,
+748,83,Periodic Limb Movement in Sleep (PLMS),definition,
+749,83,Periodic Limb Movement in Sleep (PLMS),paraphrase,1.0
+750,83,Periodic Limb Movement in Sleep (PLMS),paraphrase,2.0
+751,83,Periodic Limb Movement in Sleep (PLMS),paraphrase,3.0
+752,83,Periodic Limb Movement in Sleep (PLMS),paraphrase,4.0
+753,83,Periodic Limb Movement in Sleep (PLMS),paraphrase,5.0
+754,83,Periodic Limb Movement in Sleep (PLMS),paraphrase,6.0
+755,83,Periodic Limb Movement in Sleep (PLMS),paraphrase,7.0
+756,84,REM Sleep Behavioral Disorder (RBD),concept,
+757,84,REM Sleep Behavioral Disorder (RBD),definition,
+758,84,REM Sleep Behavioral Disorder (RBD),paraphrase,1.0
+759,84,REM Sleep Behavioral Disorder (RBD),paraphrase,2.0
+760,84,REM Sleep Behavioral Disorder (RBD),paraphrase,3.0
+761,84,REM Sleep Behavioral Disorder (RBD),paraphrase,4.0
+762,84,REM Sleep Behavioral Disorder (RBD),paraphrase,5.0
+763,84,REM Sleep Behavioral Disorder (RBD),paraphrase,6.0
+764,84,REM Sleep Behavioral Disorder (RBD),paraphrase,7.0
+765,85,Sleep-walking,concept,
+766,85,Sleep-walking,definition,
+767,85,Sleep-walking,paraphrase,1.0
+768,85,Sleep-walking,paraphrase,2.0
+769,85,Sleep-walking,paraphrase,3.0
+770,85,Sleep-walking,paraphrase,4.0
+771,85,Sleep-walking,paraphrase,5.0
+772,85,Sleep-walking,paraphrase,6.0
+773,85,Sleep-walking,paraphrase,7.0
+774,86,Hyperekplexia,concept,
+775,86,Hyperekplexia,definition,
+776,86,Hyperekplexia,paraphrase,1.0
+777,86,Hyperekplexia,paraphrase,2.0
+778,86,Hyperekplexia,paraphrase,3.0
+779,86,Hyperekplexia,paraphrase,4.0
+780,86,Hyperekplexia,paraphrase,5.0
+781,86,Hyperekplexia,paraphrase,6.0
+782,86,Hyperekplexia,paraphrase,7.0
+783,87,Pavor nocturnus,concept,
+784,87,Pavor nocturnus,definition,
+785,87,Pavor nocturnus,paraphrase,1.0
+786,87,Pavor nocturnus,paraphrase,2.0
+787,87,Pavor nocturnus,paraphrase,3.0
+788,87,Pavor nocturnus,paraphrase,4.0
+789,87,Pavor nocturnus,paraphrase,5.0
+790,87,Pavor nocturnus,paraphrase,6.0
+791,87,Pavor nocturnus,paraphrase,7.0
+792,88,Stereotypical behaviour,concept,
+793,88,Stereotypical behaviour,definition,
+794,88,Stereotypical behaviour,paraphrase,1.0
+795,88,Stereotypical behaviour,paraphrase,2.0
+796,88,Stereotypical behaviour,paraphrase,3.0
+797,88,Stereotypical behaviour,paraphrase,4.0
+798,88,Stereotypical behaviour,paraphrase,5.0
+799,88,Stereotypical behaviour,paraphrase,6.0
+800,88,Stereotypical behaviour,paraphrase,7.0
+801,89,Burst-suppression pattern,concept,
+802,89,Burst-suppression pattern,definition,
+803,89,Burst-suppression pattern,paraphrase,1.0
+804,89,Burst-suppression pattern,paraphrase,2.0
+805,89,Burst-suppression pattern,paraphrase,3.0
+806,89,Burst-suppression pattern,paraphrase,4.0
+807,89,Burst-suppression pattern,paraphrase,5.0
+808,89,Burst-suppression pattern,paraphrase,6.0
+809,89,Burst-suppression pattern,paraphrase,7.0
+810,90,DC shift,concept,
+811,90,DC shift,definition,
+812,90,DC shift,paraphrase,1.0
+813,90,DC shift,paraphrase,2.0
+814,90,DC shift,paraphrase,3.0
+815,90,DC shift,paraphrase,4.0
+816,90,DC shift,paraphrase,5.0
+817,90,DC shift,paraphrase,6.0
+818,90,DC shift,paraphrase,7.0
+819,91,Disappearance of ongoing activity,concept,
+820,91,Disappearance of ongoing activity,definition,
+821,91,Disappearance of ongoing activity,paraphrase,1.0
+822,91,Disappearance of ongoing activity,paraphrase,2.0
+823,91,Disappearance of ongoing activity,paraphrase,3.0
+824,91,Disappearance of ongoing activity,paraphrase,4.0
+825,91,Disappearance of ongoing activity,paraphrase,5.0
+826,91,Disappearance of ongoing activity,paraphrase,6.0
+827,91,Disappearance of ongoing activity,paraphrase,7.0
+828,92,Electrodecremental change,concept,
+829,92,Electrodecremental change,definition,
+830,92,Electrodecremental change,paraphrase,1.0
+831,92,Electrodecremental change,paraphrase,2.0
+832,92,Electrodecremental change,paraphrase,3.0
+833,92,Electrodecremental change,paraphrase,4.0
+834,92,Electrodecremental change,paraphrase,5.0
+835,92,Electrodecremental change,paraphrase,6.0
+836,92,Electrodecremental change,paraphrase,7.0
+837,93,Fast spike activity,concept,
+838,93,Fast spike activity,definition,
+839,93,Fast spike activity,paraphrase,1.0
+840,93,Fast spike activity,paraphrase,2.0
+841,93,Fast spike activity,paraphrase,3.0
+842,93,Fast spike activity,paraphrase,4.0
+843,93,Fast spike activity,paraphrase,5.0
+844,93,Fast spike activity,paraphrase,6.0
+845,93,Fast spike activity,paraphrase,7.0
+846,94,Flattening (postictal),concept,
+847,94,Flattening (postictal),definition,
+848,94,Flattening (postictal),paraphrase,1.0
+849,94,Flattening (postictal),paraphrase,2.0
+850,94,Flattening (postictal),paraphrase,3.0
+851,94,Flattening (postictal),paraphrase,4.0
+852,94,Flattening (postictal),paraphrase,5.0
+853,94,Flattening (postictal),paraphrase,6.0
+854,94,Flattening (postictal),paraphrase,7.0
+855,95,Increase in the interictal epileptiform discharges (postictal),concept,
+856,95,Increase in the interictal epileptiform discharges (postictal),definition,
+857,95,Increase in the interictal epileptiform discharges (postictal),paraphrase,1.0
+858,95,Increase in the interictal epileptiform discharges (postictal),paraphrase,2.0
+859,95,Increase in the interictal epileptiform discharges (postictal),paraphrase,3.0
+860,95,Increase in the interictal epileptiform discharges (postictal),paraphrase,4.0
+861,95,Increase in the interictal epileptiform discharges (postictal),paraphrase,5.0
+862,95,Increase in the interictal epileptiform discharges (postictal),paraphrase,6.0
+863,95,Increase in the interictal epileptiform discharges (postictal),paraphrase,7.0
+864,96,Irregular delta/theta activity,concept,
+865,96,Irregular delta/theta activity,definition,
+866,96,Irregular delta/theta activity,paraphrase,1.0
+867,96,Irregular delta/theta activity,paraphrase,2.0
+868,96,Irregular delta/theta activity,paraphrase,3.0
+869,96,Irregular delta/theta activity,paraphrase,4.0
+870,96,Irregular delta/theta activity,paraphrase,5.0
+871,96,Irregular delta/theta activity,paraphrase,6.0
+872,96,Irregular delta/theta activity,paraphrase,7.0
+873,97,Low-voltage fast activity,concept,
+874,97,Low-voltage fast activity,definition,
+875,97,Low-voltage fast activity,paraphrase,1.0
+876,97,Low-voltage fast activity,paraphrase,2.0
+877,97,Low-voltage fast activity,paraphrase,3.0
+878,97,Low-voltage fast activity,paraphrase,4.0
+879,97,Low-voltage fast activity,paraphrase,5.0
+880,97,Low-voltage fast activity,paraphrase,6.0
+881,97,Low-voltage fast activity,paraphrase,7.0
+882,98,Obscured by artefacts,concept,
+883,98,Obscured by artefacts,definition,
+884,98,Obscured by artefacts,paraphrase,1.0
+885,98,Obscured by artefacts,paraphrase,2.0
+886,98,Obscured by artefacts,paraphrase,3.0
+887,98,Obscured by artefacts,paraphrase,4.0
+888,98,Obscured by artefacts,paraphrase,5.0
+889,98,Obscured by artefacts,paraphrase,6.0
+890,98,Obscured by artefacts,paraphrase,7.0
+891,99,No demonstrable ictal EEG change,concept,
+892,99,No demonstrable ictal EEG change,definition,
+893,99,No demonstrable ictal EEG change,paraphrase,1.0
+894,99,No demonstrable ictal EEG change,paraphrase,2.0
+895,99,No demonstrable ictal EEG change,paraphrase,3.0
+896,99,No demonstrable ictal EEG change,paraphrase,4.0
+897,99,No demonstrable ictal EEG change,paraphrase,5.0
+898,99,No demonstrable ictal EEG change,paraphrase,6.0
+899,99,No demonstrable ictal EEG change,paraphrase,7.0
+900,100,Periodic epileptiform discharges,concept,
+901,100,Periodic epileptiform discharges,definition,
+902,100,Periodic epileptiform discharges,paraphrase,1.0
+903,100,Periodic epileptiform discharges,paraphrase,2.0
+904,100,Periodic epileptiform discharges,paraphrase,3.0
+905,100,Periodic epileptiform discharges,paraphrase,4.0
+906,100,Periodic epileptiform discharges,paraphrase,5.0
+907,100,Periodic epileptiform discharges,paraphrase,6.0
+908,100,Periodic epileptiform discharges,paraphrase,7.0
+909,101,Polysharp-waves,concept,
+910,101,Polysharp-waves,definition,
+911,101,Polysharp-waves,paraphrase,1.0
+912,101,Polysharp-waves,paraphrase,2.0
+913,101,Polysharp-waves,paraphrase,3.0
+914,101,Polysharp-waves,paraphrase,4.0
+915,101,Polysharp-waves,paraphrase,5.0
+916,101,Polysharp-waves,paraphrase,6.0
+917,101,Polysharp-waves,paraphrase,7.0
+918,102,Rhythmic activity,concept,
+919,102,Rhythmic activity,definition,
+920,102,Rhythmic activity,paraphrase,1.0
+921,102,Rhythmic activity,paraphrase,2.0
+922,102,Rhythmic activity,paraphrase,3.0
+923,102,Rhythmic activity,paraphrase,4.0
+924,102,Rhythmic activity,paraphrase,5.0
+925,102,Rhythmic activity,paraphrase,6.0
+926,102,Rhythmic activity,paraphrase,7.0
+927,103,Slowing (postictal),concept,
+928,103,Slowing (postictal),definition,
+929,103,Slowing (postictal),paraphrase,1.0
+930,103,Slowing (postictal),paraphrase,2.0
+931,103,Slowing (postictal),paraphrase,3.0
+932,103,Slowing (postictal),paraphrase,4.0
+933,103,Slowing (postictal),paraphrase,5.0
+934,103,Slowing (postictal),paraphrase,6.0
+935,103,Slowing (postictal),paraphrase,7.0
+936,104,Tonic motor manifestation,concept,
+937,104,Tonic motor manifestation,definition,
+938,104,Tonic motor manifestation,paraphrase,1.0
+939,104,Tonic motor manifestation,paraphrase,2.0
+940,104,Tonic motor manifestation,paraphrase,3.0
+941,104,Tonic motor manifestation,paraphrase,4.0
+942,104,Tonic motor manifestation,paraphrase,5.0
+943,104,Tonic motor manifestation,paraphrase,6.0
+944,104,Tonic motor manifestation,paraphrase,7.0
+945,105,Dystonic,concept,
+946,105,Dystonic,definition,
+947,105,Dystonic,paraphrase,1.0
+948,105,Dystonic,paraphrase,2.0
+949,105,Dystonic,paraphrase,3.0
+950,105,Dystonic,paraphrase,4.0
+951,105,Dystonic,paraphrase,5.0
+952,105,Dystonic,paraphrase,6.0
+953,105,Dystonic,paraphrase,7.0
+954,106,Epileptic spasm (motor manifestation),concept,
+955,106,Epileptic spasm (motor manifestation),definition,
+956,106,Epileptic spasm (motor manifestation),paraphrase,1.0
+957,106,Epileptic spasm (motor manifestation),paraphrase,2.0
+958,106,Epileptic spasm (motor manifestation),paraphrase,3.0
+959,106,Epileptic spasm (motor manifestation),paraphrase,4.0
+960,106,Epileptic spasm (motor manifestation),paraphrase,5.0
+961,106,Epileptic spasm (motor manifestation),paraphrase,6.0
+962,106,Epileptic spasm (motor manifestation),paraphrase,7.0
+963,107,Postural,concept,
+964,107,Postural,definition,
+965,107,Postural,paraphrase,1.0
+966,107,Postural,paraphrase,2.0
+967,107,Postural,paraphrase,3.0
+968,107,Postural,paraphrase,4.0
+969,107,Postural,paraphrase,5.0
+970,107,Postural,paraphrase,6.0
+971,107,Postural,paraphrase,7.0
+972,108,Versive,concept,
+973,108,Versive,definition,
+974,108,Versive,paraphrase,1.0
+975,108,Versive,paraphrase,2.0
+976,108,Versive,paraphrase,3.0
+977,108,Versive,paraphrase,4.0
+978,108,Versive,paraphrase,5.0
+979,108,Versive,paraphrase,6.0
+980,108,Versive,paraphrase,7.0
+981,109,Myoclonic motor manifestation,concept,
+982,109,Myoclonic motor manifestation,definition,
+983,109,Myoclonic motor manifestation,paraphrase,1.0
+984,109,Myoclonic motor manifestation,paraphrase,2.0
+985,109,Myoclonic motor manifestation,paraphrase,3.0
+986,109,Myoclonic motor manifestation,paraphrase,4.0
+987,109,Myoclonic motor manifestation,paraphrase,5.0
+988,109,Myoclonic motor manifestation,paraphrase,6.0
+989,109,Myoclonic motor manifestation,paraphrase,7.0
+990,110,Clonic motor manifestation,concept,
+991,110,Clonic motor manifestation,definition,
+992,110,Clonic motor manifestation,paraphrase,1.0
+993,110,Clonic motor manifestation,paraphrase,2.0
+994,110,Clonic motor manifestation,paraphrase,3.0
+995,110,Clonic motor manifestation,paraphrase,4.0
+996,110,Clonic motor manifestation,paraphrase,5.0
+997,110,Clonic motor manifestation,paraphrase,6.0
+998,110,Clonic motor manifestation,paraphrase,7.0
+999,111,Jacksonian march,concept,
+1000,111,Jacksonian march,definition,
+1001,111,Jacksonian march,paraphrase,1.0
+1002,111,Jacksonian march,paraphrase,2.0
+1003,111,Jacksonian march,paraphrase,3.0
+1004,111,Jacksonian march,paraphrase,4.0
+1005,111,Jacksonian march,paraphrase,5.0
+1006,111,Jacksonian march,paraphrase,6.0
+1007,111,Jacksonian march,paraphrase,7.0
+1008,112,Negative myoclonic,concept,
+1009,112,Negative myoclonic,definition,
+1010,112,Negative myoclonic,paraphrase,1.0
+1011,112,Negative myoclonic,paraphrase,2.0
+1012,112,Negative myoclonic,paraphrase,3.0
+1013,112,Negative myoclonic,paraphrase,4.0
+1014,112,Negative myoclonic,paraphrase,5.0
+1015,112,Negative myoclonic,paraphrase,6.0
+1016,112,Negative myoclonic,paraphrase,7.0
+1017,113,Tonic-clonic,concept,
+1018,113,Tonic-clonic,definition,
+1019,113,Tonic-clonic,paraphrase,1.0
+1020,113,Tonic-clonic,paraphrase,2.0
+1021,113,Tonic-clonic,paraphrase,3.0
+1022,113,Tonic-clonic,paraphrase,4.0
+1023,113,Tonic-clonic,paraphrase,5.0
+1024,113,Tonic-clonic,paraphrase,6.0
+1025,113,Tonic-clonic,paraphrase,7.0
+1026,114,Generalized tonic-clonic seizure (Formerly “Grand Mal” Seizure),concept,
+1027,114,Generalized tonic-clonic seizure (Formerly “Grand Mal” Seizure),definition,
+1028,114,Generalized tonic-clonic seizure (Formerly “Grand Mal” Seizure),paraphrase,1.0
+1029,114,Generalized tonic-clonic seizure (Formerly “Grand Mal” Seizure),paraphrase,2.0
+1030,114,Generalized tonic-clonic seizure (Formerly “Grand Mal” Seizure),paraphrase,3.0
+1031,114,Generalized tonic-clonic seizure (Formerly “Grand Mal” Seizure),paraphrase,4.0
+1032,114,Generalized tonic-clonic seizure (Formerly “Grand Mal” Seizure),paraphrase,5.0
+1033,114,Generalized tonic-clonic seizure (Formerly “Grand Mal” Seizure),paraphrase,6.0
+1034,114,Generalized tonic-clonic seizure (Formerly “Grand Mal” Seizure),paraphrase,7.0
+1035,115,Figure of four: extended elbow: left/right,concept,
+1036,115,Figure of four: extended elbow: left/right,definition,
+1037,115,Figure of four: extended elbow: left/right,paraphrase,1.0
+1038,115,Figure of four: extended elbow: left/right,paraphrase,2.0
+1039,115,Figure of four: extended elbow: left/right,paraphrase,3.0
+1040,115,Figure of four: extended elbow: left/right,paraphrase,4.0
+1041,115,Figure of four: extended elbow: left/right,paraphrase,5.0
+1042,115,Figure of four: extended elbow: left/right,paraphrase,6.0
+1043,115,Figure of four: extended elbow: left/right,paraphrase,7.0
+1044,116,Atonic motor manifestation,concept,
+1045,116,Atonic motor manifestation,definition,
+1046,116,Atonic motor manifestation,paraphrase,1.0
+1047,116,Atonic motor manifestation,paraphrase,2.0
+1048,116,Atonic motor manifestation,paraphrase,3.0
+1049,116,Atonic motor manifestation,paraphrase,4.0
+1050,116,Atonic motor manifestation,paraphrase,5.0
+1051,116,Atonic motor manifestation,paraphrase,6.0
+1052,116,Atonic motor manifestation,paraphrase,7.0
+1053,117,Astatic,concept,
+1054,117,Astatic,definition,
+1055,117,Astatic,paraphrase,1.0
+1056,117,Astatic,paraphrase,2.0
+1057,117,Astatic,paraphrase,3.0
+1058,117,Astatic,paraphrase,4.0
+1059,117,Astatic,paraphrase,5.0
+1060,117,Astatic,paraphrase,6.0
+1061,117,Astatic,paraphrase,7.0
+1062,118,Dacrystic,concept,
+1063,118,Dacrystic,definition,
+1064,118,Dacrystic,paraphrase,1.0
+1065,118,Dacrystic,paraphrase,2.0
+1066,118,Dacrystic,paraphrase,3.0
+1067,118,Dacrystic,paraphrase,4.0
+1068,118,Dacrystic,paraphrase,5.0
+1069,118,Dacrystic,paraphrase,6.0
+1070,118,Dacrystic,paraphrase,7.0
+1071,119,Dyspraxic,concept,
+1072,119,Dyspraxic,definition,
+1073,119,Dyspraxic,paraphrase,1.0
+1074,119,Dyspraxic,paraphrase,2.0
+1075,119,Dyspraxic,paraphrase,3.0
+1076,119,Dyspraxic,paraphrase,4.0
+1077,119,Dyspraxic,paraphrase,5.0
+1078,119,Dyspraxic,paraphrase,6.0
+1079,119,Dyspraxic,paraphrase,7.0
+1080,120,Gelastic,concept,
+1081,120,Gelastic,definition,
+1082,120,Gelastic,paraphrase,1.0
+1083,120,Gelastic,paraphrase,2.0
+1084,120,Gelastic,paraphrase,3.0
+1085,120,Gelastic,paraphrase,4.0
+1086,120,Gelastic,paraphrase,5.0
+1087,120,Gelastic,paraphrase,6.0
+1088,120,Gelastic,paraphrase,7.0
+1089,121,Gestural,concept,
+1090,121,Gestural,definition,
+1091,121,Gestural,paraphrase,1.0
+1092,121,Gestural,paraphrase,2.0
+1093,121,Gestural,paraphrase,3.0
+1094,121,Gestural,paraphrase,4.0
+1095,121,Gestural,paraphrase,5.0
+1096,121,Gestural,paraphrase,6.0
+1097,121,Gestural,paraphrase,7.0
+1098,122,Hyperkinetic,concept,
+1099,122,Hyperkinetic,definition,
+1100,122,Hyperkinetic,paraphrase,1.0
+1101,122,Hyperkinetic,paraphrase,2.0
+1102,122,Hyperkinetic,paraphrase,3.0
+1103,122,Hyperkinetic,paraphrase,4.0
+1104,122,Hyperkinetic,paraphrase,5.0
+1105,122,Hyperkinetic,paraphrase,6.0
+1106,122,Hyperkinetic,paraphrase,7.0
+1107,123,Hypokinetic,concept,
+1108,123,Hypokinetic,definition,
+1109,123,Hypokinetic,paraphrase,1.0
+1110,123,Hypokinetic,paraphrase,2.0
+1111,123,Hypokinetic,paraphrase,3.0
+1112,123,Hypokinetic,paraphrase,4.0
+1113,123,Hypokinetic,paraphrase,5.0
+1114,123,Hypokinetic,paraphrase,6.0
+1115,123,Hypokinetic,paraphrase,7.0
+1116,124,Manual or pedal,concept,
+1117,124,Manual or pedal,definition,
+1118,124,Manual or pedal,paraphrase,1.0
+1119,124,Manual or pedal,paraphrase,2.0
+1120,124,Manual or pedal,paraphrase,3.0
+1121,124,Manual or pedal,paraphrase,4.0
+1122,124,Manual or pedal,paraphrase,5.0
+1123,124,Manual or pedal,paraphrase,6.0
+1124,124,Manual or pedal,paraphrase,7.0
+1125,125,Mimetic,concept,
+1126,125,Mimetic,definition,
+1127,125,Mimetic,paraphrase,1.0
+1128,125,Mimetic,paraphrase,2.0
+1129,125,Mimetic,paraphrase,3.0
+1130,125,Mimetic,paraphrase,4.0
+1131,125,Mimetic,paraphrase,5.0
+1132,125,Mimetic,paraphrase,6.0
+1133,125,Mimetic,paraphrase,7.0
+1134,126,Oroalimentary,concept,
+1135,126,Oroalimentary,definition,
+1136,126,Oroalimentary,paraphrase,1.0
+1137,126,Oroalimentary,paraphrase,2.0
+1138,126,Oroalimentary,paraphrase,3.0
+1139,126,Oroalimentary,paraphrase,4.0
+1140,126,Oroalimentary,paraphrase,5.0
+1141,126,Oroalimentary,paraphrase,6.0
+1142,126,Oroalimentary,paraphrase,7.0
+1143,127,Vocal,concept,
+1144,127,Vocal,definition,
+1145,127,Vocal,paraphrase,1.0
+1146,127,Vocal,paraphrase,2.0
+1147,127,Vocal,paraphrase,3.0
+1148,127,Vocal,paraphrase,4.0
+1149,127,Vocal,paraphrase,5.0
+1150,127,Vocal,paraphrase,6.0
+1151,127,Vocal,paraphrase,7.0
+1152,128,Verbal,concept,
+1153,128,Verbal,definition,
+1154,128,Verbal,paraphrase,1.0
+1155,128,Verbal,paraphrase,2.0
+1156,128,Verbal,paraphrase,3.0
+1157,128,Verbal,paraphrase,4.0
+1158,128,Verbal,paraphrase,5.0
+1159,128,Verbal,paraphrase,6.0
+1160,128,Verbal,paraphrase,7.0
+1161,129,With preserved responsiveness,concept,
+1162,129,With preserved responsiveness,definition,
+1163,129,With preserved responsiveness,paraphrase,1.0
+1164,129,With preserved responsiveness,paraphrase,2.0
+1165,129,With preserved responsiveness,paraphrase,3.0
+1166,129,With preserved responsiveness,paraphrase,4.0
+1167,129,With preserved responsiveness,paraphrase,5.0
+1168,129,With preserved responsiveness,paraphrase,6.0
+1169,129,With preserved responsiveness,paraphrase,7.0
+1170,130,Cardiovascular,concept,
+1171,130,Cardiovascular,definition,
+1172,130,Cardiovascular,paraphrase,1.0
+1173,130,Cardiovascular,paraphrase,2.0
+1174,130,Cardiovascular,paraphrase,3.0
+1175,130,Cardiovascular,paraphrase,4.0
+1176,130,Cardiovascular,paraphrase,5.0
+1177,130,Cardiovascular,paraphrase,6.0
+1178,130,Cardiovascular,paraphrase,7.0
+1179,131,Gastrointestinal,concept,
+1180,131,Gastrointestinal,definition,
+1181,131,Gastrointestinal,paraphrase,1.0
+1182,131,Gastrointestinal,paraphrase,2.0
+1183,131,Gastrointestinal,paraphrase,3.0
+1184,131,Gastrointestinal,paraphrase,4.0
+1185,131,Gastrointestinal,paraphrase,5.0
+1186,131,Gastrointestinal,paraphrase,6.0
+1187,131,Gastrointestinal,paraphrase,7.0
+1188,132,Genital,concept,
+1189,132,Genital,definition,
+1190,132,Genital,paraphrase,1.0
+1191,132,Genital,paraphrase,2.0
+1192,132,Genital,paraphrase,3.0
+1193,132,Genital,paraphrase,4.0
+1194,132,Genital,paraphrase,5.0
+1195,132,Genital,paraphrase,6.0
+1196,132,Genital,paraphrase,7.0
+1197,133,Hypersalivation,concept,
+1198,133,Hypersalivation,definition,
+1199,133,Hypersalivation,paraphrase,1.0
+1200,133,Hypersalivation,paraphrase,2.0
+1201,133,Hypersalivation,paraphrase,3.0
+1202,133,Hypersalivation,paraphrase,4.0
+1203,133,Hypersalivation,paraphrase,5.0
+1204,133,Hypersalivation,paraphrase,6.0
+1205,133,Hypersalivation,paraphrase,7.0
+1206,134,Pupillary,concept,
+1207,134,Pupillary,definition,
+1208,134,Pupillary,paraphrase,1.0
+1209,134,Pupillary,paraphrase,2.0
+1210,134,Pupillary,paraphrase,3.0
+1211,134,Pupillary,paraphrase,4.0
+1212,134,Pupillary,paraphrase,5.0
+1213,134,Pupillary,paraphrase,6.0
+1214,134,Pupillary,paraphrase,7.0
+1215,135,Respiratory/apnoeic,concept,
+1216,135,Respiratory/apnoeic,definition,
+1217,135,Respiratory/apnoeic,paraphrase,1.0
+1218,135,Respiratory/apnoeic,paraphrase,2.0
+1219,135,Respiratory/apnoeic,paraphrase,3.0
+1220,135,Respiratory/apnoeic,paraphrase,4.0
+1221,135,Respiratory/apnoeic,paraphrase,5.0
+1222,135,Respiratory/apnoeic,paraphrase,6.0
+1223,135,Respiratory/apnoeic,paraphrase,7.0
+1224,136,Sudomotor,concept,
+1225,136,Sudomotor,definition,
+1226,136,Sudomotor,paraphrase,1.0
+1227,136,Sudomotor,paraphrase,2.0
+1228,136,Sudomotor,paraphrase,3.0
+1229,136,Sudomotor,paraphrase,4.0
+1230,136,Sudomotor,paraphrase,5.0
+1231,136,Sudomotor,paraphrase,6.0
+1232,136,Sudomotor,paraphrase,7.0
+1233,137,Thermoregulatory,concept,
+1234,137,Thermoregulatory,definition,
+1235,137,Thermoregulatory,paraphrase,1.0
+1236,137,Thermoregulatory,paraphrase,2.0
+1237,137,Thermoregulatory,paraphrase,3.0
+1238,137,Thermoregulatory,paraphrase,4.0
+1239,137,Thermoregulatory,paraphrase,5.0
+1240,137,Thermoregulatory,paraphrase,6.0
+1241,137,Thermoregulatory,paraphrase,7.0
+1242,138,Urinary incontinence,concept,
+1243,138,Urinary incontinence,definition,
+1244,138,Urinary incontinence,paraphrase,1.0
+1245,138,Urinary incontinence,paraphrase,2.0
+1246,138,Urinary incontinence,paraphrase,3.0
+1247,138,Urinary incontinence,paraphrase,4.0
+1248,138,Urinary incontinence,paraphrase,5.0
+1249,138,Urinary incontinence,paraphrase,6.0
+1250,138,Urinary incontinence,paraphrase,7.0
+1251,139,Vasomotor,concept,
+1252,139,Vasomotor,definition,
+1253,139,Vasomotor,paraphrase,1.0
+1254,139,Vasomotor,paraphrase,2.0
+1255,139,Vasomotor,paraphrase,3.0
+1256,139,Vasomotor,paraphrase,4.0
+1257,139,Vasomotor,paraphrase,5.0
+1258,139,Vasomotor,paraphrase,6.0
+1259,139,Vasomotor,paraphrase,7.0
+1260,140,MOTOR/BEHAVIOURAL ARREST,concept,
+1261,140,MOTOR/BEHAVIOURAL ARREST,definition,
+1262,140,MOTOR/BEHAVIOURAL ARREST,paraphrase,1.0
+1263,140,MOTOR/BEHAVIOURAL ARREST,paraphrase,2.0
+1264,140,MOTOR/BEHAVIOURAL ARREST,paraphrase,3.0
+1265,140,MOTOR/BEHAVIOURAL ARREST,paraphrase,4.0
+1266,140,MOTOR/BEHAVIOURAL ARREST,paraphrase,5.0
+1267,140,MOTOR/BEHAVIOURAL ARREST,paraphrase,6.0
+1268,140,MOTOR/BEHAVIOURAL ARREST,paraphrase,7.0
+1269,141,DYSCOGNITIVE,concept,
+1270,141,DYSCOGNITIVE,definition,
+1271,141,DYSCOGNITIVE,paraphrase,1.0
+1272,141,DYSCOGNITIVE,paraphrase,2.0
+1273,141,DYSCOGNITIVE,paraphrase,3.0
+1274,141,DYSCOGNITIVE,paraphrase,4.0
+1275,141,DYSCOGNITIVE,paraphrase,5.0
+1276,141,DYSCOGNITIVE,paraphrase,6.0
+1277,141,DYSCOGNITIVE,paraphrase,7.0
+1278,142,Auditory,concept,
+1279,142,Auditory,definition,
+1280,142,Auditory,paraphrase,1.0
+1281,142,Auditory,paraphrase,2.0
+1282,142,Auditory,paraphrase,3.0
+1283,142,Auditory,paraphrase,4.0
+1284,142,Auditory,paraphrase,5.0
+1285,142,Auditory,paraphrase,6.0
+1286,142,Auditory,paraphrase,7.0
+1287,143,Autonomic,concept,
+1288,143,Autonomic,definition,
+1289,143,Autonomic,paraphrase,1.0
+1290,143,Autonomic,paraphrase,2.0
+1291,143,Autonomic,paraphrase,3.0
+1292,143,Autonomic,paraphrase,4.0
+1293,143,Autonomic,paraphrase,5.0
+1294,143,Autonomic,paraphrase,6.0
+1295,143,Autonomic,paraphrase,7.0
+1296,144,Ictal or peri-ictal headache,concept,
+1297,144,Ictal or peri-ictal headache,definition,
+1298,144,Ictal or peri-ictal headache,paraphrase,1.0
+1299,144,Ictal or peri-ictal headache,paraphrase,2.0
+1300,144,Ictal or peri-ictal headache,paraphrase,3.0
+1301,144,Ictal or peri-ictal headache,paraphrase,4.0
+1302,144,Ictal or peri-ictal headache,paraphrase,5.0
+1303,144,Ictal or peri-ictal headache,paraphrase,6.0
+1304,144,Ictal or peri-ictal headache,paraphrase,7.0
+1305,145,Epigastric,concept,
+1306,145,Epigastric,definition,
+1307,145,Epigastric,paraphrase,1.0
+1308,145,Epigastric,paraphrase,2.0
+1309,145,Epigastric,paraphrase,3.0
+1310,145,Epigastric,paraphrase,4.0
+1311,145,Epigastric,paraphrase,5.0
+1312,145,Epigastric,paraphrase,6.0
+1313,145,Epigastric,paraphrase,7.0
+1314,146,Gustatory,concept,
+1315,146,Gustatory,definition,
+1316,146,Gustatory,paraphrase,1.0
+1317,146,Gustatory,paraphrase,2.0
+1318,146,Gustatory,paraphrase,3.0
+1319,146,Gustatory,paraphrase,4.0
+1320,146,Gustatory,paraphrase,5.0
+1321,146,Gustatory,paraphrase,6.0
+1322,146,Gustatory,paraphrase,7.0
+1323,147,Painful,concept,
+1324,147,Painful,definition,
+1325,147,Painful,paraphrase,1.0
+1326,147,Painful,paraphrase,2.0
+1327,147,Painful,paraphrase,3.0
+1328,147,Painful,paraphrase,4.0
+1329,147,Painful,paraphrase,5.0
+1330,147,Painful,paraphrase,6.0
+1331,147,Painful,paraphrase,7.0
+1332,148,Somatosensory,concept,
+1333,148,Somatosensory,definition,
+1334,148,Somatosensory,paraphrase,1.0
+1335,148,Somatosensory,paraphrase,2.0
+1336,148,Somatosensory,paraphrase,3.0
+1337,148,Somatosensory,paraphrase,4.0
+1338,148,Somatosensory,paraphrase,5.0
+1339,148,Somatosensory,paraphrase,6.0
+1340,148,Somatosensory,paraphrase,7.0
+1341,149,Visual,concept,
+1342,149,Visual,definition,
+1343,149,Visual,paraphrase,1.0
+1344,149,Visual,paraphrase,2.0
+1345,149,Visual,paraphrase,3.0
+1346,149,Visual,paraphrase,4.0
+1347,149,Visual,paraphrase,5.0
+1348,149,Visual,paraphrase,6.0
+1349,149,Visual,paraphrase,7.0
+1350,150,Affective/emotional,concept,
+1351,150,Affective/emotional,definition,
+1352,150,Affective/emotional,paraphrase,1.0
+1353,150,Affective/emotional,paraphrase,2.0
+1354,150,Affective/emotional,paraphrase,3.0
+1355,150,Affective/emotional,paraphrase,4.0
+1356,150,Affective/emotional,paraphrase,5.0
+1357,150,Affective/emotional,paraphrase,6.0
+1358,150,Affective/emotional,paraphrase,7.0
+1359,151,Hallucinatory,concept,
+1360,151,Hallucinatory,definition,
+1361,151,Hallucinatory,paraphrase,1.0
+1362,151,Hallucinatory,paraphrase,2.0
+1363,151,Hallucinatory,paraphrase,3.0
+1364,151,Hallucinatory,paraphrase,4.0
+1365,151,Hallucinatory,paraphrase,5.0
+1366,151,Hallucinatory,paraphrase,6.0
+1367,151,Hallucinatory,paraphrase,7.0
+1368,152,Illusory,concept,
+1369,152,Illusory,definition,
+1370,152,Illusory,paraphrase,1.0
+1371,152,Illusory,paraphrase,2.0
+1372,152,Illusory,paraphrase,3.0
+1373,152,Illusory,paraphrase,4.0
+1374,152,Illusory,paraphrase,5.0
+1375,152,Illusory,paraphrase,6.0
+1376,152,Illusory,paraphrase,7.0
+1377,153,Mnemonic,concept,
+1378,153,Mnemonic,definition,
+1379,153,Mnemonic,paraphrase,1.0
+1380,153,Mnemonic,paraphrase,2.0
+1381,153,Mnemonic,paraphrase,3.0
+1382,153,Mnemonic,paraphrase,4.0
+1383,153,Mnemonic,paraphrase,5.0
+1384,153,Mnemonic,paraphrase,6.0
+1385,153,Mnemonic,paraphrase,7.0
+1386,154,Anterograde amnesia,concept,
+1387,154,Anterograde amnesia,definition,
+1388,154,Anterograde amnesia,paraphrase,1.0
+1389,154,Anterograde amnesia,paraphrase,2.0
+1390,154,Anterograde amnesia,paraphrase,3.0
+1391,154,Anterograde amnesia,paraphrase,4.0
+1392,154,Anterograde amnesia,paraphrase,5.0
+1393,154,Anterograde amnesia,paraphrase,6.0
+1394,154,Anterograde amnesia,paraphrase,7.0
+1395,155,Aphasia/dysphasia,concept,
+1396,155,Aphasia/dysphasia,definition,
+1397,155,Aphasia/dysphasia,paraphrase,1.0
+1398,155,Aphasia/dysphasia,paraphrase,2.0
+1399,155,Aphasia/dysphasia,paraphrase,3.0
+1400,155,Aphasia/dysphasia,paraphrase,4.0
+1401,155,Aphasia/dysphasia,paraphrase,5.0
+1402,155,Aphasia/dysphasia,paraphrase,6.0
+1403,155,Aphasia/dysphasia,paraphrase,7.0
+1404,156,Behavioural changes,concept,
+1405,156,Behavioural changes,definition,
+1406,156,Behavioural changes,paraphrase,1.0
+1407,156,Behavioural changes,paraphrase,2.0
+1408,156,Behavioural changes,paraphrase,3.0
+1409,156,Behavioural changes,paraphrase,4.0
+1410,156,Behavioural changes,paraphrase,5.0
+1411,156,Behavioural changes,paraphrase,6.0
+1412,156,Behavioural changes,paraphrase,7.0
+1413,157,Dysphoria,concept,
+1414,157,Dysphoria,definition,
+1415,157,Dysphoria,paraphrase,1.0
+1416,157,Dysphoria,paraphrase,2.0
+1417,157,Dysphoria,paraphrase,3.0
+1418,157,Dysphoria,paraphrase,4.0
+1419,157,Dysphoria,paraphrase,5.0
+1420,157,Dysphoria,paraphrase,6.0
+1421,157,Dysphoria,paraphrase,7.0
+1422,158,Postictal headache,concept,
+1423,158,Postictal headache,definition,
+1424,158,Postictal headache,paraphrase,1.0
+1425,158,Postictal headache,paraphrase,2.0
+1426,158,Postictal headache,paraphrase,3.0
+1427,158,Postictal headache,paraphrase,4.0
+1428,158,Postictal headache,paraphrase,5.0
+1429,158,Postictal headache,paraphrase,6.0
+1430,158,Postictal headache,paraphrase,7.0
+1431,159,Hemianopia,concept,
+1432,159,Hemianopia,definition,
+1433,159,Hemianopia,paraphrase,1.0
+1434,159,Hemianopia,paraphrase,2.0
+1435,159,Hemianopia,paraphrase,3.0
+1436,159,Hemianopia,paraphrase,4.0
+1437,159,Hemianopia,paraphrase,5.0
+1438,159,Hemianopia,paraphrase,6.0
+1439,159,Hemianopia,paraphrase,7.0
+1440,160,Impaired cognition,concept,
+1441,160,Impaired cognition,definition,
+1442,160,Impaired cognition,paraphrase,1.0
+1443,160,Impaired cognition,paraphrase,2.0
+1444,160,Impaired cognition,paraphrase,3.0
+1445,160,Impaired cognition,paraphrase,4.0
+1446,160,Impaired cognition,paraphrase,5.0
+1447,160,Impaired cognition,paraphrase,6.0
+1448,160,Impaired cognition,paraphrase,7.0
+1449,161,Nosewiping: left/right side of the nosewiping hand,concept,
+1450,161,Nosewiping: left/right side of the nosewiping hand,definition,
+1451,161,Nosewiping: left/right side of the nosewiping hand,paraphrase,1.0
+1452,161,Nosewiping: left/right side of the nosewiping hand,paraphrase,2.0
+1453,161,Nosewiping: left/right side of the nosewiping hand,paraphrase,3.0
+1454,161,Nosewiping: left/right side of the nosewiping hand,paraphrase,4.0
+1455,161,Nosewiping: left/right side of the nosewiping hand,paraphrase,5.0
+1456,161,Nosewiping: left/right side of the nosewiping hand,paraphrase,6.0
+1457,161,Nosewiping: left/right side of the nosewiping hand,paraphrase,7.0
+1458,162,Paresis (Todd’s palsy),concept,
+1459,162,Paresis (Todd’s palsy),definition,
+1460,162,Paresis (Todd’s palsy),paraphrase,1.0
+1461,162,Paresis (Todd’s palsy),paraphrase,2.0
+1462,162,Paresis (Todd’s palsy),paraphrase,3.0
+1463,162,Paresis (Todd’s palsy),paraphrase,4.0
+1464,162,Paresis (Todd’s palsy),paraphrase,5.0
+1465,162,Paresis (Todd’s palsy),paraphrase,6.0
+1466,162,Paresis (Todd’s palsy),paraphrase,7.0
+1467,163,Postictal sleep,concept,
+1468,163,Postictal sleep,definition,
+1469,163,Postictal sleep,paraphrase,1.0
+1470,163,Postictal sleep,paraphrase,2.0
+1471,163,Postictal sleep,paraphrase,3.0
+1472,163,Postictal sleep,paraphrase,4.0
+1473,163,Postictal sleep,paraphrase,5.0
+1474,163,Postictal sleep,paraphrase,6.0
+1475,163,Postictal sleep,paraphrase,7.0
+1476,164,Quick recovery of consciousness,concept,
+1477,164,Quick recovery of consciousness,definition,
+1478,164,Quick recovery of consciousness,paraphrase,1.0
+1479,164,Quick recovery of consciousness,paraphrase,2.0
+1480,164,Quick recovery of consciousness,paraphrase,3.0
+1481,164,Quick recovery of consciousness,paraphrase,4.0
+1482,164,Quick recovery of consciousness,paraphrase,5.0
+1483,164,Quick recovery of consciousness,paraphrase,6.0
+1484,164,Quick recovery of consciousness,paraphrase,7.0
+1485,165,Retrograde amnesia,concept,
+1486,165,Retrograde amnesia,definition,
+1487,165,Retrograde amnesia,paraphrase,1.0
+1488,165,Retrograde amnesia,paraphrase,2.0
+1489,165,Retrograde amnesia,paraphrase,3.0
+1490,165,Retrograde amnesia,paraphrase,4.0
+1491,165,Retrograde amnesia,paraphrase,5.0
+1492,165,Retrograde amnesia,paraphrase,6.0
+1493,165,Retrograde amnesia,paraphrase,7.0
+1494,166,Unconscious,concept,
+1495,166,Unconscious,definition,
+1496,166,Unconscious,paraphrase,1.0
+1497,166,Unconscious,paraphrase,2.0
+1498,166,Unconscious,paraphrase,3.0
+1499,166,Unconscious,paraphrase,4.0
+1500,166,Unconscious,paraphrase,5.0
+1501,166,Unconscious,paraphrase,6.0
+1502,166,Unconscious,paraphrase,7.0
+1503,167,Unilateral motor phenomena,concept,
+1504,167,Unilateral motor phenomena,definition,
+1505,167,Unilateral motor phenomena,paraphrase,1.0
+1506,167,Unilateral motor phenomena,paraphrase,2.0
+1507,167,Unilateral motor phenomena,paraphrase,3.0
+1508,167,Unilateral motor phenomena,paraphrase,4.0
+1509,167,Unilateral motor phenomena,paraphrase,5.0
+1510,167,Unilateral motor phenomena,paraphrase,6.0
+1511,167,Unilateral motor phenomena,paraphrase,7.0
+1512,168,Physiologic alpha activity,concept,
+1513,168,Physiologic alpha activity,definition,
+1514,168,Physiologic alpha activity,paraphrase,1.0
+1515,168,Physiologic alpha activity,paraphrase,2.0
+1516,168,Physiologic alpha activity,paraphrase,3.0
+1517,168,Physiologic alpha activity,paraphrase,4.0
+1518,168,Physiologic alpha activity,paraphrase,5.0
+1519,168,Physiologic alpha activity,paraphrase,6.0
+1520,168,Physiologic alpha activity,paraphrase,7.0
+1521,169,Physiologic beta activity,concept,
+1522,169,Physiologic beta activity,definition,
+1523,169,Physiologic beta activity,paraphrase,1.0
+1524,169,Physiologic beta activity,paraphrase,2.0
+1525,169,Physiologic beta activity,paraphrase,3.0
+1526,169,Physiologic beta activity,paraphrase,4.0
+1527,169,Physiologic beta activity,paraphrase,5.0
+1528,169,Physiologic beta activity,paraphrase,6.0
+1529,169,Physiologic beta activity,paraphrase,7.0
+1530,170,Physiologic delta activity,concept,
+1531,170,Physiologic delta activity,definition,
+1532,170,Physiologic delta activity,paraphrase,1.0
+1533,170,Physiologic delta activity,paraphrase,2.0
+1534,170,Physiologic delta activity,paraphrase,3.0
+1535,170,Physiologic delta activity,paraphrase,4.0
+1536,170,Physiologic delta activity,paraphrase,5.0
+1537,170,Physiologic delta activity,paraphrase,6.0
+1538,170,Physiologic delta activity,paraphrase,7.0
+1539,171,Diffuse slowing induced by hyperventilation,concept,
+1540,171,Diffuse slowing induced by hyperventilation,definition,
+1541,171,Diffuse slowing induced by hyperventilation,paraphrase,1.0
+1542,171,Diffuse slowing induced by hyperventilation,paraphrase,2.0
+1543,171,Diffuse slowing induced by hyperventilation,paraphrase,3.0
+1544,171,Diffuse slowing induced by hyperventilation,paraphrase,4.0
+1545,171,Diffuse slowing induced by hyperventilation,paraphrase,5.0
+1546,171,Diffuse slowing induced by hyperventilation,paraphrase,6.0
+1547,171,Diffuse slowing induced by hyperventilation,paraphrase,7.0
+1548,172,Fast alpha variant rhythm,concept,
+1549,172,Fast alpha variant rhythm,definition,
+1550,172,Fast alpha variant rhythm,paraphrase,1.0
+1551,172,Fast alpha variant rhythm,paraphrase,2.0
+1552,172,Fast alpha variant rhythm,paraphrase,3.0
+1553,172,Fast alpha variant rhythm,paraphrase,4.0
+1554,172,Fast alpha variant rhythm,paraphrase,5.0
+1555,172,Fast alpha variant rhythm,paraphrase,6.0
+1556,172,Fast alpha variant rhythm,paraphrase,7.0
+1557,173,Lambda wave,concept,
+1558,173,Lambda wave,definition,
+1559,173,Lambda wave,paraphrase,1.0
+1560,173,Lambda wave,paraphrase,2.0
+1561,173,Lambda wave,paraphrase,3.0
+1562,173,Lambda wave,paraphrase,4.0
+1563,173,Lambda wave,paraphrase,5.0
+1564,173,Lambda wave,paraphrase,6.0
+1565,173,Lambda wave,paraphrase,7.0
+1566,174,Photic driving (photic following),concept,
+1567,174,Photic driving (photic following),definition,
+1568,174,Photic driving (photic following),paraphrase,1.0
+1569,174,Photic driving (photic following),paraphrase,2.0
+1570,174,Photic driving (photic following),paraphrase,3.0
+1571,174,Photic driving (photic following),paraphrase,4.0
+1572,174,Photic driving (photic following),paraphrase,5.0
+1573,174,Photic driving (photic following),paraphrase,6.0
+1574,174,Photic driving (photic following),paraphrase,7.0
+1575,175,Photomyogenic response,concept,
+1576,175,Photomyogenic response,definition,
+1577,175,Photomyogenic response,paraphrase,1.0
+1578,175,Photomyogenic response,paraphrase,2.0
+1579,175,Photomyogenic response,paraphrase,3.0
+1580,175,Photomyogenic response,paraphrase,4.0
+1581,175,Photomyogenic response,paraphrase,5.0
+1582,175,Photomyogenic response,paraphrase,6.0
+1583,175,Photomyogenic response,paraphrase,7.0
+1584,176,Posterior slow waves in youth,concept,
+1585,176,Posterior slow waves in youth,definition,
+1586,176,Posterior slow waves in youth,paraphrase,1.0
+1587,176,Posterior slow waves in youth,paraphrase,2.0
+1588,176,Posterior slow waves in youth,paraphrase,3.0
+1589,176,Posterior slow waves in youth,paraphrase,4.0
+1590,176,Posterior slow waves in youth,paraphrase,5.0
+1591,176,Posterior slow waves in youth,paraphrase,6.0
+1592,176,Posterior slow waves in youth,paraphrase,7.0
+1593,177,Saw-tooth waves,concept,
+1594,177,Saw-tooth waves,definition,
+1595,177,Saw-tooth waves,paraphrase,1.0
+1596,177,Saw-tooth waves,paraphrase,2.0
+1597,177,Saw-tooth waves,paraphrase,3.0
+1598,177,Saw-tooth waves,paraphrase,4.0
+1599,177,Saw-tooth waves,paraphrase,5.0
+1600,177,Saw-tooth waves,paraphrase,6.0
+1601,177,Saw-tooth waves,paraphrase,7.0
+1602,178,Slow alpha variant rhythms,concept,
+1603,178,Slow alpha variant rhythms,definition,
+1604,178,Slow alpha variant rhythms,paraphrase,1.0
+1605,178,Slow alpha variant rhythms,paraphrase,2.0
+1606,178,Slow alpha variant rhythms,paraphrase,3.0
+1607,178,Slow alpha variant rhythms,paraphrase,4.0
+1608,178,Slow alpha variant rhythms,paraphrase,5.0
+1609,178,Slow alpha variant rhythms,paraphrase,6.0
+1610,178,Slow alpha variant rhythms,paraphrase,7.0
+1611,179,Physiologic theta activity,concept,
+1612,179,Physiologic theta activity,definition,
+1613,179,Physiologic theta activity,paraphrase,1.0
+1614,179,Physiologic theta activity,paraphrase,2.0
+1615,179,Physiologic theta activity,paraphrase,3.0
+1616,179,Physiologic theta activity,paraphrase,4.0
+1617,179,Physiologic theta activity,paraphrase,5.0
+1618,179,Physiologic theta activity,paraphrase,6.0
+1619,179,Physiologic theta activity,paraphrase,7.0
+1620,180,Benign epileptiform transients of sleep (BETS),concept,
+1621,180,Benign epileptiform transients of sleep (BETS),definition,
+1622,180,Benign epileptiform transients of sleep (BETS),paraphrase,1.0
+1623,180,Benign epileptiform transients of sleep (BETS),paraphrase,2.0
+1624,180,Benign epileptiform transients of sleep (BETS),paraphrase,3.0
+1625,180,Benign epileptiform transients of sleep (BETS),paraphrase,4.0
+1626,180,Benign epileptiform transients of sleep (BETS),paraphrase,5.0
+1627,180,Benign epileptiform transients of sleep (BETS),paraphrase,6.0
+1628,180,Benign epileptiform transients of sleep (BETS),paraphrase,7.0
+1629,181,Breach rhythm,concept,
+1630,181,Breach rhythm,definition,
+1631,181,Breach rhythm,paraphrase,1.0
+1632,181,Breach rhythm,paraphrase,2.0
+1633,181,Breach rhythm,paraphrase,3.0
+1634,181,Breach rhythm,paraphrase,4.0
+1635,181,Breach rhythm,paraphrase,5.0
+1636,181,Breach rhythm,paraphrase,6.0
+1637,181,Breach rhythm,paraphrase,7.0
+1638,182,Fourteen- and 6- Hz positive burst,concept,
+1639,182,Fourteen- and 6- Hz positive burst,definition,
+1640,182,Fourteen- and 6- Hz positive burst,paraphrase,1.0
+1641,182,Fourteen- and 6- Hz positive burst,paraphrase,2.0
+1642,182,Fourteen- and 6- Hz positive burst,paraphrase,3.0
+1643,182,Fourteen- and 6- Hz positive burst,paraphrase,4.0
+1644,182,Fourteen- and 6- Hz positive burst,paraphrase,5.0
+1645,182,Fourteen- and 6- Hz positive burst,paraphrase,6.0
+1646,182,Fourteen- and 6- Hz positive burst,paraphrase,7.0
+1647,183,Rhythmic temporal theta burst of drowsiness (RTTD),concept,
+1648,183,Rhythmic temporal theta burst of drowsiness (RTTD),definition,
+1649,183,Rhythmic temporal theta burst of drowsiness (RTTD),paraphrase,1.0
+1650,183,Rhythmic temporal theta burst of drowsiness (RTTD),paraphrase,2.0
+1651,183,Rhythmic temporal theta burst of drowsiness (RTTD),paraphrase,3.0
+1652,183,Rhythmic temporal theta burst of drowsiness (RTTD),paraphrase,4.0
+1653,183,Rhythmic temporal theta burst of drowsiness (RTTD),paraphrase,5.0
+1654,183,Rhythmic temporal theta burst of drowsiness (RTTD),paraphrase,6.0
+1655,183,Rhythmic temporal theta burst of drowsiness (RTTD),paraphrase,7.0
+1656,184,Six Hz spike and slow wave,concept,
+1657,184,Six Hz spike and slow wave,definition,
+1658,184,Six Hz spike and slow wave,paraphrase,1.0
+1659,184,Six Hz spike and slow wave,paraphrase,2.0
+1660,184,Six Hz spike and slow wave,paraphrase,3.0
+1661,184,Six Hz spike and slow wave,paraphrase,4.0
+1662,184,Six Hz spike and slow wave,paraphrase,5.0
+1663,184,Six Hz spike and slow wave,paraphrase,6.0
+1664,184,Six Hz spike and slow wave,paraphrase,7.0
+1665,185,Subclinical rhythmic EEG discharge of adults (SREDA),concept,
+1666,185,Subclinical rhythmic EEG discharge of adults (SREDA),definition,
+1667,185,Subclinical rhythmic EEG discharge of adults (SREDA),paraphrase,1.0
+1668,185,Subclinical rhythmic EEG discharge of adults (SREDA),paraphrase,2.0
+1669,185,Subclinical rhythmic EEG discharge of adults (SREDA),paraphrase,3.0
+1670,185,Subclinical rhythmic EEG discharge of adults (SREDA),paraphrase,4.0
+1671,185,Subclinical rhythmic EEG discharge of adults (SREDA),paraphrase,5.0
+1672,185,Subclinical rhythmic EEG discharge of adults (SREDA),paraphrase,6.0
+1673,185,Subclinical rhythmic EEG discharge of adults (SREDA),paraphrase,7.0
+1674,186,Temporal slowing in elderly subjects,concept,
+1675,186,Temporal slowing in elderly subjects,definition,
+1676,186,Temporal slowing in elderly subjects,paraphrase,1.0
+1677,186,Temporal slowing in elderly subjects,paraphrase,2.0
+1678,186,Temporal slowing in elderly subjects,paraphrase,3.0
+1679,186,Temporal slowing in elderly subjects,paraphrase,4.0
+1680,186,Temporal slowing in elderly subjects,paraphrase,5.0
+1681,186,Temporal slowing in elderly subjects,paraphrase,6.0
+1682,186,Temporal slowing in elderly subjects,paraphrase,7.0
+1683,187,Wicket spikes,concept,
+1684,187,Wicket spikes,definition,
+1685,187,Wicket spikes,paraphrase,1.0
+1686,187,Wicket spikes,paraphrase,2.0
+1687,187,Wicket spikes,paraphrase,3.0
+1688,187,Wicket spikes,paraphrase,4.0
+1689,187,Wicket spikes,paraphrase,5.0
+1690,187,Wicket spikes,paraphrase,6.0
+1691,187,Wicket spikes,paraphrase,7.0
+1692,188,50-60 Hz artifact,concept,
+1693,188,50-60 Hz artifact,definition,
+1694,188,50-60 Hz artifact,paraphrase,1.0
+1695,188,50-60 Hz artifact,paraphrase,2.0
+1696,188,50-60 Hz artifact,paraphrase,3.0
+1697,188,50-60 Hz artifact,paraphrase,4.0
+1698,188,50-60 Hz artifact,paraphrase,5.0
+1699,188,50-60 Hz artifact,paraphrase,6.0
+1700,188,50-60 Hz artifact,paraphrase,7.0
+1701,189,Electrocardiogram (ECG),concept,
+1702,189,Electrocardiogram (ECG),definition,
+1703,189,Electrocardiogram (ECG),paraphrase,1.0
+1704,189,Electrocardiogram (ECG),paraphrase,2.0
+1705,189,Electrocardiogram (ECG),paraphrase,3.0
+1706,189,Electrocardiogram (ECG),paraphrase,4.0
+1707,189,Electrocardiogram (ECG),paraphrase,5.0
+1708,189,Electrocardiogram (ECG),paraphrase,6.0
+1709,189,Electrocardiogram (ECG),paraphrase,7.0
+1710,190,Electrode pops,concept,
+1711,190,Electrode pops,definition,
+1712,190,Electrode pops,paraphrase,1.0
+1713,190,Electrode pops,paraphrase,2.0
+1714,190,Electrode pops,paraphrase,3.0
+1715,190,Electrode pops,paraphrase,4.0
+1716,190,Electrode pops,paraphrase,5.0
+1717,190,Electrode pops,paraphrase,6.0
+1718,190,Electrode pops,paraphrase,7.0
+1719,191,Electromyogram (EMG),concept,
+1720,191,Electromyogram (EMG),definition,
+1721,191,Electromyogram (EMG),paraphrase,1.0
+1722,191,Electromyogram (EMG),paraphrase,2.0
+1723,191,Electromyogram (EMG),paraphrase,3.0
+1724,191,Electromyogram (EMG),paraphrase,4.0
+1725,191,Electromyogram (EMG),paraphrase,5.0
+1726,191,Electromyogram (EMG),paraphrase,6.0
+1727,191,Electromyogram (EMG),paraphrase,7.0
+1728,192,Eye blinks,concept,
+1729,192,Eye blinks,definition,
+1730,192,Eye blinks,paraphrase,1.0
+1731,192,Eye blinks,paraphrase,2.0
+1732,192,Eye blinks,paraphrase,3.0
+1733,192,Eye blinks,paraphrase,4.0
+1734,192,Eye blinks,paraphrase,5.0
+1735,192,Eye blinks,paraphrase,6.0
+1736,192,Eye blinks,paraphrase,7.0
+1737,193,Eye movements: horizontal,concept,
+1738,193,Eye movements: horizontal,definition,
+1739,193,Eye movements: horizontal,paraphrase,1.0
+1740,193,Eye movements: horizontal,paraphrase,2.0
+1741,193,Eye movements: horizontal,paraphrase,3.0
+1742,193,Eye movements: horizontal,paraphrase,4.0
+1743,193,Eye movements: horizontal,paraphrase,5.0
+1744,193,Eye movements: horizontal,paraphrase,6.0
+1745,193,Eye movements: horizontal,paraphrase,7.0
+1746,194,Eye movements: vertical,concept,
+1747,194,Eye movements: vertical,definition,
+1748,194,Eye movements: vertical,paraphrase,1.0
+1749,194,Eye movements: vertical,paraphrase,2.0
+1750,194,Eye movements: vertical,paraphrase,3.0
+1751,194,Eye movements: vertical,paraphrase,4.0
+1752,194,Eye movements: vertical,paraphrase,5.0
+1753,194,Eye movements: vertical,paraphrase,6.0
+1754,194,Eye movements: vertical,paraphrase,7.0
+1755,195,Induction artefacts,concept,
+1756,195,Induction artefacts,definition,
+1757,195,Induction artefacts,paraphrase,1.0
+1758,195,Induction artefacts,paraphrase,2.0
+1759,195,Induction artefacts,paraphrase,3.0
+1760,195,Induction artefacts,paraphrase,4.0
+1761,195,Induction artefacts,paraphrase,5.0
+1762,195,Induction artefacts,paraphrase,6.0
+1763,195,Induction artefacts,paraphrase,7.0
+1764,196,Slow eye movements (drowsiness),concept,
+1765,196,Slow eye movements (drowsiness),definition,
+1766,196,Slow eye movements (drowsiness),paraphrase,1.0
+1767,196,Slow eye movements (drowsiness),paraphrase,2.0
+1768,196,Slow eye movements (drowsiness),paraphrase,3.0
+1769,196,Slow eye movements (drowsiness),paraphrase,4.0
+1770,196,Slow eye movements (drowsiness),paraphrase,5.0
+1771,196,Slow eye movements (drowsiness),paraphrase,6.0
+1772,196,Slow eye movements (drowsiness),paraphrase,7.0
+1773,197,Glossokinetic artifact,concept,
+1774,197,Glossokinetic artifact,definition,
+1775,197,Glossokinetic artifact,paraphrase,1.0
+1776,197,Glossokinetic artifact,paraphrase,2.0
+1777,197,Glossokinetic artifact,paraphrase,3.0
+1778,197,Glossokinetic artifact,paraphrase,4.0
+1779,197,Glossokinetic artifact,paraphrase,5.0
+1780,197,Glossokinetic artifact,paraphrase,6.0
+1781,197,Glossokinetic artifact,paraphrase,7.0
+1782,198,Movement artifact,concept,
+1783,198,Movement artifact,definition,
+1784,198,Movement artifact,paraphrase,1.0
+1785,198,Movement artifact,paraphrase,2.0
+1786,198,Movement artifact,paraphrase,3.0
+1787,198,Movement artifact,paraphrase,4.0
+1788,198,Movement artifact,paraphrase,5.0
+1789,198,Movement artifact,paraphrase,6.0
+1790,198,Movement artifact,paraphrase,7.0
+1791,199,Pulse artifact,concept,
+1792,199,Pulse artifact,definition,
+1793,199,Pulse artifact,paraphrase,1.0
+1794,199,Pulse artifact,paraphrase,2.0
+1795,199,Pulse artifact,paraphrase,3.0
+1796,199,Pulse artifact,paraphrase,4.0
+1797,199,Pulse artifact,paraphrase,5.0
+1798,199,Pulse artifact,paraphrase,6.0
+1799,199,Pulse artifact,paraphrase,7.0
+1800,200,Respiration artifacts,concept,
+1801,200,Respiration artifacts,definition,
+1802,200,Respiration artifacts,paraphrase,1.0
+1803,200,Respiration artifacts,paraphrase,2.0
+1804,200,Respiration artifacts,paraphrase,3.0
+1805,200,Respiration artifacts,paraphrase,4.0
+1806,200,Respiration artifacts,paraphrase,5.0
+1807,200,Respiration artifacts,paraphrase,6.0
+1808,200,Respiration artifacts,paraphrase,7.0
+1809,201,Salt bridge artifact,concept,
+1810,201,Salt bridge artifact,definition,
+1811,201,Salt bridge artifact,paraphrase,1.0
+1812,201,Salt bridge artifact,paraphrase,2.0
+1813,201,Salt bridge artifact,paraphrase,3.0
+1814,201,Salt bridge artifact,paraphrase,4.0
+1815,201,Salt bridge artifact,paraphrase,5.0
+1816,201,Salt bridge artifact,paraphrase,6.0
+1817,201,Salt bridge artifact,paraphrase,7.0
+1818,202,Sweat artifact,concept,
+1819,202,Sweat artifact,definition,
+1820,202,Sweat artifact,paraphrase,1.0
+1821,202,Sweat artifact,paraphrase,2.0
+1822,202,Sweat artifact,paraphrase,3.0
+1823,202,Sweat artifact,paraphrase,4.0
+1824,202,Sweat artifact,paraphrase,5.0
+1825,202,Sweat artifact,paraphrase,6.0
+1826,202,Sweat artifact,paraphrase,7.0
